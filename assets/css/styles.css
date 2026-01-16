@@ -348,6 +348,34 @@ a {
     color: var(--color-white);
 }
 
+/* Header Light Mode (for light hero pages like homepage) */
+.header--light .header__logo {
+    color: var(--color-charcoal);
+}
+
+.header--light .header__link {
+    color: var(--color-gray-600);
+}
+
+.header--light .header__link:hover {
+    color: var(--color-black);
+}
+
+.header--light .header__cta {
+    color: var(--color-charcoal);
+    border-color: var(--color-charcoal);
+}
+
+.header--light .header__cta:hover {
+    background: var(--color-charcoal);
+    color: var(--color-white);
+    border-color: var(--color-charcoal);
+}
+
+.header--light .header__toggle span {
+    background: var(--color-black);
+}
+
 /* Mobile Toggle */
 .header__toggle {
     display: none;
@@ -710,6 +738,65 @@ a {
         flex-direction: column;
         gap: var(--space-4);
     }
+}
+
+/* ================================
+   HERO - LIGHT THEME
+   ================================ */
+.hero--light {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 50%, #f0f1f2 100%);
+}
+
+.hero__background--light {
+    background: transparent;
+}
+
+.hero__gradient--light {
+    background: 
+        radial-gradient(ellipse at 20% 50%, rgba(183, 149, 95, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 50%, rgba(183, 149, 95, 0.05) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 100%, rgba(183, 149, 95, 0.03) 0%, transparent 40%);
+    animation: none;
+}
+
+.hero__badge--light {
+    background: rgba(183, 149, 95, 0.1);
+    border: 1px solid rgba(183, 149, 95, 0.2);
+}
+
+.hero__badge--light svg {
+    color: var(--color-gold);
+}
+
+.hero__badge--light span {
+    color: var(--color-gold-dark);
+}
+
+.hero__title--light {
+    color: var(--color-charcoal);
+}
+
+.hero__title--light .hero__title-line--accent {
+    background: linear-gradient(90deg, var(--color-gold) 0%, #d4af37 50%, var(--color-gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero__subtitle--light {
+    color: var(--color-gray-600);
+}
+
+.hero__trust--light .hero__trust-item {
+    color: var(--color-gray-500);
+}
+
+.hero__trust--light .hero__trust-item svg {
+    color: var(--color-gold);
+}
+
+.hero__scroll--light {
+    color: var(--color-gray-400);
 }
 
 /* ================================

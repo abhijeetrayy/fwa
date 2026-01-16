@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Contact Us | Family Wealth Advisors | Multi-Family Office Israel</title>
+    <title>Contact Us | Family Wealth Advisors | family office Israel</title>
     <meta name="description" content="Contact Family Wealth Advisors in Herzliya, Israel. Schedule a consultation to discuss your family's wealth management needs.">
     <meta name="keywords" content="contact family office, wealth management consultation, family office Israel, FWA contact">
     
@@ -25,32 +25,38 @@
                 <nav class="header__nav">
                     <ul class="header__menu" id="header-menu">
                         <li class="header__dropdown">
-                            <a href="about.html" class="header__link">About</a>
+                            <a href="#" class="header__link" data-i18n="nav.whoWeAre">Who We Are</a>
                             <ul class="header__submenu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="values.html">Our Values</a></li>
+                                <li><a href="about.html" data-i18n="nav.aboutUs">About Us</a></li>
+                                <li><a href="team.html" data-i18n="nav.ourTeam">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="services.html" class="header__link">Services</a>
+                            <a href="#" class="header__link" data-i18n="nav.whatWeDo">Our Service</a>
                             <ul class="header__submenu">
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="philosophy.html">Philosophy</a></li>
+                                <li><a href="values.html" data-i18n="nav.ourValues">Our Values</a></li>
+                                <li><a href="philosophy.html" data-i18n="nav.ourPhilosophy">Our Philosophy</a></li>
+                                <li><a href="services.html" data-i18n="nav.ourServices">Our Services</a></li>
+                                <li><a href="investment-philosophy.html" data-i18n="nav.investmentPhilosophy">Our Investment Philosophy</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="family-office.html" class="header__link">Family Office</a>
+                            <a href="#" class="header__link" data-i18n="nav.familyOffice">Family Office</a>
                             <ul class="header__submenu">
-                                <li><a href="family-office.html">What is a Family Office?</a></li>
-                                <li><a href="do-i-need-family-office.html">Do I Need One?</a></li>
-                                <li><a href="choosing-family-office.html">Choosing the Right One</a></li>
+                                <li><a href="family-office.html" data-i18n="nav.whatIsFamilyOffice">What is a Family Office?</a></li>
+                                <li><a href="do-i-need-family-office.html" data-i18n="nav.doINeedOne">Do I Need a Family Office?</a></li>
+                                <li><a href="choosing-family-office.html" data-i18n="nav.choosingRightOne">Choosing the Right Family Office</a></li>
                             </ul>
                         </li>
-                        <li><a href="faq.html" class="header__link">FAQ</a></li>
-                        <li><a href="contact.html" class="header__link">Contact</a></li>
+                        <li><a href="faq.html" class="header__link" data-i18n="nav.faq">FAQ</a></li>
+                        <li><a href="contact.html" class="header__link" data-i18n="nav.contactUs">Contact Us</a></li>
                     </ul>
-                    <a href="#contact-form" class="header__cta">Schedule Consultation</a>
+                    <div class="lang-toggle">
+                        <button class="lang-toggle__btn active" data-lang="en" onclick="FWALang.setLanguage('en')">EN</button>
+                        <span class="lang-toggle__divider">|</span>
+                        <button class="lang-toggle__btn" data-lang="he" onclick="FWALang.setLanguage('he')">עב</button>
+                    </div>
+                    <a href="#contact-form" class="header__cta" data-i18n="nav.scheduleConsultation">Schedule Consultation</a>
                 </nav>
                 <button class="header__toggle" id="header-toggle" aria-label="Toggle menu">
                     <span></span><span></span><span></span>
@@ -63,9 +69,9 @@
     <section class="section section--dark" style="padding-top: 10rem;">
         <div class="container">
             <div class="section-header reveal" style="margin-bottom: 0;">
-                <span class="section-header__eyebrow">Get In Touch</span>
-                <h1 class="section-header__title">Contact Us</h1>
-                <p class="section-header__text" style="color: var(--color-gray-300);">We'd love to hear from you. Reach out to schedule a consultation or simply ask a question.</p>
+                <span class="section-header__eyebrow" data-i18n="contactPage.heroEyebrow">Get In Touch</span>
+                <h1 class="section-header__title" data-i18n="contactPage.heroTitle">Contact Us</h1>
+                <p class="section-header__text" style="color: var(--color-gray-300);" data-i18n="contactPage.heroSubtitle">We'd love to hear from you. Reach out to schedule a consultation or simply ask a question.</p>
             </div>
         </div>
     </section>
@@ -97,7 +103,6 @@
                         <a href="tel:+97299630350" style="color: var(--color-gray-600);">+972-9-963-0350</a><br>
                         <span style="font-size: var(--text-sm); color: var(--color-gray-400);">Fax: +972-9-515-9032</span>
                     </p>
-                    <p style="font-size: var(--text-sm); color: var(--color-gray-500); margin-top: var(--space-4);">Sunday – Thursday<br>9:00 AM – 6:00 PM</p>
                 </div>
                 <div class="service-card reveal" style="text-align: center;">
                     <svg class="service-card__icon" style="margin: 0 auto var(--space-4);" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
@@ -123,46 +128,20 @@
                     <p class="intro__text">Fill out the form below and one of our advisors will reach out to schedule a confidential conversation about your family's needs.</p>
                     
                     <form class="contact-form" id="contact-form-element">
-                        <div class="contact-form__row">
-                            <div class="contact-form__group">
-                                <label class="contact-form__label" for="first-name">First Name *</label>
-                                <input type="text" id="first-name" name="first-name" class="contact-form__input" required>
-                            </div>
-                            <div class="contact-form__group">
-                                <label class="contact-form__label" for="last-name">Last Name *</label>
-                                <input type="text" id="last-name" name="last-name" class="contact-form__input" required>
-                            </div>
-                        </div>
-                        <div class="contact-form__row">
-                            <div class="contact-form__group">
-                                <label class="contact-form__label" for="email">Email *</label>
-                                <input type="email" id="email" name="email" class="contact-form__input" required>
-                            </div>
-                            <div class="contact-form__group">
-                                <label class="contact-form__label" for="phone">Phone</label>
-                                <input type="tel" id="phone" name="phone" class="contact-form__input">
-                            </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="name">Name *</label>
+                            <input type="text" id="name" name="name" class="contact-form__input" required>
                         </div>
                         <div class="contact-form__group">
-                            <label class="contact-form__label" for="interest">Area of Interest</label>
-                            <select id="interest" name="interest" class="contact-form__input">
-                                <option value="">Select an option...</option>
-                                <option value="general">General Inquiry</option>
-                                <option value="wealth-management">Wealth Management</option>
-                                <option value="investment">Investment Management</option>
-                                <option value="tax-planning">Tax & Structural Planning</option>
-                                <option value="estate">Estate & Succession Planning</option>
-                                <option value="family-governance">Family Governance</option>
-                                <option value="other">Other</option>
-                            </select>
+                            <label class="contact-form__label" for="email">Email *</label>
+                            <input type="email" id="email" name="email" class="contact-form__input" required>
                         </div>
                         <div class="contact-form__group">
                             <label class="contact-form__label" for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" class="contact-form__input contact-form__textarea" placeholder="Tell us a bit about yourself and what you're looking for..."></textarea>
+                            <textarea id="message" name="message" rows="5" class="contact-form__input contact-form__textarea" placeholder="How can we help you?"></textarea>
                         </div>
                         <div class="contact-form__group">
-                            <p style="font-size: var(--text-sm); color: var(--color-gray-500); margin-bottom: var(--space-4);">All information shared is treated with strict confidentiality.</p>
-                            <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Send Message</button>
+                            <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Send</button>
                         </div>
                     </form>
                 </div>
@@ -217,46 +196,6 @@
         </div>
     </section>
 
-    <!-- Office Hours -->
-    <section class="section section--off-white">
-        <div class="container container--narrow">
-            <div class="section-header reveal">
-                <span class="section-header__eyebrow">When to Reach Us</span>
-                <h2 class="section-header__title">Office Hours</h2>
-            </div>
-            <div class="reveal" style="max-width: 500px; margin: 0 auto;">
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Sunday</span>
-                    <span style="color: var(--color-gray-600);">9:00 AM – 6:00 PM</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Monday</span>
-                    <span style="color: var(--color-gray-600);">9:00 AM – 6:00 PM</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Tuesday</span>
-                    <span style="color: var(--color-gray-600);">9:00 AM – 6:00 PM</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Wednesday</span>
-                    <span style="color: var(--color-gray-600);">9:00 AM – 6:00 PM</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Thursday</span>
-                    <span style="color: var(--color-gray-600);">9:00 AM – 6:00 PM</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0; border-bottom: 1px solid var(--color-gray-200);">
-                    <span style="font-weight: 500;">Friday</span>
-                    <span style="color: var(--color-gray-500);">Closed</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: var(--space-4) 0;">
-                    <span style="font-weight: 500;">Saturday</span>
-                    <span style="color: var(--color-gray-500);">Closed</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -266,7 +205,7 @@
                         <span class="footer__logo-mark">FWA</span>
                         <span>Family Wealth Advisors</span>
                     </a>
-                    <p class="footer__text">A premier boutique multi-family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
+                    <p class="footer__text">A premier boutique family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
                 </div>
                 <div class="footer__column">
                     <h6 class="footer__column-title">Company</h6>
@@ -297,9 +236,9 @@
             <div class="footer__bottom">
                 <p class="footer__copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
                 <div class="footer__legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Disclosure</a>
+                    <a href="https://www.fwa.co.il/accessibility">Accessibility</a>
+                    <a href="https://www.fwa.co.il/privacy-terms-of-use">Privacy & Terms</a>
+                    <a href="https://www.fwa.co.il/Disclosure">Disclosure</a>
                 </div>
             </div>
         </div>
@@ -318,6 +257,19 @@
         </a>
     </div>
 
+    <!-- Language Selection Modal -->
+    <div class="lang-modal" id="lang-modal">
+        <div class="lang-modal__content">
+            <h2 class="lang-modal__title">Choose Your Language</h2>
+            <p class="lang-modal__subtitle">בחר שפה</p>
+            <div class="lang-modal__options">
+                <button class="lang-modal__btn lang-modal__btn--en" onclick="FWALang.setLanguage('en')">English</button>
+                <button class="lang-modal__btn lang-modal__btn--he" onclick="FWALang.setLanguage('he')">עברית</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

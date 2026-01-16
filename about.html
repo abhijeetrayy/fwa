@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>About Us | Family Wealth Advisors | Multi-Family Office Israel</title>
-    <meta name="description" content="Learn about Family Wealth Advisors - a premier boutique multi-family office founded in 2009, serving high-net-worth families in Israel with comprehensive wealth management services.">
-    <meta name="keywords" content="family office Israel, about FWA, wealth management company, multi-family office history">
+    <title>About Us | Family Wealth Advisors | family office Israel</title>
+    <meta name="description" content="Learn about Family Wealth Advisors - a premier boutique family office founded in 2009, serving high-net-worth families in Israel with comprehensive wealth management services.">
+    <meta name="keywords" content="family office Israel, about FWA, wealth management company, family office history">
     
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
@@ -25,32 +25,38 @@
                 <nav class="header__nav">
                     <ul class="header__menu" id="header-menu">
                         <li class="header__dropdown">
-                            <a href="about.html" class="header__link">About</a>
+                            <a href="#" class="header__link" data-i18n="nav.whoWeAre">Who We Are</a>
                             <ul class="header__submenu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="values.html">Our Values</a></li>
+                                <li><a href="about.html" data-i18n="nav.aboutUs">About Us</a></li>
+                                <li><a href="team.html" data-i18n="nav.ourTeam">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="services.html" class="header__link">Services</a>
+                            <a href="#" class="header__link" data-i18n="nav.whatWeDo">Our Service</a>
                             <ul class="header__submenu">
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="philosophy.html">Philosophy</a></li>
+                                <li><a href="values.html" data-i18n="nav.ourValues">Our Values</a></li>
+                                <li><a href="philosophy.html" data-i18n="nav.ourPhilosophy">Our Philosophy</a></li>
+                                <li><a href="services.html" data-i18n="nav.ourServices">Our Services</a></li>
+                                <li><a href="investment-philosophy.html" data-i18n="nav.investmentPhilosophy">Our Investment Philosophy</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="family-office.html" class="header__link">Family Office</a>
+                            <a href="#" class="header__link" data-i18n="nav.familyOffice">Family Office</a>
                             <ul class="header__submenu">
-                                <li><a href="family-office.html">What is a Family Office?</a></li>
-                                <li><a href="do-i-need-family-office.html">Do I Need One?</a></li>
-                                <li><a href="choosing-family-office.html">Choosing the Right One</a></li>
+                                <li><a href="family-office.html" data-i18n="nav.whatIsFamilyOffice">What is a Family Office?</a></li>
+                                <li><a href="do-i-need-family-office.html" data-i18n="nav.doINeedOne">Do I Need a Family Office?</a></li>
+                                <li><a href="choosing-family-office.html" data-i18n="nav.choosingRightOne">Choosing the Right Family Office</a></li>
                             </ul>
                         </li>
-                        <li><a href="faq.html" class="header__link">FAQ</a></li>
-                        <li><a href="contact.html" class="header__link">Contact</a></li>
+                        <li><a href="faq.html" class="header__link" data-i18n="nav.faq">FAQ</a></li>
+                        <li><a href="contact.html" class="header__link" data-i18n="nav.contactUs">Contact Us</a></li>
                     </ul>
-                    <a href="contact.html" class="header__cta">Schedule Consultation</a>
+                    <div class="lang-toggle">
+                        <button class="lang-toggle__btn active" data-lang="en" onclick="FWALang.setLanguage('en')">EN</button>
+                        <span class="lang-toggle__divider">|</span>
+                        <button class="lang-toggle__btn" data-lang="he" onclick="FWALang.setLanguage('he')">עב</button>
+                    </div>
+                    <a href="contact.html" class="header__cta" data-i18n="nav.scheduleConsultation">Schedule Consultation</a>
                 </nav>
                 <button class="header__toggle" id="header-toggle" aria-label="Toggle menu">
                     <span></span><span></span><span></span>
@@ -63,9 +69,9 @@
     <section class="section section--dark" style="padding-top: 10rem;">
         <div class="container">
             <div class="section-header reveal" style="margin-bottom: 0;">
-                <span class="section-header__eyebrow">About Us</span>
-                <h1 class="section-header__title">A Legacy of Trust &<br>Generational Thinking</h1>
-                <p class="section-header__text" style="color: var(--color-gray-300);">Since 2009, we've been the trusted stewards of family wealth—providing the strategic clarity and personal attention that every family deserves.</p>
+                <span class="section-header__eyebrow" data-i18n="aboutPage.heroEyebrow">About Us</span>
+                <h1 class="section-header__title" data-i18n="aboutPage.heroTitle">A Legacy of Trust & Generational Thinking</h1>
+                <p class="section-header__text" style="color: var(--color-gray-300);" data-i18n="aboutPage.heroSubtitle">Since 2009, we've been the trusted stewards of family wealth—providing the strategic clarity and personal attention that every family deserves.</p>
             </div>
         </div>
     </section>
@@ -75,17 +81,17 @@
         <div class="container">
             <div class="intro">
                 <div class="intro__content reveal">
-                    <span class="intro__eyebrow">Our Story</span>
-                    <h2 class="intro__title">Founded on a Simple Belief</h2>
-                    <p class="intro__text">Family Wealth Advisors was established in Herzliya in 2009 by Daniel Peretz, a financial markets veteran with over 30 years of global experience. The founding premise was straightforward: affluent families deserve the same quality of financial guidance and coordination that was once available only to institutions and ultra-high-net-worth individuals.</p>
-                    <p class="intro__text">We recognized that successful families often struggle not from a lack of resources, but from a lack of integrated oversight. Investments are siloed. Tax advisors don't communicate with estate planners. The big picture gets lost.</p>
-                    <p class="intro__text">Our solution was to create a true "Personal CFO" service—a single point of coordination for all financial matters, driven by your goals and governed by your values.</p>
+                    <span class="intro__eyebrow" data-i18n="aboutPage.storyEyebrow">Our Story</span>
+                    <h2 class="intro__title" data-i18n="aboutPage.storyTitle">Founded on a Simple Belief</h2>
+                    <p class="intro__text" data-i18n="aboutPage.storyP1">Family Wealth Advisors was established in Herzliya in 2009 by Daniel Peretz, a financial markets veteran with over 30 years of global experience. The founding premise was straightforward: affluent families deserve the same quality of financial guidance and coordination that was once available only to institutions and ultra-high-net-worth individuals.</p>
+                    <p class="intro__text" data-i18n="aboutPage.storyP2">We recognized that successful families often struggle not from a lack of resources, but from a lack of integrated oversight. Investments are siloed. Tax advisors don't communicate with estate planners. The big picture gets lost.</p>
+                    <p class="intro__text" data-i18n="aboutPage.storyP3">Our solution was to create a true "Personal CFO" service—a single point of coordination for all financial matters, driven by your goals and governed by your values.</p>
                 </div>
                 <div class="intro__image reveal">
-                    <img src="assets/images/about-office.jpg" alt="FWA Office in Herzliya" onerror="this.style.background='linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%)';this.style.height='500px'">
+                    <img src="assets/images/family-living-room.png" alt="Multi-generational family gathering" onerror="this.style.background='linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%)';this.style.height='500px'">
                     <div class="intro__image-caption">
                         <div class="intro__image-number">2009</div>
-                        <div class="intro__image-label">Established in Herzliya</div>
+                        <div class="intro__image-label" data-i18n="common.established">Established in Herzliya</div>
                     </div>
                 </div>
             </div>
@@ -97,14 +103,14 @@
         <div class="container">
             <div class="intro" style="gap: var(--space-20);">
                 <div class="reveal" style="max-width: 500px;">
-                    <span class="intro__eyebrow">Our Mission</span>
-                    <h3 class="intro__title" style="font-size: var(--text-3xl);">To be the trusted partner that empowers families to preserve, grow, and transfer their wealth with confidence.</h3>
-                    <p class="intro__text">We measure success not by assets under management, but by the peace of mind and clarity we bring to each family we serve.</p>
+                    <span class="intro__eyebrow" data-i18n="aboutPage.missionEyebrow">Our Mission</span>
+                    <h3 class="intro__title" style="font-size: var(--text-3xl);" data-i18n="aboutPage.missionTitle">To be the trusted partner that empowers families to preserve, grow, and transfer their wealth with confidence.</h3>
+                    <p class="intro__text" data-i18n="aboutPage.missionText">We measure success not by assets under management, but by the peace of mind and clarity we bring to each family we serve.</p>
                 </div>
                 <div class="reveal" style="max-width: 500px;">
-                    <span class="intro__eyebrow">Our Vision</span>
-                    <h3 class="intro__title" style="font-size: var(--text-3xl);">To redefine family office services in Israel through excellence, transparency, and genuine care.</h3>
-                    <p class="intro__text">We envision a world where every family—regardless of complexity—has access to institutional-quality financial guidance delivered with personal attention.</p>
+                    <span class="intro__eyebrow" data-i18n="aboutPage.visionEyebrow">Our Vision</span>
+                    <h3 class="intro__title" style="font-size: var(--text-3xl);" data-i18n="aboutPage.visionTitle">To redefine family office services in Israel through excellence, transparency, and genuine care.</h3>
+                    <p class="intro__text" data-i18n="aboutPage.visionText">We envision a world where every family—regardless of complexity—has access to institutional-quality financial guidance delivered with personal attention.</p>
                 </div>
             </div>
         </div>
@@ -114,52 +120,52 @@
     <section class="section section--lg">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">What Guides Us</span>
-                <h2 class="section-header__title">Our Core Values</h2>
-                <p class="section-header__text">These principles shape every decision we make and every relationship we build.</p>
+                <span class="section-header__eyebrow" data-i18n="aboutPage.valuesEyebrow">What Guides Us</span>
+                <h2 class="section-header__title" data-i18n="aboutPage.valuesTitle">Our Core Values</h2>
+                <p class="section-header__text" data-i18n="aboutPage.valuesSubtitle">These principles shape every decision we make and every relationship we build.</p>
             </div>
             <div class="services__grid" style="grid-template-columns: repeat(3, 1fr);">
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                     </svg>
-                    <h4 class="service-card__title">Integrity First</h4>
-                    <p class="service-card__text">We operate with complete transparency. No hidden fees, no conflicts of interest, no agenda other than your success.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value1Title">Integrity First</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value1Text">We operate with complete transparency. No hidden fees, no conflicts of interest, no agenda other than your success.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Client-Centric</h4>
-                    <p class="service-card__text">Your goals are our compass. We listen deeply, understand your unique situation, and tailor every recommendation accordingly.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value2Title">Client-Centric</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value2Text">Your goals are our compass. We listen deeply, understand your unique situation, and tailor every recommendation accordingly.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                     </svg>
-                    <h4 class="service-card__title">Excellence Always</h4>
-                    <p class="service-card__text">We hold ourselves to the highest standards in research, analysis, and execution. Good enough is never good enough.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value3Title">Excellence Always</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value3Text">We hold ourselves to the highest standards in research, analysis, and execution. Good enough is never good enough.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Long-Term Thinking</h4>
-                    <p class="service-card__text">We make decisions with decades in mind, not quarters. Sustainable results require patient, disciplined execution.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value4Title">Long-Term Thinking</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value4Text">We make decisions with decades in mind, not quarters. Sustainable results require patient, disciplined execution.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
                     </svg>
-                    <h4 class="service-card__title">Open Communication</h4>
-                    <p class="service-card__text">We explain complex matters in plain language. You'll always know what we're doing and why—no jargon, no surprises.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value5Title">Open Communication</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value5Text">We explain complex matters in plain language. You'll always know what we're doing and why—no jargon, no surprises.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Genuine Care</h4>
-                    <p class="service-card__text">We treat every family's wealth as if it were our own. Your victories are our victories; your concerns are our priorities.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.value6Title">Genuine Care</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.value6Text">We treat every family's wealth as if it were our own. Your victories are our victories; your concerns are our priorities.</p>
                 </div>
             </div>
         </div>
@@ -169,43 +175,43 @@
     <section class="section section--off-white">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">Our Journey</span>
-                <h2 class="section-header__title">Key Milestones</h2>
+                <span class="section-header__eyebrow" data-i18n="aboutPage.journeyEyebrow">Our Journey</span>
+                <h2 class="section-header__title" data-i18n="aboutPage.journeyTitle">Key Milestones</h2>
             </div>
             <div class="philosophy__list">
                 <div class="philosophy-item reveal">
-                    <div class="philosophy-item__number">2009</div>
+                    <div class="philosophy-item__number" data-i18n="aboutPage.milestone1Year">2009</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Foundation</h4>
-                        <p class="philosophy-item__text">Daniel Peretz establishes Family Wealth Advisors in Herzliya, bringing 25 years of institutional investment experience to serve private families.</p>
+                        <h4 class="philosophy-item__title" data-i18n="aboutPage.milestone1Title">Foundation</h4>
+                        <p class="philosophy-item__text" data-i18n="aboutPage.milestone1Text">Daniel Peretz establishes Family Wealth Advisors in Herzliya, bringing 25 years of institutional investment experience to serve private families.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
-                    <div class="philosophy-item__number">2012</div>
+                    <div class="philosophy-item__number" data-i18n="aboutPage.milestone2Year">2012</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Team Expansion</h4>
-                        <p class="philosophy-item__text">Key team members join including Gil Ben Zadok and Gilbert Penhasi, expanding our capabilities in legal, operational, and investment management.</p>
+                        <h4 class="philosophy-item__title" data-i18n="aboutPage.milestone2Title">Team Expansion</h4>
+                        <p class="philosophy-item__text" data-i18n="aboutPage.milestone2Text">Key team members join including Gil Ben Zadok and Ron Goldenberg, expanding our capabilities in legal, operational, and investment management.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
-                    <div class="philosophy-item__number">2015</div>
+                    <div class="philosophy-item__number" data-i18n="aboutPage.milestone3Year">2015</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">$100M Milestone</h4>
-                        <p class="philosophy-item__text">Assets under advisement surpass $100 million, with a growing roster of multi-generational family clients across Israel.</p>
+                        <h4 class="philosophy-item__title" data-i18n="aboutPage.milestone3Title">$100M Milestone</h4>
+                        <p class="philosophy-item__text" data-i18n="aboutPage.milestone3Text">Assets under advisement surpass $100 million, with a growing roster of multi-generational family clients across Israel.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
-                    <div class="philosophy-item__number">2019</div>
+                    <div class="philosophy-item__number" data-i18n="aboutPage.milestone4Year">2019</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">10 Year Anniversary</h4>
-                        <p class="philosophy-item__text">Celebrating a decade of service with 98% client retention and recognition as a leading independent family office in Israel.</p>
+                        <h4 class="philosophy-item__title" data-i18n="aboutPage.milestone4Title">10 Year Anniversary</h4>
+                        <p class="philosophy-item__text" data-i18n="aboutPage.milestone4Text">Celebrating a decade of service with continued client relationships and recognition as a leading independent family office in Israel.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
-                    <div class="philosophy-item__number">2024</div>
+                    <div class="philosophy-item__number" data-i18n="aboutPage.milestone5Year">2024</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">$500M+ & Beyond</h4>
-                        <p class="philosophy-item__text">Today we advise on over half a billion dollars, serving 100+ families with a full-service, integrated approach to wealth management.</p>
+                        <h4 class="philosophy-item__title" data-i18n="aboutPage.milestone5Title">Today & Beyond</h4>
+                        <p class="philosophy-item__text" data-i18n="aboutPage.milestone5Text">Today we continue to grow, serving families with a full-service, integrated approach to wealth management.</p>
                     </div>
                 </div>
             </div>
@@ -216,37 +222,55 @@
     <section class="section section--lg">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">Why FWA</span>
-                <h2 class="section-header__title">What Sets Us Apart</h2>
-                <p class="section-header__text">The qualities that make our approach genuinely different from traditional advisors.</p>
+                <span class="section-header__eyebrow" data-i18n="aboutPage.whyEyebrow">Why FWA</span>
+                <h2 class="section-header__title" data-i18n="aboutPage.whyTitle">What Sets Us Apart</h2>
+                <p class="section-header__text" data-i18n="aboutPage.whySubtitle">The qualities that make our approach genuinely different from traditional advisors.</p>
             </div>
             <div class="services__grid" style="grid-template-columns: repeat(2, 1fr);">
                 <div class="service-card reveal">
-                    <h4 class="service-card__title">Fee-Only Independence</h4>
-                    <p class="service-card__text">We never receive commissions from product sales. Our only revenue comes directly from clients, ensuring our advice is always aligned with your best interests—not a product sponsor's.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.why1Title">Fee-Only Independence</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.why1Text">We never receive commissions from product sales. Our only revenue comes directly from clients, ensuring our advice is always aligned with your best interests—not a product sponsor's.</p>
                 </div>
                 <div class="service-card reveal">
-                    <h4 class="service-card__title">Holistic Coordination</h4>
-                    <p class="service-card__text">We integrate investments, tax, estate, insurance, and governance into a unified strategy. No more siloed advisors who don't communicate—we orchestrate everything.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.why2Title">Holistic Coordination</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.why2Text">We integrate investments, tax, estate, insurance, and governance into a unified strategy. No more siloed advisors who don't communicate—we orchestrate everything.</p>
                 </div>
                 <div class="service-card reveal">
-                    <h4 class="service-card__title">Family-First Governance</h4>
-                    <p class="service-card__text">We help families establish governance frameworks, family constitutions, and next-generation education programs that preserve values alongside wealth.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.why3Title">Family-First Governance</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.why3Text">We help families establish governance frameworks, family constitutions, and next-generation education programs that preserve values alongside wealth.</p>
                 </div>
                 <div class="service-card reveal">
-                    <h4 class="service-card__title">Global Perspective, Local Roots</h4>
-                    <p class="service-card__text">Our team brings experience from global financial centers combined with deep knowledge of Israeli tax law, real estate markets, and business culture.</p>
+                    <h4 class="service-card__title" data-i18n="aboutPage.why4Title">Global Perspective, Local Roots</h4>
+                    <p class="service-card__text" data-i18n="aboutPage.why4Text">Our team brings experience from global financial centers combined with deep knowledge of Israeli tax law, real estate markets, and business culture.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="section section--dark">
+    <!-- Contact Form -->
+    <section class="section section--off-white" id="contact">
         <div class="container">
-            <div class="testimonial reveal">
-                <p class="testimonial__quote" style="font-style: normal; font-size: var(--text-3xl); margin-bottom: var(--space-8);">Ready to experience the difference of a true family office partnership?</p>
-                <a href="index.html#contact" class="btn btn--primary btn--lg">Schedule a Consultation</a>
+            <div class="section-header reveal">
+                <span class="section-header__eyebrow" data-i18n="aboutPage.contactEyebrow">Contact Us</span>
+                <h2 class="section-header__title" data-i18n="aboutPage.contactTitle">Get In Touch</h2>
+                <p class="section-header__text" data-i18n="aboutPage.contactSubtitle">Ready to explore how we can help your family? Fill out the form below.</p>
+            </div>
+            <div class="contact__form-wrapper reveal" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form">
+                    <div class="form__group">
+                        <label class="form__label" for="name" data-i18n="contact.nameLabel">Name *</label>
+                        <input type="text" id="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="email" data-i18n="contact.emailLabel">Email *</label>
+                        <input type="email" id="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="message" data-i18n="contact.messageLabel">Message</label>
+                        <textarea id="message" class="form__textarea" placeholder="How can we help you?" data-i18n="contact.messagePlaceholder"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;" data-i18n="contact.submit">Send</button>
+                </form>
             </div>
         </div>
     </section>
@@ -260,40 +284,42 @@
                         <span class="footer__logo-mark">FWA</span>
                         <span>Family Wealth Advisors</span>
                     </a>
-                    <p class="footer__text">A premier boutique multi-family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
+                    <p class="footer__text" data-i18n="footer.description">A premier boutique family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Company</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.company">Company</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="about.html">About Us</a></li>
-                        <li class="footer__link"><a href="team.html">Our Team</a></li>
-                        <li class="footer__link"><a href="philosophy.html">Philosophy</a></li>
-                        <li class="footer__link"><a href="index.html#contact">Contact</a></li>
+                        <li class="footer__link"><a href="about.html" data-i18n="footer.aboutUs">About Us</a></li>
+                        <li class="footer__link"><a href="team.html" data-i18n="footer.ourTeam">Our Team</a></li>
+                        <li class="footer__link"><a href="values.html" data-i18n="footer.ourValues">Our Values</a></li>
+                        <li class="footer__link"><a href="philosophy.html" data-i18n="footer.philosophy">Philosophy</a></li>
                     </ul>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Services</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.servicesTitle">Services</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="index.html#services">Wealth Planning</a></li>
-                        <li class="footer__link"><a href="index.html#services">Investment</a></li>
-                        <li class="footer__link"><a href="index.html#services">Tax Optimization</a></li>
-                        <li class="footer__link"><a href="index.html#services">Estate Planning</a></li>
+                        <li class="footer__link"><a href="services.html" data-i18n="footer.ourServices">Our Services</a></li>
+                        <li class="footer__link"><a href="family-office.html" data-i18n="footer.whatIsFamilyOffice">What is a Family Office?</a></li>
+                        <li class="footer__link"><a href="do-i-need-family-office.html" data-i18n="footer.doINeedOne">Do I Need One?</a></li>
+                        <li class="footer__link"><a href="choosing-family-office.html" data-i18n="footer.choosingRightOne">Choosing the Right One</a></li>
                     </ul>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Resources</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.contactTitle">Contact</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="index.html#faq">FAQ</a></li>
-                        <li class="footer__link"><a href="index.html#calculator">ROI Calculator</a></li>
+                        <li class="footer__link"><a href="contact.html" data-i18n="footer.contactUs">Contact Us</a></li>
+                        <li class="footer__link"><a href="faq.html" data-i18n="footer.faq">FAQ</a></li>
+                        <li class="footer__link"><a href="tel:+97299630350">+972-9-963-0350</a></li>
+                        <li class="footer__link"><a href="mailto:office@fwa.co.il">office@fwa.co.il</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                <p class="footer__copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
+                <p class="footer__copyright" data-i18n="footer.copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
                 <div class="footer__legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Disclosure</a>
+                    <a href="https://www.fwa.co.il/accessibility" data-i18n="footer.accessibility">Accessibility</a>
+                    <a href="https://www.fwa.co.il/privacy-terms-of-use" data-i18n="footer.privacyPolicy">Privacy & Terms</a>
+                    <a href="https://www.fwa.co.il/Disclosure" data-i18n="footer.disclosure">Disclosure</a>
                 </div>
             </div>
         </div>
@@ -312,6 +338,19 @@
         </a>
     </div>
 
+    <!-- Language Selection Modal -->
+    <div class="lang-modal" id="lang-modal">
+        <div class="lang-modal__content">
+            <h2 class="lang-modal__title">Choose Your Language</h2>
+            <p class="lang-modal__subtitle">בחר שפה</p>
+            <div class="lang-modal__options">
+                <button class="lang-modal__btn lang-modal__btn--en" onclick="FWALang.setLanguage('en')">English</button>
+                <button class="lang-modal__btn lang-modal__btn--he" onclick="FWALang.setLanguage('he')">עברית</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

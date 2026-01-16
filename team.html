@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Our Team | Family Wealth Advisors | Multi-Family Office Israel</title>
+    <title>Our Team | Family Wealth Advisors | family office Israel</title>
     <meta name="description" content="Meet the experienced team at Family Wealth Advisors. Our professionals bring decades of expertise in global financial markets, law, and operations.">
     <meta name="keywords" content="FWA team, wealth management professionals Israel, family office advisors">
     
@@ -25,32 +25,38 @@
                 <nav class="header__nav">
                     <ul class="header__menu" id="header-menu">
                         <li class="header__dropdown">
-                            <a href="about.html" class="header__link">About</a>
+                            <a href="#" class="header__link" data-i18n="nav.whoWeAre">Who We Are</a>
                             <ul class="header__submenu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="values.html">Our Values</a></li>
+                                <li><a href="about.html" data-i18n="nav.aboutUs">About Us</a></li>
+                                <li><a href="team.html" data-i18n="nav.ourTeam">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="services.html" class="header__link">Services</a>
+                            <a href="#" class="header__link" data-i18n="nav.whatWeDo">Our Service</a>
                             <ul class="header__submenu">
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="philosophy.html">Philosophy</a></li>
+                                <li><a href="values.html" data-i18n="nav.ourValues">Our Values</a></li>
+                                <li><a href="philosophy.html" data-i18n="nav.ourPhilosophy">Our Philosophy</a></li>
+                                <li><a href="services.html" data-i18n="nav.ourServices">Our Services</a></li>
+                                <li><a href="investment-philosophy.html" data-i18n="nav.investmentPhilosophy">Our Investment Philosophy</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="family-office.html" class="header__link">Family Office</a>
+                            <a href="#" class="header__link" data-i18n="nav.familyOffice">Family Office</a>
                             <ul class="header__submenu">
-                                <li><a href="family-office.html">What is a Family Office?</a></li>
-                                <li><a href="do-i-need-family-office.html">Do I Need One?</a></li>
-                                <li><a href="choosing-family-office.html">Choosing the Right One</a></li>
+                                <li><a href="family-office.html" data-i18n="nav.whatIsFamilyOffice">What is a Family Office?</a></li>
+                                <li><a href="do-i-need-family-office.html" data-i18n="nav.doINeedOne">Do I Need a Family Office?</a></li>
+                                <li><a href="choosing-family-office.html" data-i18n="nav.choosingRightOne">Choosing the Right Family Office</a></li>
                             </ul>
                         </li>
-                        <li><a href="faq.html" class="header__link">FAQ</a></li>
-                        <li><a href="contact.html" class="header__link">Contact</a></li>
+                        <li><a href="faq.html" class="header__link" data-i18n="nav.faq">FAQ</a></li>
+                        <li><a href="contact.html" class="header__link" data-i18n="nav.contactUs">Contact Us</a></li>
                     </ul>
-                    <a href="contact.html" class="header__cta">Schedule Consultation</a>
+                    <div class="lang-toggle">
+                        <button class="lang-toggle__btn active" data-lang="en" onclick="FWALang.setLanguage('en')">EN</button>
+                        <span class="lang-toggle__divider">|</span>
+                        <button class="lang-toggle__btn" data-lang="he" onclick="FWALang.setLanguage('he')">עב</button>
+                    </div>
+                    <a href="contact.html" class="header__cta" data-i18n="nav.scheduleConsultation">Schedule Consultation</a>
                 </nav>
                 <button class="header__toggle" id="header-toggle" aria-label="Toggle menu">
                     <span></span><span></span><span></span>
@@ -65,7 +71,7 @@
             <div class="section-header reveal" style="margin-bottom: 0;">
                 <span class="section-header__eyebrow">Our Team</span>
                 <h1 class="section-header__title">The People Behind<br>Your Success</h1>
-                <p class="section-header__text" style="color: var(--color-gray-300);">Our team combines over 100 years of collective experience in global financial markets, law, and operations—all dedicated to your family's prosperity.</p>
+                <p class="section-header__text" style="color: var(--color-gray-300);">Our team brings decades of experience in global financial markets, law, and operations—all dedicated to your family's prosperity.</p>
             </div>
         </div>
     </section>
@@ -81,7 +87,7 @@
             <!-- Daniel Peretz - Founder (Largest) -->
             <div class="intro intro--founder reveal" style="margin-bottom: var(--space-20);">
                 <div class="intro__image">
-                    <img src="assets/images/team-daniel.jpg" alt="Daniel Peretz" onerror="this.style.background='#e8e8e8';this.style.height='500px'">
+                    <img src="images/retouch/deniel.png" alt="Daniel Peretz" onerror="this.style.background='#e8e8e8';this.style.height='500px'">
                 </div>
                 <div class="intro__content">
                     <span class="intro__eyebrow">Founder & CEO</span>
@@ -122,7 +128,7 @@
                 <!-- Gil Ben Zadok -->
                 <div class="executive-card reveal">
                     <div class="executive-card__image">
-                        <img src="assets/images/team-gil.jpg" alt="Gil Ben Zadok" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Gil Ben Zadok.png" alt="Gil Ben Zadok" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <div class="executive-card__content">
                         <span class="executive-card__eyebrow">Investment Executive</span>
@@ -140,7 +146,7 @@
                 <!-- Gilbert Penhasi -->
                 <div class="executive-card reveal">
                     <div class="executive-card__image">
-                        <img src="assets/images/team-gilbert.jpg" alt="Gilbert Penhasi" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Gilbert Penhasi.png" alt="Gilbert Penhasi" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <div class="executive-card__content">
                         <span class="executive-card__eyebrow">Chief Operating Officer</span>
@@ -168,35 +174,35 @@
             <div class="team__grid">
                 <div class="team-card reveal">
                     <div class="team-card__image">
-                        <img src="assets/images/team-benjamin.jpg" alt="Benjamin Sarkisov" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Benjamin Sarkisov.png" alt="Benjamin Sarkisov" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <h5 class="team-card__name">Benjamin Sarkisov</h5>
                     <p class="team-card__role">Investment Manager</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="team-card__image">
-                        <img src="assets/images/team-doron.jpg" alt="Doron Yanir" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Doron Yanir.png" alt="Doron Yanir" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <h5 class="team-card__name">Doron Yanir</h5>
                     <p class="team-card__role">Back Office & Tax</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="team-card__image">
-                        <img src="assets/images/team-alex.jpg" alt="Alex Kromkin" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Alex Kromkin.png" alt="Alex Kromkin" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <h5 class="team-card__name">Alex Kromkin</h5>
                     <p class="team-card__role">Head of Client Reporting</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="team-card__image">
-                        <img src="assets/images/team-dan.jpg" alt="Dan Levi" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Dan Levi.png" alt="Dan Levi" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <h5 class="team-card__name">Dan Levi</h5>
                     <p class="team-card__role">Back Office & Operations</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="team-card__image">
-                        <img src="assets/images/team-edna.jpg" alt="Edna Peretz" onerror="this.style.background='#e8e8e8'">
+                        <img src="images/retouch/Edna Peretz.png" alt="Edna Peretz" onerror="this.style.background='#e8e8e8'">
                     </div>
                     <h5 class="team-card__name">Edna Peretz</h5>
                     <p class="team-card__role">Contracts & Operations</p>
@@ -205,54 +211,32 @@
         </div>
     </section>
 
-    <!-- Team Stats -->
-    <section class="trust-bar">
-        <div class="container">
-            <div class="trust-bar__grid">
-                <div class="trust-bar__item reveal">
-                    <div class="trust-bar__number">100+</div>
-                    <div class="trust-bar__label">Years Combined Experience</div>
-                </div>
-                <div class="trust-bar__item reveal">
-                    <div class="trust-bar__number">8</div>
-                    <div class="trust-bar__label">Dedicated Professionals</div>
-                </div>
-                <div class="trust-bar__item reveal">
-                    <div class="trust-bar__number">5</div>
-                    <div class="trust-bar__label">Languages Spoken</div>
-                </div>
-                <div class="trust-bar__item reveal">
-                    <div class="trust-bar__number">3</div>
-                    <div class="trust-bar__label">Professional Certifications</div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Join Our Team -->
-    <section class="section section--lg">
-        <div class="container">
-            <div class="intro">
-                <div class="intro__content reveal">
-                    <span class="intro__eyebrow">Careers</span>
-                    <h2 class="intro__title">Join Our Team</h2>
-                    <p class="intro__text">We're always looking for exceptional talent who share our commitment to client excellence and professional integrity.</p>
-                    <p class="intro__text">If you're passionate about wealth management and want to make a meaningful impact on the lives of families, we'd love to hear from you.</p>
-                    <a href="mailto:careers@fwa.co.il" class="btn btn--outline-dark">View Open Positions</a>
-                </div>
-                <div class="intro__image reveal">
-                    <img src="assets/images/about-office.jpg" alt="FWA Office" onerror="this.style.background='linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%)';this.style.height='400px'">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CTA -->
-    <section class="section section--dark">
+    <!-- Contact Form -->
+    <section class="section section--off-white" id="contact">
         <div class="container">
-            <div class="testimonial reveal">
-                <p class="testimonial__quote" style="font-style: normal; font-size: var(--text-3xl); margin-bottom: var(--space-8);">Ready to meet your dedicated advisory team?</p>
-                <a href="index.html#contact" class="btn btn--primary btn--lg">Schedule a Consultation</a>
+            <div class="section-header reveal">
+                <span class="section-header__eyebrow">Contact Us</span>
+                <h2 class="section-header__title">Get In Touch</h2>
+                <p class="section-header__text">Ready to explore how we can help your family? Fill out the form below.</p>
+            </div>
+            <div class="contact__form-wrapper reveal" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form">
+                    <div class="form__group">
+                        <label class="form__label" for="name">Name *</label>
+                        <input type="text" id="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="email">Email *</label>
+                        <input type="email" id="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="message">Message</label>
+                        <textarea id="message" class="form__textarea" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Send</button>
+                </form>
             </div>
         </div>
     </section>
@@ -266,7 +250,7 @@
                         <span class="footer__logo-mark">FWA</span>
                         <span>Family Wealth Advisors</span>
                     </a>
-                    <p class="footer__text">A premier boutique multi-family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
+                    <p class="footer__text">A premier boutique family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
                 </div>
                 <div class="footer__column">
                     <h6 class="footer__column-title">Company</h6>
@@ -289,17 +273,17 @@
                 <div class="footer__column">
                     <h6 class="footer__column-title">Resources</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="index.html#faq">FAQ</a></li>
-                        <li class="footer__link"><a href="index.html#calculator">ROI Calculator</a></li>
+                        <li class="footer__link"><a href="faq.html">FAQ</a></li>
+                        <li class="footer__link"><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
                 <p class="footer__copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
                 <div class="footer__legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Disclosure</a>
+                    <a href="https://www.fwa.co.il/accessibility">Accessibility</a>
+                    <a href="https://www.fwa.co.il/privacy-terms-of-use">Privacy & Terms</a>
+                    <a href="https://www.fwa.co.il/Disclosure">Disclosure</a>
                 </div>
             </div>
         </div>
@@ -318,6 +302,19 @@
         </a>
     </div>
 
+    <!-- Language Selection Modal -->
+    <div class="lang-modal" id="lang-modal">
+        <div class="lang-modal__content">
+            <h2 class="lang-modal__title">Choose Your Language</h2>
+            <p class="lang-modal__subtitle">בחר שפה</p>
+            <div class="lang-modal__options">
+                <button class="lang-modal__btn lang-modal__btn--en" onclick="FWALang.setLanguage('en')">English</button>
+                <button class="lang-modal__btn lang-modal__btn--he" onclick="FWALang.setLanguage('he')">עברית</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Our Services | Family Wealth Advisors | Multi-Family Office Israel</title>
+    <title>Our Services | Family Wealth Advisors | family office Israel</title>
     <meta name="description" content="Comprehensive wealth management services including strategic planning, investment management, tax optimization, estate planning, and family governance for high-net-worth families.">
     <meta name="keywords" content="family office services, wealth management Israel, investment management, tax planning, estate planning">
     
@@ -25,32 +25,38 @@
                 <nav class="header__nav">
                     <ul class="header__menu" id="header-menu">
                         <li class="header__dropdown">
-                            <a href="about.html" class="header__link">About</a>
+                            <a href="#" class="header__link" data-i18n="nav.whoWeAre">Who We Are</a>
                             <ul class="header__submenu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="values.html">Our Values</a></li>
+                                <li><a href="about.html" data-i18n="nav.aboutUs">About Us</a></li>
+                                <li><a href="team.html" data-i18n="nav.ourTeam">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="services.html" class="header__link">Services</a>
+                            <a href="#" class="header__link" data-i18n="nav.whatWeDo">Our Service</a>
                             <ul class="header__submenu">
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="philosophy.html">Philosophy</a></li>
+                                <li><a href="values.html" data-i18n="nav.ourValues">Our Values</a></li>
+                                <li><a href="philosophy.html" data-i18n="nav.ourPhilosophy">Our Philosophy</a></li>
+                                <li><a href="services.html" data-i18n="nav.ourServices">Our Services</a></li>
+                                <li><a href="investment-philosophy.html" data-i18n="nav.investmentPhilosophy">Our Investment Philosophy</a></li>
                             </ul>
                         </li>
                         <li class="header__dropdown">
-                            <a href="family-office.html" class="header__link">Family Office</a>
+                            <a href="#" class="header__link" data-i18n="nav.familyOffice">Family Office</a>
                             <ul class="header__submenu">
-                                <li><a href="family-office.html">What is a Family Office?</a></li>
-                                <li><a href="do-i-need-family-office.html">Do I Need One?</a></li>
-                                <li><a href="choosing-family-office.html">Choosing the Right One</a></li>
+                                <li><a href="family-office.html" data-i18n="nav.whatIsFamilyOffice">What is a Family Office?</a></li>
+                                <li><a href="do-i-need-family-office.html" data-i18n="nav.doINeedOne">Do I Need a Family Office?</a></li>
+                                <li><a href="choosing-family-office.html" data-i18n="nav.choosingRightOne">Choosing the Right Family Office</a></li>
                             </ul>
                         </li>
-                        <li><a href="faq.html" class="header__link">FAQ</a></li>
-                        <li><a href="contact.html" class="header__link">Contact</a></li>
+                        <li><a href="faq.html" class="header__link" data-i18n="nav.faq">FAQ</a></li>
+                        <li><a href="contact.html" class="header__link" data-i18n="nav.contactUs">Contact Us</a></li>
                     </ul>
-                    <a href="contact.html" class="header__cta">Schedule Consultation</a>
+                    <div class="lang-toggle">
+                        <button class="lang-toggle__btn active" data-lang="en" onclick="FWALang.setLanguage('en')">EN</button>
+                        <span class="lang-toggle__divider">|</span>
+                        <button class="lang-toggle__btn" data-lang="he" onclick="FWALang.setLanguage('he')">עב</button>
+                    </div>
+                    <a href="contact.html" class="header__cta" data-i18n="nav.scheduleConsultation">Schedule Consultation</a>
                 </nav>
                 <button class="header__toggle" id="header-toggle" aria-label="Toggle menu">
                     <span></span><span></span><span></span>
@@ -63,9 +69,9 @@
     <section class="section section--dark" style="padding-top: 10rem;">
         <div class="container">
             <div class="section-header reveal" style="margin-bottom: 0;">
-                <span class="section-header__eyebrow">What We Do</span>
-                <h1 class="section-header__title">Comprehensive<br>Family Office Services</h1>
-                <p class="section-header__text" style="color: var(--color-gray-300);">In an era of global economic shifts, we provide the architectural framework for a successful wealth strategy. Our services are categorized into three core pillars.</p>
+                <span class="section-header__eyebrow" data-i18n="servicesPage.heroEyebrow">Our Services</span>
+                <h1 class="section-header__title" data-i18n="servicesPage.heroTitle">Comprehensive Family Office Services</h1>
+                <p class="section-header__text" style="color: var(--color-gray-300);" data-i18n="servicesPage.heroSubtitle">In an era of global economic shifts, we provide the architectural framework for a successful wealth strategy. Our services are categorized into three core pillars.</p>
             </div>
         </div>
     </section>
@@ -75,33 +81,33 @@
         <div class="container">
             <div class="intro">
                 <div class="intro__content reveal">
-                    <span class="intro__eyebrow">Your Personal CFO</span>
-                    <h2 class="intro__title">A Tailored Framework for Your Family</h2>
-                    <p class="intro__text">We provide a custom framework of family office services tailored to your specific needs, objectives, and circumstances—implemented in a way that most benefits you.</p>
-                    <p class="intro__text">Unlike traditional wealth managers who offer products, we offer integration. We coordinate every aspect of your financial life—investments, tax, legal, governance—into a unified strategy.</p>
+                    <span class="intro__eyebrow" data-i18n="servicesPage.introEyebrow">Your Personal CFO</span>
+                    <h2 class="intro__title" data-i18n="servicesPage.introTitle">A Tailored Framework for Your Family</h2>
+                    <p class="intro__text" data-i18n="servicesPage.introP1">We provide a custom framework of family office services tailored to your specific needs, objectives, and circumstances—implemented in a way that most benefits you.</p>
+                    <p class="intro__text" data-i18n="servicesPage.introP2">Unlike traditional wealth managers who offer products, we offer integration. We coordinate every aspect of your financial life—investments, tax, legal, governance—into a unified strategy.</p>
                     <div class="intro__features">
                         <div class="intro__feature">
                             <svg class="intro__feature-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                 <path d="M5 13l4 4L19 7"/>
                             </svg>
-                            <p class="intro__feature-text">Holistic approach covering all financial dimensions</p>
+                            <p class="intro__feature-text" data-i18n="servicesPage.introFeature1">Holistic approach covering all financial dimensions</p>
                         </div>
                         <div class="intro__feature">
                             <svg class="intro__feature-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                 <path d="M5 13l4 4L19 7"/>
                             </svg>
-                            <p class="intro__feature-text">Fee-only model aligned with your interests</p>
+                            <p class="intro__feature-text" data-i18n="servicesPage.introFeature2">Fee-only model aligned with your interests</p>
                         </div>
                         <div class="intro__feature">
                             <svg class="intro__feature-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                 <path d="M5 13l4 4L19 7"/>
                             </svg>
-                            <p class="intro__feature-text">Multi-generational relationship focus</p>
+                            <p class="intro__feature-text" data-i18n="servicesPage.introFeature3">Multi-generational relationship focus</p>
                         </div>
                     </div>
                 </div>
                 <div class="intro__image reveal">
-                    <img src="assets/images/services-planning.jpg" alt="Strategic Planning Session" onerror="this.style.background='linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%)';this.style.height='500px'">
+                    <img src="assets/images/services-planning-family.png" alt="Strategic Planning Session" onerror="this.style.background='linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%)';this.style.height='500px'">
                 </div>
             </div>
         </div>
@@ -111,38 +117,38 @@
     <section class="section section--cream" id="planning">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">Pillar 1</span>
-                <h2 class="section-header__title">Integrated Planning</h2>
-                <p class="section-header__text">The foundation of sound wealth management begins with understanding the complete picture and creating a cohesive strategy.</p>
+                <span class="section-header__eyebrow" data-i18n="servicesPage.pillar1Eyebrow">Pillar 1</span>
+                <h2 class="section-header__title" data-i18n="servicesPage.pillar1Title">Integrated Planning</h2>
+                <p class="section-header__text" data-i18n="servicesPage.pillar1Subtitle">The foundation of sound wealth management begins with understanding the complete picture and creating a cohesive strategy.</p>
             </div>
             <div class="services__grid" style="grid-template-columns: repeat(2, 1fr);">
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                     </svg>
-                    <h4 class="service-card__title">Strategic Financial Planning & Risk Mitigation</h4>
-                    <p class="service-card__text">Comprehensive analysis of your current financial position, goal setting, and development of strategies to achieve long-term objectives while managing downside risks.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar1Service1Title">Strategic Financial Planning & Risk Mitigation</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar1Service1Text">Comprehensive analysis of your current financial position, goal setting, and development of strategies to achieve long-term objectives while managing downside risks.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                     </svg>
-                    <h4 class="service-card__title">Tax & Structural Optimization</h4>
-                    <p class="service-card__text">Proactive tax planning across jurisdictions, optimization of holding structures, and coordination with tax advisors to minimize liabilities while maintaining full compliance.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar1Service2Title">Tax & Structural Optimization</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar1Service2Text">Proactive tax planning across jurisdictions, optimization of holding structures, and coordination with tax advisors to minimize liabilities while maintaining full compliance.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                     </svg>
-                    <h4 class="service-card__title">Estate, Succession & Intergenerational Transfer</h4>
-                    <p class="service-card__text">Careful planning for the orderly transfer of wealth to future generations, including wills, trusts, succession strategies, and philanthropic structures.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar1Service3Title">Estate, Succession & Intergenerational Transfer</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar1Service3Text">Careful planning for the orderly transfer of wealth to future generations, including wills, trusts, succession strategies, and philanthropic structures.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Family Governance & Financial Education</h4>
-                    <p class="service-card__text">Establishing family constitutions, governance frameworks, meeting protocols, and next-generation education programs to ensure aligned decision-making.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar1Service4Title">Family Governance & Financial Education</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar1Service4Text">Establishing family constitutions, governance frameworks, meeting protocols, and next-generation education programs to ensure aligned decision-making.</p>
                 </div>
             </div>
         </div>
@@ -152,9 +158,9 @@
     <section class="section section--lg" id="investment">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">Pillar 2</span>
-                <h2 class="section-header__title">Investment Management</h2>
-                <p class="section-header__text">Disciplined, evidence-based investment strategies designed to preserve and grow your family's wealth across market cycles.</p>
+                <span class="section-header__eyebrow" data-i18n="servicesPage.pillar2Eyebrow">Pillar 2</span>
+                <h2 class="section-header__title" data-i18n="servicesPage.pillar2Title">Investment Management</h2>
+                <p class="section-header__text" data-i18n="servicesPage.pillar2Subtitle">Disciplined, evidence-based investment strategies designed to preserve and grow your family's wealth across market cycles.</p>
             </div>
             <div class="services__grid" style="grid-template-columns: repeat(3, 1fr);">
                 <div class="service-card reveal">
@@ -162,43 +168,43 @@
                         <path d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/>
                         <path d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/>
                     </svg>
-                    <h4 class="service-card__title">Strategic & Tactical Asset Allocation</h4>
-                    <p class="service-card__text">Design of optimal portfolio allocation based on your risk tolerance, time horizon, and liquidity needs, with tactical adjustments as conditions warrant.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service1Title">Strategic & Tactical Asset Allocation</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service1Text">Design of optimal portfolio allocation based on your risk tolerance, time horizon, and liquidity needs, with tactical adjustments as conditions warrant.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z"/>
                     </svg>
-                    <h4 class="service-card__title">Tax-Efficient Asset Location</h4>
-                    <p class="service-card__text">Strategic placement of investments across account types and jurisdictions to maximize after-tax returns and minimize tax drag.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service2Title">Tax-Efficient Asset Location</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service2Text">Strategic placement of investments across account types and jurisdictions to maximize after-tax returns and minimize tax drag.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Manager Selection & Institutional Oversight</h4>
-                    <p class="service-card__text">Rigorous due diligence, selection, and ongoing monitoring of best-in-class investment managers across asset classes.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service3Title">Manager Selection & Institutional Oversight</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service3Text">Rigorous due diligence, selection, and ongoing monitoring of best-in-class investment managers across asset classes.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                     </svg>
-                    <h4 class="service-card__title">Alternative Investments</h4>
-                    <p class="service-card__text">Access to institutional-quality alternatives including private equity, real estate, private credit, and hedge fund strategies for qualified investors.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service4Title">Alternative Investments</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service4Text">Access to institutional-quality alternatives including private equity, real estate, private credit, and hedge fund strategies for qualified investors.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                     </svg>
-                    <h4 class="service-card__title">Comprehensive Portfolio Diagnostics</h4>
-                    <p class="service-card__text">Regular stress testing, performance attribution analysis, fee transparency review, and risk reporting to ensure portfolio health.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service5Title">Comprehensive Portfolio Diagnostics</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service5Text">Regular stress testing, performance attribution analysis, fee transparency review, and risk reporting to ensure portfolio health.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
                     </svg>
-                    <h4 class="service-card__title">Disciplined Rebalancing</h4>
-                    <p class="service-card__text">Systematic portfolio rebalancing to maintain target allocations, capturing value through buying low and selling high.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar2Service6Title">Disciplined Rebalancing</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar2Service6Text">Systematic portfolio rebalancing to maintain target allocations, capturing value through buying low and selling high.</p>
                 </div>
             </div>
         </div>
@@ -208,9 +214,9 @@
     <section class="section section--off-white" id="implementation">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">Pillar 3</span>
-                <h2 class="section-header__title">Implementation & Operations</h2>
-                <p class="section-header__text">Seamless execution and ongoing management to ensure strategies are implemented effectively and your affairs run smoothly.</p>
+                <span class="section-header__eyebrow" data-i18n="servicesPage.pillar3Eyebrow">Pillar 3</span>
+                <h2 class="section-header__title" data-i18n="servicesPage.pillar3Title">Implementation & Operations</h2>
+                <p class="section-header__text" data-i18n="servicesPage.pillar3Subtitle">Seamless execution and ongoing management to ensure strategies are implemented effectively and your affairs run smoothly.</p>
             </div>
             <div class="services__grid" style="grid-template-columns: repeat(2, 1fr);">
                 <div class="service-card reveal">
@@ -218,29 +224,29 @@
                         <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
                         <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Ongoing Operational Management</h4>
-                    <p class="service-card__text">Day-to-day oversight of your financial affairs, ensuring all moving parts work together seamlessly and nothing falls through the cracks.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar3Service1Title">Ongoing Operational Management</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar3Service1Text">Day-to-day oversight of your financial affairs, ensuring all moving parts work together seamlessly and nothing falls through the cracks.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                     </svg>
-                    <h4 class="service-card__title">Consolidated Performance Reporting</h4>
-                    <p class="service-card__text">Unified reporting across all accounts, custodians, and asset classes—giving you a complete, accurate picture of your family's wealth.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar3Service2Title">Consolidated Performance Reporting</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar3Service2Text">Unified reporting across all accounts, custodians, and asset classes—giving you a complete, accurate picture of your family's wealth.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
-                    <h4 class="service-card__title">Advisor Coordination</h4>
-                    <p class="service-card__text">Orchestration of your professional team—lawyers, accountants, bankers, insurance advisors—to ensure everyone works toward your common objectives.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar3Service3Title">Advisor Coordination</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar3Service3Text">Orchestration of your professional team—lawyers, accountants, bankers, insurance advisors—to ensure everyone works toward your common objectives.</p>
                 </div>
                 <div class="service-card reveal">
                     <svg class="service-card__icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
                     </svg>
-                    <h4 class="service-card__title">Administrative & Concierge Services</h4>
-                    <p class="service-card__text">Bill payment, document management, travel coordination, and other lifestyle services that free you to focus on what matters most.</p>
+                    <h4 class="service-card__title" data-i18n="servicesPage.pillar3Service4Title">Administrative & Concierge Services</h4>
+                    <p class="service-card__text" data-i18n="servicesPage.pillar3Service4Text">Bill payment, document management, travel coordination, and other lifestyle services that free you to focus on what matters most.</p>
                 </div>
             </div>
         </div>
@@ -250,55 +256,73 @@
     <section class="section section--lg">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-header__eyebrow">How We Work</span>
-                <h2 class="section-header__title">Our Engagement Process</h2>
+                <span class="section-header__eyebrow" data-i18n="servicesPage.processEyebrow">How We Work</span>
+                <h2 class="section-header__title" data-i18n="servicesPage.processTitle">Our Engagement Process</h2>
             </div>
             <div class="philosophy__list">
                 <div class="philosophy-item reveal">
                     <div class="philosophy-item__number">01</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Discovery & Understanding</h4>
-                        <p class="philosophy-item__text">We begin with deep listening—understanding your family's history, values, goals, concerns, and vision for the future. This forms the foundation of everything we do.</p>
+                        <h4 class="philosophy-item__title" data-i18n="servicesPage.step1Title">Discovery & Understanding</h4>
+                        <p class="philosophy-item__text" data-i18n="servicesPage.step1Text">We begin with deep listening—understanding your family's history, values, goals, concerns, and vision for the future. This forms the foundation of everything we do.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
                     <div class="philosophy-item__number">02</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Comprehensive Assessment</h4>
-                        <p class="philosophy-item__text">We conduct a thorough review of your current financial situation—assets, liabilities, structures, advisors, insurance, tax position—to identify opportunities and gaps.</p>
+                        <h4 class="philosophy-item__title" data-i18n="servicesPage.step2Title">Comprehensive Assessment</h4>
+                        <p class="philosophy-item__text" data-i18n="servicesPage.step2Text">We conduct a thorough review of your current financial situation—assets, liabilities, structures, advisors, insurance, tax position—to identify opportunities and gaps.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
                     <div class="philosophy-item__number">03</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Strategy Development</h4>
-                        <p class="philosophy-item__text">We create a customized, integrated strategy addressing investments, tax, estate, governance, and risk—presented clearly with concrete action steps.</p>
+                        <h4 class="philosophy-item__title" data-i18n="servicesPage.step3Title">Strategy Development</h4>
+                        <p class="philosophy-item__text" data-i18n="servicesPage.step3Text">We create a customized, integrated strategy addressing investments, tax, estate, governance, and risk—presented clearly with concrete action steps.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
                     <div class="philosophy-item__number">04</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Implementation & Execution</h4>
-                        <p class="philosophy-item__text">We coordinate with your existing advisors or recommend new ones to implement the strategy, handling administrative complexity on your behalf.</p>
+                        <h4 class="philosophy-item__title" data-i18n="servicesPage.step4Title">Implementation & Execution</h4>
+                        <p class="philosophy-item__text" data-i18n="servicesPage.step4Text">We coordinate with your existing advisors or recommend new ones to implement the strategy, handling administrative complexity on your behalf.</p>
                     </div>
                 </div>
                 <div class="philosophy-item reveal">
                     <div class="philosophy-item__number">05</div>
                     <div class="philosophy-item__content">
-                        <h4 class="philosophy-item__title">Ongoing Partnership</h4>
-                        <p class="philosophy-item__text">We provide continuous monitoring, regular reviews, proactive recommendations, and responsive support as your life and circumstances evolve.</p>
+                        <h4 class="philosophy-item__title" data-i18n="servicesPage.step5Title">Ongoing Partnership</h4>
+                        <p class="philosophy-item__text" data-i18n="servicesPage.step5Text">We provide continuous monitoring, regular reviews, proactive recommendations, and responsive support as your life and circumstances evolve.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="section section--dark">
+    <!-- Contact Form -->
+    <section class="section section--off-white" id="contact">
         <div class="container">
-            <div class="testimonial reveal">
-                <p class="testimonial__quote" style="font-style: normal; font-size: var(--text-3xl); margin-bottom: var(--space-8);">Ready to experience integrated family office services?</p>
-                <a href="index.html#contact" class="btn btn--primary btn--lg">Schedule a Consultation</a>
+            <div class="section-header reveal">
+                <span class="section-header__eyebrow" data-i18n="contact.eyebrow">Contact Us</span>
+                <h2 class="section-header__title" data-i18n="aboutPage.contactTitle">Get In Touch</h2>
+                <p class="section-header__text" data-i18n="aboutPage.contactSubtitle">Ready to explore how we can help your family? Fill out the form below.</p>
+            </div>
+            <div class="contact__form-wrapper reveal" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form">
+                    <div class="form__group">
+                        <label class="form__label" for="name" data-i18n="contact.nameLabel">Name *</label>
+                        <input type="text" id="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="email" data-i18n="contact.emailLabel">Email *</label>
+                        <input type="email" id="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="message" data-i18n="contact.messageLabel">Message</label>
+                        <textarea id="message" class="form__textarea" placeholder="How can we help you?" data-i18n="contact.messagePlaceholder"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;" data-i18n="contact.submit">Send</button>
+                </form>
             </div>
         </div>
     </section>
@@ -312,39 +336,42 @@
                         <span class="footer__logo-mark">FWA</span>
                         <span>Family Wealth Advisors</span>
                     </a>
-                    <p class="footer__text">A premier boutique multi-family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
+                    <p class="footer__text" data-i18n="footer.description">A premier boutique family office providing comprehensive wealth management services to high-net-worth families in Israel since 2009.</p>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Company</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.company">Company</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="about.html">About Us</a></li>
-                        <li class="footer__link"><a href="team.html">Our Team</a></li>
-                        <li class="footer__link"><a href="philosophy.html">Philosophy</a></li>
-                        <li class="footer__link"><a href="index.html#contact">Contact</a></li>
+                        <li class="footer__link"><a href="about.html" data-i18n="footer.aboutUs">About Us</a></li>
+                        <li class="footer__link"><a href="team.html" data-i18n="footer.ourTeam">Our Team</a></li>
+                        <li class="footer__link"><a href="values.html" data-i18n="footer.ourValues">Our Values</a></li>
+                        <li class="footer__link"><a href="philosophy.html" data-i18n="footer.philosophy">Philosophy</a></li>
                     </ul>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Services</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.servicesTitle">Services</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="#planning">Integrated Planning</a></li>
-                        <li class="footer__link"><a href="#investment">Investment Management</a></li>
-                        <li class="footer__link"><a href="#implementation">Implementation</a></li>
+                        <li class="footer__link"><a href="services.html" data-i18n="footer.ourServices">Our Services</a></li>
+                        <li class="footer__link"><a href="family-office.html" data-i18n="footer.whatIsFamilyOffice">What is a Family Office?</a></li>
+                        <li class="footer__link"><a href="do-i-need-family-office.html" data-i18n="footer.doINeedOne">Do I Need One?</a></li>
+                        <li class="footer__link"><a href="choosing-family-office.html" data-i18n="footer.choosingRightOne">Choosing the Right One</a></li>
                     </ul>
                 </div>
                 <div class="footer__column">
-                    <h6 class="footer__column-title">Resources</h6>
+                    <h6 class="footer__column-title" data-i18n="footer.contactTitle">Contact</h6>
                     <ul class="footer__links">
-                        <li class="footer__link"><a href="index.html#faq">FAQ</a></li>
-                        <li class="footer__link"><a href="index.html#calculator">ROI Calculator</a></li>
+                        <li class="footer__link"><a href="contact.html" data-i18n="footer.contactUs">Contact Us</a></li>
+                        <li class="footer__link"><a href="faq.html" data-i18n="footer.faq">FAQ</a></li>
+                        <li class="footer__link"><a href="tel:+97299630350">+972-9-963-0350</a></li>
+                        <li class="footer__link"><a href="mailto:office@fwa.co.il">office@fwa.co.il</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                <p class="footer__copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
+                <p class="footer__copyright" data-i18n="footer.copyright">© 2024 Family Wealth Advisors Ltd. All rights reserved.</p>
                 <div class="footer__legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Disclosure</a>
+                    <a href="https://www.fwa.co.il/accessibility" data-i18n="footer.accessibility">Accessibility</a>
+                    <a href="https://www.fwa.co.il/privacy-terms-of-use" data-i18n="footer.privacyPolicy">Privacy & Terms</a>
+                    <a href="https://www.fwa.co.il/Disclosure" data-i18n="footer.disclosure">Disclosure</a>
                 </div>
             </div>
         </div>
@@ -363,6 +390,19 @@
         </a>
     </div>
 
+    <!-- Language Selection Modal -->
+    <div class="lang-modal" id="lang-modal">
+        <div class="lang-modal__content">
+            <h2 class="lang-modal__title">Choose Your Language</h2>
+            <p class="lang-modal__subtitle">בחר שפה</p>
+            <div class="lang-modal__options">
+                <button class="lang-modal__btn lang-modal__btn--en" onclick="FWALang.setLanguage('en')">English</button>
+                <button class="lang-modal__btn lang-modal__btn--he" onclick="FWALang.setLanguage('he')">עברית</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
