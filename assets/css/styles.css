@@ -2239,18 +2239,24 @@ select.contact-form__input {
    ================================ */
 @media (max-width: 1200px) {
     /* Hide nav content by default on mobile */
+    /* Hide nav content by default on mobile */
     .header__nav {
         position: fixed;
-        inset: 0;
+        /* Force viewport units to break out of parent containing block constraints */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100dvh; /* Dynamic viewport height for better mobile support */
+        min-height: 100vh; /* Fallback */
         background: var(--color-charcoal);
         flex-direction: column;
-        justify-content: flex-start; /* Align to top */
-        align-items: flex-start; /* Align left */
+        justify-content: flex-start;
+        align-items: flex-start;
         gap: var(--space-6);
         z-index: 999;
         transform: translateX(100%);
         transition: transform 0.4s var(--ease-out);
-        padding: var(--space-10) var(--space-8); /* Top padding + Side padding */
+        padding: var(--space-10) var(--space-8);
         overflow-y: auto;
         text-align: left;
     }
