@@ -378,28 +378,47 @@ a {
 
 /* Mobile Toggle */
 .header__toggle {
-    display: none;
+    display: none; /* Flex on mobile via media query */
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 6px; /* Wider gap for better touch target */
     width: 32px;
     height: 32px;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 4px;
+    padding: 0;
+    z-index: 1001;
 }
 
 .header__toggle span {
     display: block;
     width: 100%;
-    height: 1.5px;
+    height: 2px; /* Thicker lines */
     background: var(--color-white);
-    transition: all var(--duration-fast);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+    border-radius: 4px;
 }
 
 .header--scrolled .header__toggle span {
     background: var(--color-black);
+}
+
+/* Active State ("X" Animation) - Always Gold/Visible on Dark Overlay */
+.header__toggle.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background: var(--color-gold);
+}
+
+.header__toggle.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.header__toggle.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background: var(--color-gold);
 }
 
 /* Dropdown Navigation */
@@ -2215,31 +2234,130 @@ select.contact-form__input {
     }
 }
 
-@media (max-width: 768px) {
+/* ================================
+   HEADER RESPONSIVE (Switch to Mobile Menu earlier to prevent overlap)
+   ================================ */
+@media (max-width: 1200px) {
+    /* Hide nav content by default on mobile */
+    .header__nav {
+        position: fixed;
+        inset: 0;
+        background: var(--color-charcoal);
+        flex-direction: column;
+        justify-content: flex-start; /* Align to top */
+        align-items: flex-start; /* Align left */
+        gap: var(--space-6);
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform 0.4s var(--ease-out);
+        padding: var(--space-10) var(--space-8); /* Top padding + Side padding */
+        overflow-y: auto;
+        text-align: left;
+    }
+    
+    .header__nav.active {
+        transform: translateX(0);
+    }
+    
     .header__menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-6);
+        width: 100%;
+    }
+    
+    /* Mobile Dropdown (Always Visible & Indented) */
+    .header__dropdown {
+        text-align: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header__dropdown > .header__link {
+        font-size: var(--text-2xl);
+        color: var(--color-white);
+        font-weight: var(--font-semibold);
+        opacity: 0.9;
+        width: 100%;
+    }
+    
+    /* Remove dropdown arrow on mobile since it's always open */
+    .header__dropdown > .header__link::after {
         display: none;
     }
     
+    .header__submenu {
+        position: static;
+        transform: none;
+        background: transparent;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        padding: 0;
+        margin-top: var(--space-2);
+        max-height: none; /* Always visible */
+        overflow: visible;
+        text-align: left;
+        min-width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-3);
+        
+        /* Indentation and Visual Guide */
+        padding-left: var(--space-4);
+        margin-left: var(--space-2);
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    
+    .header__submenu a {
+        font-size: var(--text-lg);
+        color: rgba(255, 255, 255, 0.7);
+        padding: var(--space-1) 0;
+        padding-left: var(--space-3);
+    }
+    
+    .header__submenu a:hover {
+        background: transparent;
+        color: var(--color-gold);
+        padding-left: var(--space-4);
+    }
+    
+    /* Toggle Button */
     .header__toggle {
         display: flex;
+        z-index: 1001; /* Above the nav overlay */
+        position: relative;
     }
     
-    .header__menu.active {
-        display: flex;
-        position: fixed;
-        inset: 0;
-        flex-direction: column;
+    /* Center CTA and Lang Toggle at bottom */
+    .lang-toggle {
+        margin: var(--space-4) 0 0 0;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        padding-top: var(--space-6);
+        width: 100%;
+        justify-content: flex-start; /* Align left */
+    }
+    
+    .header__cta {
+        width: 100%;
+        text-align: center;
         justify-content: center;
-        align-items: center;
-        background: var(--color-charcoal);
-        gap: var(--space-8);
-        z-index: 999;
+        font-size: var(--text-lg);
+        padding: var(--space-4);
+        margin-top: auto; /* Push to bottom if space permits */
     }
     
-    .header__menu.active .header__link {
+    .header__nav .header__link {
         font-size: var(--text-2xl);
         color: var(--color-white);
     }
+}
+
+@media (max-width: 768px) {
+
     
     .trust-bar__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -2504,24 +2622,42 @@ html[dir="rtl"] .header__container {
     flex-direction: row-reverse;
 }
 
-html[dir="rtl"] .header__nav-menu {
-    flex-direction: row-reverse;
-}
-
-html[dir="rtl"] .header__submenu {
-    left: auto;
-    right: 0;
+html[dir="rtl"] .header__nav {
+    align-items: flex-start; /* Actually flex-start in RTL context is Right? No, webkit usually swaps. But let's be explicit if needed */
     text-align: right;
 }
 
+html[dir="rtl"] .header__menu {
+    align-items: flex-start;
+}
+
+html[dir="rtl"] .header__dropdown {
+    text-align: right;
+    align-items: flex-start;
+}
+
+html[dir="rtl"] .header__submenu {
+    text-align: right;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: var(--space-4);
+    margin-left: 0;
+    margin-right: var(--space-2);
+    border-left: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 html[dir="rtl"] .header__submenu a {
-    padding-left: var(--space-5);
-    padding-right: var(--space-5);
+    padding-left: 0;
+    padding-right: var(--space-3);
 }
 
 html[dir="rtl"] .header__submenu a:hover {
-    padding-left: var(--space-5);
-    padding-right: var(--space-6);
+    padding-right: var(--space-4);
+}
+
+html[dir="rtl"] .lang-toggle {
+    justify-content: flex-start;
 }
 
 html[dir="rtl"] .header__dropdown > .header__link::after {

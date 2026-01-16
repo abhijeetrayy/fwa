@@ -25,21 +25,35 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mobile Menu Toggle
     // ================================
     const headerToggle = document.getElementById('header-toggle');
-    const headerMenu = document.getElementById('header-menu');
+    const headerNav = document.querySelector('.header__nav');
     
-    if (headerToggle && headerMenu) {
+    if (headerToggle && headerNav) {
         headerToggle.addEventListener('click', function() {
-            headerMenu.classList.toggle('active');
+            headerNav.classList.toggle('active');
             headerToggle.classList.toggle('active');
-            document.body.style.overflow = headerMenu.classList.contains('active') ? 'hidden' : '';
+            document.body.style.overflow = headerNav.classList.contains('active') ? 'hidden' : '';
         });
         
-        // Close menu when clicking a link
-        headerMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                headerMenu.classList.remove('active');
-                headerToggle.classList.remove('active');
-                document.body.style.overflow = '';
+        // Handle links
+        headerNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+                
+                // If it's a parent link '#' on mobile, preventing default is technically not needed 
+                // if we don't have toggle logic, but good for safety. 
+                // However, since it's always open, user might click it expecting something. 
+                // But it's just a label now.
+                if (href === '#' && window.innerWidth <= 1024) {
+                    e.preventDefault();
+                    return;
+                }
+
+                // For actual links, close the menu
+                if (href !== '#') {
+                    headerNav.classList.remove('active');
+                    headerToggle.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
             });
         });
     }
