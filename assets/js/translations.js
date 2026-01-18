@@ -27,10 +27,9 @@ const translations = {
         // Hero Section
         hero: {
             badge: "Premier Boutique Family Office Since 2009",
-            titleLine1: "Personalized Advice.",
-            titleLine2: "Professional Management.",
-            titleLine3: "Family Wealth Growth.",
-            subtitle: "Family Wealth Advisors (FWA) is a premier boutique family office dedicated to providing a comprehensive suite of wealth management services to high-net-worth individuals and families.",
+            titleLine1: "Your Personal CFO",
+            titleLine2: "for Generational Wealth",
+            subtitle: "We provide clarity, strategic perspective, and long-term confidence in managing your family's capital—ensuring wealth thrives across generations.",
             ctaPrimary: "Contact Us",
             ctaSecondary: "Our Services",
             scrollText: "Scroll to explore"
@@ -954,10 +953,9 @@ const translations = {
         // Hero Section
         hero: {
             badge: "משרד משפחתי בוטיק מוביל מאז 2009",
-            titleLine1: "ייעוץ מותאם אישית.",
-            titleLine2: "ניהול מקצועי.",
-            titleLine3: "צמיחת עושר משפחתי.",
-            subtitle: "פמילי ווילת' אדוויזורס (FWA) הוא משרד משפחתי בוטיק מוביל המספק מגוון שירותי ניהול עושר מקיפים ליחידים ומשפחות עתירי הון.",
+            titleLine1: "סמנכ\"ל הכספים האישי שלך",
+            titleLine2: "לעושר בין-דורי",
+            subtitle: "אנו מספקים בהירות, ראייה אסטרטגית וביטחון לטווח ארוך בניהול ההון המשפחתי - ומבטיחים את שגשוגו לאורך דורות.",
             ctaPrimary: "צור קשר",
             ctaSecondary: "השירותים שלנו",
             scrollText: "גלול לגילוי"
