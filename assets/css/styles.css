@@ -245,28 +245,18 @@ a {
     display: flex;
     align-items: center;
     gap: var(--space-3);
-    font-family: var(--font-heading);
-    font-size: var(--text-xl);
-    font-weight: var(--font-medium);
-    color: var(--color-white);
-    letter-spacing: 0.02em;
-    transition: color var(--duration-fast);
 }
 
-.header--scrolled .header__logo {
-    color: var(--color-black);
+.header__logo-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1); /* Make logo white for dark header */
+    transition: filter var(--duration-fast);
 }
 
-.header__logo-mark {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--color-gold);
-    color: var(--color-white);
-    font-weight: var(--font-semibold);
-    font-size: var(--text-sm);
+.header--scrolled .header__logo-img {
+    filter: none; /* Revert filter for scrolled state */
 }
 
 /* Navigation */
@@ -349,8 +339,8 @@ a {
 }
 
 /* Header Light Mode (for light hero pages like homepage) */
-.header--light .header__logo {
-    color: var(--color-charcoal);
+.header--light .header__logo-img {
+    filter: none; /* Ensure logo is normal in light mode */
 }
 
 .header--light .header__link {
@@ -512,7 +502,7 @@ a {
 .hero__gradient {
     position: absolute;
     inset: 0;
-    background: 
+    background:
         radial-gradient(ellipse at 20% 50%, rgba(183, 149, 95, 0.15) 0%, transparent 50%),
         radial-gradient(ellipse at 80% 50%, rgba(183, 149, 95, 0.1) 0%, transparent 50%),
         radial-gradient(ellipse at 50% 100%, rgba(183, 149, 95, 0.08) 0%, transparent 40%);
@@ -522,7 +512,7 @@ a {
 .hero__pattern {
     position: absolute;
     inset: 0;
-    background-image: 
+    background-image:
         linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
     background-size: 60px 60px;
@@ -771,7 +761,7 @@ a {
 }
 
 .hero__gradient--light {
-    background: 
+    background:
         radial-gradient(ellipse at 20% 50%, rgba(183, 149, 95, 0.08) 0%, transparent 50%),
         radial-gradient(ellipse at 80% 50%, rgba(183, 149, 95, 0.05) 0%, transparent 50%),
         radial-gradient(ellipse at 50% 100%, rgba(183, 149, 95, 0.03) 0%, transparent 40%);
@@ -1457,11 +1447,11 @@ a {
     .team__grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .team-card {
         padding: var(--space-4);
     }
-    
+
     .team-card__image {
         height: 300px;
     }
@@ -1471,11 +1461,11 @@ a {
     .team__grid {
         grid-template-columns: 1fr;
     }
-    
+
     .team-card {
         padding: var(--space-3);
     }
-    
+
     .team-card__image {
         height: 280px;
     }
@@ -1533,10 +1523,14 @@ a {
     font-size: var(--text-sm);
     color: var(--color-gray-600);
     margin-top: var(--space-4);
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-2);
     line-height: 1.7;
     text-align: left;
     flex: 1;
+}
+
+.team-card__text + .team-card__text {
+    margin-top: 0;
 }
 
 .team-card__credentials {
@@ -1982,24 +1976,6 @@ select.contact-form__input {
 }
 
 .footer__logo {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    font-family: var(--font-heading);
-    font-size: var(--text-xl);
-    font-weight: var(--font-medium);
-    color: var(--color-white);
-    margin-bottom: var(--space-5);
-}
-
-.footer__logo-mark {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--color-gold);
-    color: var(--color-white);
     font-weight: var(--font-semibold);
     font-size: var(--text-xs);
 }

@@ -8,18 +8,37 @@ document.addEventListener('DOMContentLoaded', function() {
     // ================================
     // Header Scroll Effect
     // ================================
+    // ================================
+    // Header Scroll Effect
+    // ================================
     const header = document.getElementById('header');
     
     function handleHeaderScroll() {
-        if (window.scrollY > 80) {
-            header.classList.add('header--scrolled');
+        // Only toggle scroll effect if the header is meant to be transparent initially (has header--light class like on homepage)
+        // Or if we want to enforce scroll behavior on all pages but respect the initial state differently.
+        // Better approach: If page is NOT homepage (doesn't have header--light), keep header--scrolled.
+        
+        const isHomepage = header.classList.contains('header--light');
+        
+        if (isHomepage) {
+            if (window.scrollY > 80) {
+                header.classList.add('header--scrolled');
+            } else {
+                header.classList.remove('header--scrolled');
+            }
         } else {
-            header.classList.remove('header--scrolled');
+            // For other pages, ensure header--scrolled is always present
+            if (!header.classList.contains('header--scrolled')) {
+                header.classList.add('header--scrolled');
+            }
         }
     }
     
     window.addEventListener('scroll', handleHeaderScroll, { passive: true });
-    handleHeaderScroll(); // Initial check
+    // Initial check
+    if (header) {
+        handleHeaderScroll();
+    }
 
     // ================================
     // Mobile Menu Toggle
