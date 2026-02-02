@@ -118,11 +118,6 @@
     margin-left: auto;
 }
 
-[dir="rtl"] .family-office-page .header__inner {
-    direction: rtl;
-    flex-direction: row; /* Standard row in RTL = Right to Left */
-}
-
 /* For Flex container in column mode with direction RTL:
    cross-axis is horizontal. flex-start means Right.
 */
@@ -155,10 +150,4 @@
     text-align: right;
     margin-right: 0;
     margin-left: auto;
-}
-
-/* Footer Fixes for this page if needed specifically, though global RTL usually handles it. 
-   But just in case styles.css has overrides: */
-[dir="rtl"] .family-office-page .footer__column {
-    text-align: right;
 }

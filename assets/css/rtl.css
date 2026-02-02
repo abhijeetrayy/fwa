@@ -38,9 +38,23 @@
     margin-left: 0;
 }
 
+[dir="rtl"] .header__inner {
+    direction: rtl; 
+    flex-direction: row; /* Standard row in RTL = Right to Left */
+}
+
 /* Footer Specifics */
 [dir="rtl"] .footer__links {
     padding-right: 0; 
+}
+
+[dir="rtl"] .footer__grid {
+    direction: rtl; /* Ensure columns flow Right to Left */
+    text-align: right;
+}
+
+[dir="rtl"] .footer__bottom {
+    flex-direction: row-reverse; /* Usually correct for copyright/links separation in RTL */
 }
 
 /* ================================

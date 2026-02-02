@@ -2689,7 +2689,8 @@ html[dir="rtl"] body {
 /* Header RTL */
 html[dir="rtl"] .header__inner,
 html[dir="rtl"] .header__container {
-    flex-direction: row-reverse;
+    direction: rtl;
+    flex-direction: row;
 }
 
 html[dir="rtl"] .header__nav {
