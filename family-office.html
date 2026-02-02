@@ -10,9 +10,21 @@
     <meta name="keywords" content="family office essential, personal CFO, wealth architecture, family office Israel">
     
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <link rel="stylesheet" href="assets/css/family-office.css">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+    <!-- Set RTL immediately from saved language to avoid LTR flash -->
+    <script>
+    (function(){
+      var lang = localStorage.getItem('fwa_language');
+      if (lang === 'he') {
+        document.documentElement.setAttribute('dir', 'rtl');
+        document.documentElement.setAttribute('lang', 'he');
+      }
+    })();
+    </script>
 </head>
-<body>
+<body class="family-office-page">
     
     <!-- Header -->
     <header class="header header--scrolled" id="header">
@@ -180,8 +192,8 @@
     <section class="section section--off-white" id="contact">
         <div class="container">
             <div class="section-header reveal">
-                <h2 class="section-header__title" data-i18n="contactPage.formTitle">start the conversation</h2>
-                <p class="section-header__text" data-i18n="contactPage.formSubtitle">Ready to explore how we can help your family? Fill out the form below.</p>
+                <h2 class="contact__title" data-i18n="contact.ctaTitle">start the conversation</h2>
+                <p class="contact__text" data-i18n="contact.text">Ready to explore how a dedicated family office can transform your financial life? Contact us to start a confidential conversation.</p>
             </div>
             <div class="contact__form-wrapper reveal" style="max-width: 600px; margin: 0 auto;">
                 <form id="contact-form">

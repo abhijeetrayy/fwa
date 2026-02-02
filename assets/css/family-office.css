@@ -1,0 +1,164 @@
+/* =========================================
+   FAMILY OFFICE PAGE SPECIFIC STYLES
+   Scoped by .family-office-page
+   ========================================= */
+
+/* -----------------------------------------
+   LTR (DEFAULT) FIXES
+   ----------------------------------------- */
+   .family-office-page .intro {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+}
+
+.family-office-page .intro__content {
+    flex: 1;
+    text-align: left;
+}
+
+.family-office-page .intro__image {
+    flex: 1;
+}
+
+/* Checklist / Features Grid */
+.family-office-page .intro__features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    text-align: left;
+}
+
+.family-office-page .intro__feature {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+}
+
+.family-office-page .intro__feature-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: var(--color-gold);
+}
+
+/* Rules Component & General Headlines */
+.family-office-page .section-header {
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 100% !important; /* Override standard centered constraint if any */
+}
+
+.family-office-page .section-header__text {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.family-office-page .intro__eyebrow,
+.family-office-page .section-header__eyebrow {
+    text-align: left;
+    display: block;
+    width: 100%;
+    color: var(--color-gold); /* Ensure golden part is visible */
+}
+
+/* Contact Form Header Specifics */
+.family-office-page #contact .section-header {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.family-office-page #contact .section-header__title {
+    text-align: left;
+}
+
+/* Navbar Alignment Tweaks */
+.family-office-page .header__inner {
+    align-items: center; /* Ensure vertical center */
+}
+
+.family-office-page .header__nav {
+    align-items: center; /* Ensure items inside nav are centered */
+}
+
+
+/* -----------------------------------------
+   RTL SPECIFIC OVERRIDES
+   Resets and fixes for Hebrew
+   ----------------------------------------- */
+
+/* Scope everything strictly */
+[dir="rtl"] .family-office-page .intro {
+    direction: rtl; 
+    flex-direction: row-reverse; /* Flip the image/text order */
+}
+
+/* Ensure text aligns right */
+[dir="rtl"] .family-office-page h1,
+[dir="rtl"] .family-office-page h2,
+[dir="rtl"] .family-office-page h3,
+[dir="rtl"] .family-office-page p,
+[dir="rtl"] .family-office-page .intro__text,
+[dir="rtl"] .family-office-page .section-header__title,
+[dir="rtl"] .family-office-page .section-header__text,
+[dir="rtl"] .family-office-page .intro__eyebrow,
+[dir="rtl"] .family-office-page .section-header__eyebrow {
+    text-align: right;
+}
+
+/* RTL Section Headers */
+[dir="rtl"] .family-office-page .section-header {
+    text-align: right;
+    align-items: flex-start;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+[dir="rtl"] .family-office-page .header__inner {
+    direction: rtl;
+    flex-direction: row; /* Standard row in RTL = Right to Left */
+}
+
+/* For Flex container in column mode with direction RTL:
+   cross-axis is horizontal. flex-start means Right.
+*/
+
+[dir="rtl"] .family-office-page .section-header__text {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Feature/Checklist RTL */
+[dir="rtl"] .family-office-page .intro__features {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] .family-office-page .intro__feature {
+    flex-direction: row; /* Keep flex-direction row (Right-to-Left in RTL mode) */
+    align-items: flex-start;
+    gap: 0; /* Removing gap to handle spacing manually if needed, or keeping it */
+}
+
+[dir="rtl"] .family-office-page .intro__feature-icon {
+    margin-left: var(--space-3);
+    margin-right: 0;
+}
+
+/* Hero Section Specifics */
+[dir="rtl"] .family-office-page .hero__content {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Footer Fixes for this page if needed specifically, though global RTL usually handles it. 
+   But just in case styles.css has overrides: */
+[dir="rtl"] .family-office-page .footer__column {
+    text-align: right;
+}
