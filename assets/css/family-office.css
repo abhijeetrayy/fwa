@@ -44,36 +44,50 @@
 }
 
 /* Rules Component & General Headlines */
+/* Rules Component & General Headlines */
 .family-office-page .section-header {
-    text-align: left;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    max-width: 100% !important; /* Override standard centered constraint if any */
+    max-width: 800px !important; /* Allow wider width for centered text */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .family-office-page .section-header__text {
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
 }
 
-.family-office-page .intro__eyebrow,
-.family-office-page .section-header__eyebrow {
+.family-office-page .intro__eyebrow {
     text-align: left;
     display: block;
     width: 100%;
-    color: var(--color-gold); /* Ensure golden part is visible */
+}
+
+.family-office-page .section-header__eyebrow {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: var(--color-gold);
 }
 
 /* Contact Form Header Specifics */
 .family-office-page #contact .section-header {
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
+    max-width: 700px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.family-office-page #contact .section-header__title {
-    text-align: left;
+.family-office-page #contact .section-header__title,
+.family-office-page #contact .section-header__text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navbar Alignment Tweaks */
@@ -103,29 +117,35 @@
 [dir="rtl"] .family-office-page h3,
 [dir="rtl"] .family-office-page p,
 [dir="rtl"] .family-office-page .intro__text,
+[dir="rtl"] .family-office-page h3,
+[dir="rtl"] .family-office-page p,
+[dir="rtl"] .family-office-page .intro__text,
+[dir="rtl"] .family-office-page .intro__eyebrow {
+    text-align: right;
+}
+
+/* Exclude section headers from generic right alignment in RTL, keep them centered */
 [dir="rtl"] .family-office-page .section-header__title,
 [dir="rtl"] .family-office-page .section-header__text,
-[dir="rtl"] .family-office-page .intro__eyebrow,
 [dir="rtl"] .family-office-page .section-header__eyebrow {
-    text-align: right;
+    text-align: center !important;
 }
 
-/* RTL Section Headers */
+/* RTL Section Headers - Keep Centered */
 [dir="rtl"] .family-office-page .section-header {
-    text-align: right;
-    align-items: flex-start;
-    margin-right: 0;
-    margin-left: auto;
+    text-align: center !important;
+    align-items: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    max-width: 800px !important;
 }
 
-/* For Flex container in column mode with direction RTL:
-   cross-axis is horizontal. flex-start means Right.
-*/
-
+/* For Flex container in column mode with direction RTL */
 [dir="rtl"] .family-office-page .section-header__text {
-    margin-right: 0;
-    margin-left: auto;
-    text-align: right;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
 }
 
 /* Feature/Checklist RTL */
