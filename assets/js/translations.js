@@ -1855,6 +1855,7 @@ const translations = {
             nameLabel: "שם *",
             emailLabel: "אימייל *",
             messageLabel: "הודעה",
+            messagePlaceholder: "איך נוכל לעזור לך?",
             sendButton: "שלח",
             connectEyebrow: "שמור על קשר",
             connectTitle: "התחבר אלינו",
