@@ -2687,6 +2687,7 @@ html[dir="rtl"] body {
 }
 
 /* Header RTL */
+html[dir="rtl"] .header__inner,
 html[dir="rtl"] .header__container {
     flex-direction: row-reverse;
 }
@@ -2790,8 +2791,26 @@ html[dir="rtl"] .intro__feature-text {
 }
 
 /* Services RTL */
+html[dir="rtl"] .services__grid {
+    direction: rtl;
+}
+
 html[dir="rtl"] .service-card {
     text-align: right;
+}
+
+html[dir="rtl"] .service-card ul {
+    padding-inline-start: var(--space-6);
+    padding-inline-end: 0;
+}
+
+html[dir="rtl"] .service-card::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .service-card:hover::before {
+    width: 100%;
 }
 
 html[dir="rtl"] .service-card__link {
@@ -2852,13 +2871,27 @@ html[dir="rtl"] .footer__legal {
 }
 
 /* Contact Form RTL */
-html[dir="rtl"] .contact-form__group {
+html[dir="rtl"] .contact-form__group,
+html[dir="rtl"] .form__group {
     text-align: right;
 }
 
 html[dir="rtl"] .contact-form__input,
 html[dir="rtl"] .contact-form__textarea,
-html[dir="rtl"] .contact-form__select {
+html[dir="rtl"] .contact-form__select,
+html[dir="rtl"] .form__input,
+html[dir="rtl"] .form__textarea,
+html[dir="rtl"] .form__select {
+    text-align: right;
+    direction: rtl;
+}
+
+html[dir="rtl"] .form__select {
+    background-position: left 12px center;
+}
+
+/* Generic form labels RTL */
+html[dir="rtl"] .form__label {
     text-align: right;
 }
 
@@ -2871,6 +2904,70 @@ html[dir="rtl"] .btn svg {
 html[dir="rtl"] .calculator {
     direction: rtl;
     text-align: right;
+}
+
+/* Philosophy list RTL – same structure as LTR, mirrored */
+html[dir="rtl"] .philosophy__list {
+    direction: rtl;
+}
+
+html[dir="rtl"] .philosophy-item {
+    grid-template-columns: 100px 1fr;
+    gap: var(--space-8);
+    text-align: right;
+}
+
+html[dir="rtl"] .philosophy-item__content {
+    text-align: right;
+}
+
+html[dir="rtl"] .philosophy-item__number {
+    text-align: right;
+}
+
+/* Intro features (checklist) RTL */
+html[dir="rtl"] .intro__features {
+    direction: rtl;
+}
+
+html[dir="rtl"] .intro__feature-icon {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Sticky contact RTL */
+html[dir="rtl"] .sticky-contact {
+    right: auto;
+    left: var(--space-6);
+}
+
+html[dir="rtl"] .sticky-contact__btn::before {
+    right: auto;
+    left: 60px;
+}
+
+/* Lang modal RTL */
+html[dir="rtl"] .lang-modal__content {
+    text-align: right;
+    direction: rtl;
+}
+
+html[dir="rtl"] .lang-modal__options {
+    flex-direction: row-reverse;
+}
+
+/* Section header text alignment in RTL (keep center for consistency) */
+html[dir="rtl"] .section-header__eyebrow,
+html[dir="rtl"] .section-header__title,
+html[dir="rtl"] .section-header__text {
+    text-align: center;
+}
+
+/* List alignment RTL */
+html[dir="rtl"] ul,
+html[dir="rtl"] ol {
+    padding-inline-start: var(--space-6);
+    padding-inline-end: 0;
 }
 
 /* Testimonial RTL */
