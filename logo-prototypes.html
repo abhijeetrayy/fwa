@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWA Logo Concepts - Code Prototypes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap');
+
+        :root {
+            --navy: #0a192f;
+            --gold: #c5a059;
+            --charcoal: #2c3e50;
+            --bronze: #8c7853;
+            --royal: #1b3a57;
+            --platinum: #e5e4e2;
+            --white: #ffffff;
+            --bg-light: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+        }
+
+        h1 {
+            color: var(--navy);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .concept-container {
+            background: white;
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .concept-label {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 12px;
+            color: #bdc3c7;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* --- CONCEPT 1: THE SOVEREIGN (Interlocking Luxury) --- */
+        .logo-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo-1-icon {
+            font-family: 'Playfair Display', serif;
+            font-size: 120px;
+            font-weight: 700;
+            line-height: 0.8;
+            color: var(--navy);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));
+        }
+
+        .logo-1-icon span {
+            position: relative;
+        }
+
+        /* Simulating interlocking weave */
+        .l1-f { z-index: 1; margin-right: -25px; }
+        .l1-w { 
+            color: var(--gold); 
+            z-index: 2; 
+            background: linear-gradient(45deg, #b88a44 0%, #e2c58b 50%, #b88a44 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .l1-a { z-index: 1; margin-left: -25px; }
+
+        .logo-1-text {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 16px;
+            color: var(--navy);
+            font-weight: 600;
+            margin-top: 10px;
+            border-top: 1px solid var(--gold);
+            padding-top: 15px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* --- CONCEPT 2: THE INTEGRATED (Architectural) --- */
+        .logo-2 {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .logo-2-mark {
+            width: 80px;
+            height: 80px;
+            border: 3px solid var(--bronze);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transform: rotate(45deg); /* Diamond shape base */
+        }
+
+        .logo-2-mark-inner {
+            transform: rotate(-45deg);
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 42px;
+            color: var(--charcoal);
+            line-height: 1;
+        }
+
+        .logo-2-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .l2-main {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            color: var(--charcoal);
+            line-height: 1;
+            letter-spacing: 1px;
+        }
+
+        .l2-sub {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            color: var(--bronze);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 6px;
+        }
+
+        /* --- CONCEPT 3: THE CREST (SVG) --- */
+        .logo-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-3-svg {
+            width: 120px;
+            height: 140px;
+        }
+
+        .logo-3-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: var(--royal);
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>FWA Business Logo Concepts</h1>
+
+    <!-- CONCEPT 1 -->
+    <div class="concept-container">
+        <div class="concept-label">Concept 1: The Sovereign Monogram</div>
+        <div class="logo-1">
+            <div class="logo-1-icon">
+                <span class="l1-f">F</span>
+                <span class="l1-w">W</span>
+                <span class="l1-a">A</span>
+            </div>
+            <div class="logo-1-text">Family Wealth Advisors</div>
+        </div>
+    </div>
+
+    <!-- CONCEPT 2 -->
+    <div class="concept-container">
+        <div class="concept-label">Concept 2: The Integrated Diamond</div>
+        <div class="logo-2">
+            <div class="logo-2-mark">
+                <div class="logo-2-mark-inner">FW</div>
+            </div>
+            <div class="logo-2-text">
+                <span class="l2-main">F W A</span>
+                <span class="l2-sub">Family Wealth Advisors</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONCEPT 3 -->
+    <div class="concept-container">
+        <div class="concept-label">Concept 3: The Architectural Crest</div>
+        <div class="logo-3">
+            <svg class="logo-3-svg" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Shield Outline -->
+                <path d="M50 115L10 90V10H90V90L50 115Z" stroke="#1b3a57" stroke-width="4" fill="none"/>
+                <!-- Internal F W A Lines -->
+                <path d="M30 30 H70" stroke="#1b3a57" stroke-width="3" stroke-linecap="square"/>
+                <path d="M50 30 V85" stroke="#c5a059" stroke-width="3"/> <!-- Central Pillar -->
+                <path d="M30 30 V60 H50" stroke="#1b3a57" stroke-width="3"/> <!-- F part -->
+                <path d="M70 30 V80 L50 100" stroke="#1b3a57" stroke-width="3"/> <!-- A part -->
+                <path d="M30 60 L50 85" stroke="#1b3a57" stroke-width="3"/> <!-- W detail -->
+                <path d="M70 60 L50 85" stroke="#1b3a57" stroke-width="3"/> <!-- W detail -->
+            </svg>
+            <div class="logo-3-text">Family Wealth Advisors</div>
+        </div>
+    </div>
+
+</body>
+</html>
