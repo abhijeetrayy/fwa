@@ -165,7 +165,7 @@ const translations = {
             investmentMgmt: "Investment Management",
             implementation: "Implementation",
             investPhil: "Investment Philosophy",
-            copyright: "© 2024 Family Wealth Advisors Ltd. All rights reserved.",
+            copyright: "© 2026 Family Wealth Advisors Ltd. All rights reserved.",
             accessibility: "Accessibility",
             privacyPolicy: "Privacy & Terms",
             disclosure: "Disclosure"
@@ -1091,7 +1091,7 @@ const translations = {
             investmentMgmt: "ניהול השקעות",
             implementation: "יישום",
             investPhil: "פילוסופיית השקעה",
-            copyright: "© 2024 פמילי ווילת' אדוויזורס בע\"מ. כל הזכויות שמורות.",
+            copyright: "© 2026 פמילי ווילת' אדוויזורס בע\"מ. כל הזכויות שמורות.",
             accessibility: "נגישות",
             privacyPolicy: "פרטיות ותנאים",
             disclosure: "גילוי נאות"
