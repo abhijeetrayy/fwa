@@ -1,6 +1,7 @@
 # FWA ENG Website – Client Remarks Verification Checklist
 
-Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il).
+Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il).  
+**Final ENG remarks** from Danny are in this document (cyan highlight + blue text). Extracted list: **doc/ENG-FINAL-REMARKS.md**. Hebrew (HEB) version will follow shortly.
 
 ---
 
