@@ -3366,6 +3366,181 @@ html[dir="rtl"] .hero__scroll {
     }
 }
 
+/* ================================
+   MOBILE-FRIENDLY UX – ALL SECTIONS / GRIDS / FLEX
+   (Desktop unchanged; only max-width breakpoints)
+   ================================ */
+
+/* Tablet: grids to 2 cols where needed, comfortable spacing */
+@media (max-width: 1024px) {
+    .intro {
+        gap: var(--space-12);
+    }
+    .intro__content {
+        max-width: 100%;
+    }
+    .philosophy__list {
+        padding: 0 var(--space-2);
+    }
+    .philosophy-item {
+        gap: var(--space-6);
+        padding: var(--space-6) 0;
+    }
+    .testimonial {
+        padding: var(--space-6) var(--space-4);
+    }
+    .testimonial__quote {
+        font-size: var(--text-2xl);
+    }
+}
+
+/* Mobile: single column, content-first order, touch-friendly */
+@media (max-width: 768px) {
+    /* Page hero sections – reduce top padding for fixed header + small viewport */
+    .section.section--dark:first-of-type {
+        padding-top: 5.5rem !important;
+    }
+    .section[style*="padding-top: 10rem"] {
+        padding-top: 5.5rem !important;
+    }
+    /* Intro: content first, then image; full width */
+    .intro {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+    }
+    .intro__content {
+        order: 1;
+        max-width: 100%;
+    }
+    .intro__image {
+        order: 2;
+        max-width: 100%;
+    }
+    .intro__image img {
+        max-height: 280px;
+        object-fit: cover;
+        width: 100%;
+    }
+    /* Services grid – force single column (overrides inline style) */
+    .services__grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--space-6);
+    }
+    .service-card {
+        min-width: 0;
+    }
+    /* Philosophy list – compact number column */
+    .philosophy-item {
+        grid-template-columns: 56px 1fr;
+        gap: var(--space-4);
+        padding: var(--space-5) 0;
+    }
+    .philosophy-item__number {
+        font-size: var(--text-3xl);
+    }
+    .philosophy-item__content ul {
+        padding-left: var(--space-5);
+    }
+    /* Testimonial / quote block */
+    .testimonial {
+        padding: var(--space-6) var(--space-4);
+    }
+    .testimonial__quote {
+        font-size: clamp(1.25rem, 4.5vw, 1.5rem);
+        line-height: 1.5;
+    }
+    .testimonial__icon {
+        width: 40px;
+        height: 40px;
+    }
+    /* Forms – full width, prevent zoom on iOS */
+    .form__group,
+    .contact-form__group {
+        margin-bottom: var(--space-4);
+    }
+    .form__input,
+    .form__textarea,
+    .contact-form__input,
+    .contact-form__textarea {
+        width: 100%;
+        padding: var(--space-4);
+        font-size: 16px;
+        min-height: 48px;
+    }
+    .form__textarea,
+    .contact-form__textarea {
+        min-height: 120px;
+    }
+    .form__row {
+        grid-template-columns: 1fr !important;
+    }
+    /* Contact grid & form wrapper */
+    .contact__form-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* Footer – stack and center text on small */
+    .footer__grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--space-8);
+        text-align: center;
+    }
+    .footer__brand {
+        margin-bottom: var(--space-4);
+    }
+    .footer__column-title {
+        margin-bottom: var(--space-3);
+    }
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-2);
+    }
+    /* Team grid – override inline styles on about/team pages */
+    .team__grid {
+        grid-template-columns: 1fr !important;
+        max-width: 100%;
+    }
+    /* Executives grid */
+    .executives-grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--space-6);
+    }
+    /* Section headers – readable on narrow screens */
+    .section-header__title {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+    .section-header__text {
+        font-size: var(--text-base);
+    }
+}
+
+/* Small mobile: tighter spacing, smaller touch targets where appropriate */
+@media (max-width: 480px) {
+    .section.section--dark:first-of-type,
+    .section[style*="padding-top: 10rem"] {
+        padding-top: 4.5rem !important;
+    }
+    .intro {
+        gap: var(--space-6);
+    }
+    .philosophy-item {
+        grid-template-columns: 44px 1fr;
+        gap: var(--space-3);
+        padding: var(--space-4) 0;
+    }
+    .philosophy-item__number {
+        font-size: var(--text-2xl);
+    }
+    .service-card {
+        padding: var(--space-5);
+    }
+    .testimonial__quote {
+        font-size: clamp(1.125rem, 4vw, 1.35rem);
+    }
+}
+
 /* === Touch Target Improvements === */
 @media (hover: none) and (pointer: coarse) {
     /* Ensure all clickable elements are minimum 44px */
