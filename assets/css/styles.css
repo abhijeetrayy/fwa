@@ -3580,3 +3580,144 @@ html[dir="rtl"] .hero__scroll {
         padding-bottom: env(safe-area-inset-bottom);
     }
 }
+
+/* =========================================
+   RTL SUPPORT (HEBREW)
+   ========================================= */
+
+/* Base RTL Rules */
+[dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] body {
+    text-align: right;
+}
+
+/* Typography Alignment */
+[dir="rtl"] h1, 
+[dir="rtl"] h2, 
+[dir="rtl"] h3, 
+[dir="rtl"] h4, 
+[dir="rtl"] h5, 
+[dir="rtl"] h6,
+[dir="rtl"] p,
+[dir="rtl"] .hero__subtitle,
+[dir="rtl"] .section-header__text,
+[dir="rtl"] .intro__text,
+[dir="rtl"] .service-card__text,
+[dir="rtl"] .philosophy-item__text,
+[dir="rtl"] .footer__text,
+[dir="rtl"] .footer__links li,
+[dir="rtl"] .nav__link {
+    text-align: right;
+}
+
+/* Header & Navigation */
+[dir="rtl"] .header__nav {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .header__menu {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .header__logo {
+    margin-left: var(--space-4);
+    margin-right: 0;
+}
+
+[dir="rtl"] .header__dropdown > .header__link::after {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+/* Hero Section */
+[dir="rtl"] .hero__content {
+    text-align: right;
+}
+
+[dir="rtl"] .hero__actions {
+    justify-content: flex-start; /* Align buttons to right in RTL context, which is start? or flex-end? wait. "flex-start" in RTL is right. */
+}
+
+/* Intro Section */
+[dir="rtl"] .intro {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Services Grid */
+[dir="rtl"] .service-card {
+    text-align: right;
+}
+
+[dir="rtl"] .service-card__link {
+    flex-direction: row-reverse;
+    justify-content: flex-end; 
+}
+
+[dir="rtl"] .service-card__link svg {
+    margin-left: var(--space-2);
+    margin-right: 0;
+    transform: rotate(180deg); 
+}
+
+/* Philosophy Section */
+[dir="rtl"] .philosophy-item {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] .philosophy-item__content {
+    text-align: right;
+    padding-right: var(--space-4); /* Add right padding instead of left maybe? check existing CSS */
+}
+
+/* Team Section */
+[dir="rtl"] .team-card {
+    text-align: right;
+}
+
+/* Footer layout */
+[dir="rtl"] .footer__grid {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] .footer__links {
+    padding-right: 0;
+}
+
+/* Icons mirroring */
+[dir="rtl"] .btn svg {
+    margin-right: var(--space-2);
+    margin-left: 0;
+    transform: scaleX(-1); /* Flip icons horizontally if directional */
+}
+
+/* Form inputs alignment */
+[dir="rtl"] input, 
+[dir="rtl"] textarea, 
+[dir="rtl"] select {
+    text-align: right;
+    direction: rtl;
+}
+
+/* List Checkmarks / Bullets */
+[dir="rtl"] ul {
+    padding-right: var(--space-4);
+    padding-left: 0;
+}
+
+/* Specific component overrides */
+[dir="rtl"] .contact__form-wrapper {
+    text-align: right;
+}
+
+/* Sticky Contact Buttons Position - keep them on right or move to left? Usually left for RTL. */
+[dir="rtl"] .sticky-contact {
+    left: var(--space-4);
+    right: auto;
+}
