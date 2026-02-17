@@ -165,11 +165,18 @@
     margin-right: 0;
 }
 
-/* Hero Section Specifics */
+/* Hero Section Specifics – Family Office hero uses intro, keep centered in RTL */
+[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__content,
+[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__title,
+[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__text {
+    text-align: center !important;
+}
+
+/* Legacy hero__content (not used on family-office but kept for consistency) */
 [dir="rtl"] .family-office-page .hero__content {
-    text-align: right;
-    margin-right: 0;
-    margin-left: auto;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 /* =========================================

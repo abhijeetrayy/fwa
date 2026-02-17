@@ -2985,6 +2985,13 @@ html[dir="rtl"] .hero__scroll {
     text-align: center;
 }
 
+/* Trust Bar – keep centered in RTL */
+html[dir="rtl"] .trust-bar__item,
+html[dir="rtl"] .trust-bar__number,
+html[dir="rtl"] .trust-bar__label {
+    text-align: center !important;
+}
+
 /* ================================
    ENHANCED MOBILE RESPONSIVE FIXES
    ================================ */
@@ -3720,4 +3727,48 @@ html[dir="rtl"] .hero__scroll {
 [dir="rtl"] .sticky-contact {
     left: var(--space-4);
     right: auto;
+}
+
+/* =========================================
+   RTL: ELEMENTS THAT MUST STAY CENTERED
+   Hero headings, section titles, contact form headers
+   ========================================= */
+html[dir="rtl"] .hero__content,
+html[dir="rtl"] .hero__title,
+html[dir="rtl"] .hero__title-line,
+html[dir="rtl"] .hero__subtitle,
+html[dir="rtl"] .hero__actions {
+    text-align: center !important;
+}
+
+[dir="rtl"] .hero__content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+[dir="rtl"] .hero__actions {
+    justify-content: center !important;
+}
+
+html[dir="rtl"] .section-header,
+html[dir="rtl"] .section-header__eyebrow,
+html[dir="rtl"] .section-header__title,
+html[dir="rtl"] .section-header__text {
+    text-align: center !important;
+}
+
+html[dir="rtl"] .section-header {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Contact form section header – centered on every page */
+html[dir="rtl"] #contact .section-header,
+html[dir="rtl"] #contact .section-header__eyebrow,
+html[dir="rtl"] #contact .section-header__title,
+html[dir="rtl"] #contact .section-header__text,
+html[dir="rtl"] #contact .contact__title,
+html[dir="rtl"] #contact .contact__text {
+    text-align: center !important;
+    align-items: center !important;
 }

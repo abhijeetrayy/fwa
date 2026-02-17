@@ -61,7 +61,7 @@
    TEXT ALIGNMENT & ANCHORING
    ================================ */
 
-/* Force Right Alignment on Key Text Containers */
+/* Force Right Alignment on Key Text Containers (exclude hero + section headers – they stay centered) */
 [dir="rtl"] h1, 
 [dir="rtl"] h2, 
 [dir="rtl"] h3, 
@@ -70,8 +70,6 @@
 [dir="rtl"] h6,
 [dir="rtl"] p,
 [dir="rtl"] .intro__text,
-[dir="rtl"] .section-header__text,
-[dir="rtl"] .hero__subtitle,
 [dir="rtl"] .form__label,
 [dir="rtl"] .contact-form__label,
 [dir="rtl"] .footer__text,
@@ -79,22 +77,38 @@
     text-align: right;
 }
 
-/* Section Headers: "Prominently to the Right" */
+/* Section Headers – keep centered in RTL */
 [dir="rtl"] .section-header {
-    text-align: right !important;
-    margin-right: 0 !important;
-    margin-left: auto !important; /* Allow it to float left if needed, but anchor right */
-    max-width: 100% !important; /* Remove centered max-width constraint */
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 700px !important;
 }
 
-/* Hero Content */
+[dir="rtl"] .section-header__eyebrow,
+[dir="rtl"] .section-header__title,
+[dir="rtl"] .section-header__text {
+    text-align: center !important;
+}
+
+/* Hero Content – keep centered in RTL */
 [dir="rtl"] .hero__content {
-    text-align: right !important;
-    margin-right: 0 !important;
+    text-align: center !important;
     margin-left: auto !important;
-    max-width: 900px; /* Keep max-width but aligned right */
-    padding-right: var(--container-px);
-    padding-left: var(--container-px);
+    margin-right: auto !important;
+    max-width: 900px;
+    padding-right: var(--container-px, 1.5rem);
+    padding-left: var(--container-px, 1.5rem);
+}
+
+[dir="rtl"] .hero__title,
+[dir="rtl"] .hero__title-line,
+[dir="rtl"] .hero__subtitle {
+    text-align: center !important;
+}
+
+[dir="rtl"] .hero__actions {
+    justify-content: center !important;
 }
 
 /* Intro Content (Side by Side) */
@@ -159,6 +173,13 @@
     left: auto;
     right: var(--space-6);
     /* Mirror the box shadow direction if needed, but default is usually fine */
+}
+
+/* Trust Bar – keep centered in RTL */
+[dir="rtl"] .trust-bar__item,
+[dir="rtl"] .trust-bar__number,
+[dir="rtl"] .trust-bar__label {
+    text-align: center !important;
 }
 
 /* Trust Bar Separators */
@@ -247,24 +268,22 @@
     direction: rtl;
 }
 
-/* Section Headers for Contact Forms globally */
+/* Section Headers for Contact Forms – keep centered in RTL */
 [dir="rtl"] #contact .section-header,
 [dir="rtl"] .contact-section .section-header {
-    text-align: right;
-    align-items: flex-start;
+    text-align: center !important;
+    align-items: center !important;
     display: flex;
     flex-direction: column;
 }
 
 [dir="rtl"] #contact .section-header__title,
-[dir="rtl"] .contact-section .section-header__title {
-    text-align: right;
-    width: 100%;
-}
-
+[dir="rtl"] .contact-section .section-header__title,
 [dir="rtl"] #contact .section-header__text,
-[dir="rtl"] .contact-section .section-header__text {
-    text-align: right;
+[dir="rtl"] .contact-section .section-header__text,
+[dir="rtl"] #contact .contact__title,
+[dir="rtl"] #contact .contact__text {
+    text-align: center !important;
     width: 100%;
 }
 
