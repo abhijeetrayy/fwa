@@ -264,6 +264,8 @@ a {
     display: flex;
     align-items: center;
     gap: var(--space-10);
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .header__menu {
@@ -367,8 +369,20 @@ a {
 }
 
 /* Mobile Toggle */
+/* Language Toggle (Detached) */
+.header__inner .lang-toggle {
+    margin-left: var(--space-6);
+    display: flex;
+    align-items: center;
+}
+
+[dir="rtl"] .header__inner .lang-toggle {
+    margin-left: 0;
+    margin-right: var(--space-6);
+}
+
 .header__toggle {
-    display: none; /* Flex on mobile via media query */
+    display: none; /* Default hidden on desktop */
     flex-direction: column;
     justify-content: center;
     gap: 6px; /* Wider gap for better touch target */
@@ -3622,13 +3636,7 @@ html[dir="rtl"] .trust-bar__label {
 }
 
 /* Header & Navigation */
-[dir="rtl"] .header__nav {
-    flex-direction: row-reverse;
-}
 
-[dir="rtl"] .header__menu {
-    flex-direction: row-reverse;
-}
 
 [dir="rtl"] .header__logo {
     margin-left: var(--space-4);
