@@ -4,12 +4,12 @@
 
 /* Global Reset */
 [dir="rtl"] {
-    --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 [dir="rtl"] body {
-    text-align: right;
-    direction: rtl;
+  text-align: right;
+  direction: rtl;
 }
 
 /* ================================
@@ -28,33 +28,47 @@
 [dir="rtl"] .intro,
 [dir="rtl"] .footer__grid,
 [dir="rtl"] .contact__grid {
-    /* Ensure natural RTL flow is respected */
-    direction: rtl; 
+  /* Ensure natural RTL flow is respected */
+  direction: rtl;
 }
 
 /* Header Specifics */
 [dir="rtl"] .header__nav {
-    margin-right: auto; /* Push nav to the left */
-    margin-left: 0;
+  margin-right: auto; /* Push nav to the left side of the header */
+  margin-left: 0;
+  flex-direction: row; /* Ensure items flow Right-to-Left: [Menu] (Right) -> [Toggle] (Left) */
+  align-items: center;
 }
 
+[dir="rtl"] .header__menu {
+  /* Restored to natural RTL flow (Item 1 on Right) as per user screenshot */
+}
+
+/* 
+   Ensure the Language Toggle is visually to the LEFT of the Menu.
+   In RTL Row: First DOM item (Menu) is on Right. Second item (Toggle) is on Left.
+   This naturally results in: [Toggle] [Menu].
+   We reinforce this order visually if needed, but default DOM order [Menu, Toggle] + RTL Row does exactly this.
+*/
+
 [dir="rtl"] .header__inner {
-    direction: rtl; 
-    flex-direction: row; /* Standard row in RTL = Right to Left */
+  direction: rtl;
+  flex-direction: row; /* [Logo] (Right) ... [Nav] (Left) */
+  justify-content: space-between;
 }
 
 /* Footer Specifics */
 [dir="rtl"] .footer__links {
-    padding-right: 0; 
+  padding-right: 0;
 }
 
 [dir="rtl"] .footer__grid {
-    direction: rtl; /* Ensure columns flow Right to Left */
-    text-align: right;
+  direction: rtl; /* Ensure columns flow Right to Left */
+  text-align: right;
 }
 
 [dir="rtl"] .footer__bottom {
-    flex-direction: row-reverse; /* Usually correct for copyright/links separation in RTL */
+  flex-direction: row-reverse; /* Usually correct for copyright/links separation in RTL */
 }
 
 /* ================================
@@ -62,11 +76,11 @@
    ================================ */
 
 /* Force Right Alignment on Key Text Containers (exclude hero + section headers – they stay centered) */
-[dir="rtl"] h1, 
-[dir="rtl"] h2, 
-[dir="rtl"] h3, 
-[dir="rtl"] h4, 
-[dir="rtl"] h5, 
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
 [dir="rtl"] h6,
 [dir="rtl"] p,
 [dir="rtl"] .intro__text,
@@ -74,47 +88,47 @@
 [dir="rtl"] .contact-form__label,
 [dir="rtl"] .footer__text,
 [dir="rtl"] .footer__column-title {
-    text-align: right;
+  text-align: right;
 }
 
 /* Section Headers – keep centered in RTL */
 [dir="rtl"] .section-header {
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 700px !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 700px !important;
 }
 
 [dir="rtl"] .section-header__eyebrow,
 [dir="rtl"] .section-header__title,
 [dir="rtl"] .section-header__text {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 /* Hero Content – keep centered in RTL */
 [dir="rtl"] .hero__content {
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 900px;
-    padding-right: var(--container-px, 1.5rem);
-    padding-left: var(--container-px, 1.5rem);
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 900px;
+  padding-right: var(--container-px, 1.5rem);
+  padding-left: var(--container-px, 1.5rem);
 }
 
 [dir="rtl"] .hero__title,
 [dir="rtl"] .hero__title-line,
 [dir="rtl"] .hero__subtitle {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 [dir="rtl"] .hero__actions {
-    justify-content: center !important;
+  justify-content: center !important;
 }
 
 /* Intro Content (Side by Side) */
 [dir="rtl"] .intro__content {
-    text-align: right;
-    margin-right: 0;
+  text-align: right;
+  margin-right: 0;
 }
 
 /* ================================
@@ -129,22 +143,24 @@
 */
 
 [dir="rtl"] .intro__features {
-    margin: 0 !important; /* Remove centering */
-    width: 100%;
+  margin: 0 !important; /* Remove centering */
+  width: 100%;
 }
 
 [dir="rtl"] .intro__feature {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start; /* Start from Right */
-    text-align: right;
-    direction: rtl; /* Enforce */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; /* Start from Right */
+  text-align: right;
+  direction: rtl; /* Enforce */
 }
 
 [dir="rtl"] .intro__feature-icon {
-    margin-left: var(--space-3) !important; /* Space between Icon (Right) and Text (Left) */
-    margin-right: 0 !important; 
-    transform: none !important; /* Do NOT mirror the icon graphic itself */
+  margin-left: var(
+    --space-3
+  ) !important; /* Space between Icon (Right) and Text (Left) */
+  margin-right: 0 !important;
+  transform: none !important; /* Do NOT mirror the icon graphic itself */
 }
 
 /* ================================
@@ -153,56 +169,56 @@
 
 /* Sticky Contact Buttons -> Move to LEFT side (Mirror of Right) */
 [dir="rtl"] .sticky-contact {
-    right: auto;
-    left: var(--space-6);
-    align-items: flex-start; /* Ensure alignment if column */
+  right: auto;
+  left: var(--space-6);
+  align-items: flex-start; /* Ensure alignment if column */
 }
 
 /* Hero Images / Blobs */
 [dir="rtl"] .hero__floating--left {
-    left: auto;
-    right: 5%;
+  left: auto;
+  right: 5%;
 }
 
 [dir="rtl"] .hero__floating--right {
-    right: auto;
-    left: 5%;
+  right: auto;
+  left: 5%;
 }
 
 [dir="rtl"] .intro__image-caption {
-    left: auto;
-    right: var(--space-6);
-    /* Mirror the box shadow direction if needed, but default is usually fine */
+  left: auto;
+  right: var(--space-6);
+  /* Mirror the box shadow direction if needed, but default is usually fine */
 }
 
 /* Trust Bar – keep centered in RTL */
 [dir="rtl"] .trust-bar__item,
 [dir="rtl"] .trust-bar__number,
 [dir="rtl"] .trust-bar__label {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 /* Trust Bar Separators */
 [dir="rtl"] .trust-bar__item:not(:last-child)::after {
-    right: auto;
-    left: 0;
+  right: auto;
+  left: 0;
 }
 
 /* Service Cards */
 [dir="rtl"] .service-card {
-    text-align: right;
+  text-align: right;
 }
 [dir="rtl"] .service-card::before {
-    left: auto;
-    right: 0;
+  left: auto;
+  right: 0;
 }
 [dir="rtl"] .service-card__link svg {
-    margin-left: 0;
-    margin-right: var(--space-2);
-    transform: scaleX(-1); /* Arrows SHOULD be mirrored to point Left */
+  margin-left: 0;
+  margin-right: var(--space-2);
+  transform: scaleX(-1); /* Arrows SHOULD be mirrored to point Left */
 }
 [dir="rtl"] .service-card__link:hover svg {
-    transform: scaleX(-1) translateX(4px); /* Move Left on hover */
+  transform: scaleX(-1) translateX(4px); /* Move Left on hover */
 }
 
 /* ================================
@@ -214,29 +230,29 @@
 [dir="rtl"] .form__textarea,
 [dir="rtl"] .contact-form__input,
 [dir="rtl"] .contact-form__textarea {
-    text-align: right;
-    direction: rtl;
+  text-align: right;
+  direction: rtl;
 }
 
 [dir="rtl"] .form__select,
 [dir="rtl"] select.contact-form__input {
-    background-position: left 12px center; /* Move Arrow to Left */
-    padding-right: var(--space-4);
-    padding-left: 40px;
+  background-position: left 12px center; /* Move Arrow to Left */
+  padding-right: var(--space-4);
+  padding-left: 40px;
 }
 
 /* ================================
    FAQ & ACCORDION
    ================================ */
 [dir="rtl"] .faq-item__question {
-    text-align: right;
-    padding-left: var(--space-8); /* Space for icon */
-    padding-right: 0;
+  text-align: right;
+  padding-left: var(--space-8); /* Space for icon */
+  padding-right: 0;
 }
 
 [dir="rtl"] .faq-item__icon {
-    margin-left: 0; 
-    margin-right: auto; /* Push icon to the far left? Or keep near text? 
+  margin-left: 0;
+  margin-right: auto; /* Push icon to the far left? Or keep near text? 
                            If layout is [Question Text] ..... [Icon], 
                            In RTL: [Question Text] ..... [Icon] (Icon on Left)
                         */
@@ -246,7 +262,7 @@
    Ensure consistent spacing.
 */
 [dir="rtl"] .faq-item__question {
-    flex-direction: row; /* Implicit */
+  flex-direction: row; /* Implicit */
 }
 
 /* ================================
@@ -256,25 +272,25 @@
 
 /* Ensure labels are right-aligned */
 [dir="rtl"] .form__label {
-    text-align: right;
-    display: block;
-    width: 100%;
+  text-align: right;
+  display: block;
+  width: 100%;
 }
 
 /* Ensure inputs text direction is correct */
 [dir="rtl"] .form__input,
 [dir="rtl"] .form__textarea {
-    text-align: right;
-    direction: rtl;
+  text-align: right;
+  direction: rtl;
 }
 
 /* Section Headers for Contact Forms – keep centered in RTL */
 [dir="rtl"] #contact .section-header,
 [dir="rtl"] .contact-section .section-header {
-    text-align: center !important;
-    align-items: center !important;
-    display: flex;
-    flex-direction: column;
+  text-align: center !important;
+  align-items: center !important;
+  display: flex;
+  flex-direction: column;
 }
 
 [dir="rtl"] #contact .section-header__title,
@@ -283,8 +299,8 @@
 [dir="rtl"] .contact-section .section-header__text,
 [dir="rtl"] #contact .contact__title,
 [dir="rtl"] #contact .contact__text {
-    text-align: center !important;
-    width: 100%;
+  text-align: center !important;
+  width: 100%;
 }
 
 /* Submit Button Alignment (Optional - usually fine centered or full width) */
