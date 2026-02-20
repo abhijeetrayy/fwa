@@ -1,7 +1,14 @@
-# FWA ENG Website – Client Remarks Verification Checklist
+# FWA Website – Client Remarks Verification Checklist
 
 Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il).  
-**Final ENG remarks** from Danny are in this document (cyan highlight + blue text). Extracted list: **doc/ENG-FINAL-REMARKS.md**. Hebrew (HEB) version will follow shortly.
+**Final ENG remarks** from Danny are in this document (cyan highlight + blue text). Extracted list: **doc/ENG-FINAL-REMARKS.md**.
+
+**Hebrew (HEB) version:** **doc/FWA WEBSITE HEB Remarks.docx** was extracted with Track Changes and yellow highlight using a Node script.  
+- **Extracted output:** **doc/HEB-FINAL-REMARKS.md**  
+- **How to re-extract:** From project root run `npm run extract-heb` (requires `npm install` once).  
+- **Client instructions from the HEB doc:**  
+  - **Red (Track Changes):** Use the *inserted* text as the correction; ignore deleted text.  
+  - **Yellow highlight:** Use the client’s text instead of any AI translation — replace site copy with these exact phrases where they apply.
 
 ---
 
@@ -151,6 +158,18 @@ Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il)
 
 - **All checklist items from the client document are implemented or confirmed N/A** (e.g. no "schedule consultation" button to remove, no FAQ block on homepage to remove, no separate Family Office subpages).
 - **Learn More** on the 6 cubes point to `services.html` with valid anchors (`#planning`, `#investment`, `#tax`, `#governance`); if they previously "led nowhere," it may have been on another URL or build.
-- **Hebrew (HEB) remarks** were not in this document; client said they will send those separately.
+- **Hebrew (HEB) remarks** are in **doc/FWA WEBSITE HEB Remarks.docx**. Extracted to **doc/HEB-FINAL-REMARKS.md** (full text with Track Changes applied + list of yellow-highlighted phrases to use instead of AI translation).
+
+**HEB extraction verification (deep check):**
+- **Done with Node:** `doc/extract-heb-remarks.js` uses `jszip` (read docx) and `fast-xml-parser` (parse `word/document.xml`). Run: `npm run extract-heb`.
+- **Track Changes (red):** Script uses `w:ins` (inserted) as the correction and omits `w:del` (deleted). Full-text section = final version per client.
+- **Yellow highlight:** All runs with `w:highlight w:val="yellow"` are collected (paragraph walk + full-tree scan). 106 unique phrases in **doc/HEB-FINAL-REMARKS.md** — use these on the HEB site instead of AI translation.
+- **Client wording reflected:** Output file states (1) use inserted text for red changes, (2) use client’s text for yellow-highlighted phrases instead of AI translation.
+
+**HEB site implementation (deep check):** Cross-checked and **updated per client:**
+- **contact.text:** → "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל. אנו מזמינים אתכם לפגישת היכרות פרטית. השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה".
+- **contactPage.formSubtitle** (all HEB blocks): → "אנו מזמינים אתכם לפגישת היכרות פרטית. השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה".
+- **contactPage.formTitle** (HEB): → "בואו נתחיל בשיחה".
+- **Benjamin bio:** → "חבר מרכזי" + "מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות".
 
 If you want to double-check a specific page or string, say which one and we can re-verify.

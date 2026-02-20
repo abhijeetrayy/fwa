@@ -1,0 +1,16 @@
+{
+  "name": "fwa-redesign",
+  "version": "1.0.0",
+  "description": "FWA website redesign",
+  "private": true,
+  "scripts": {
+    "extract-heb": "node doc/extract-heb-remarks.js"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "adm-zip": "^0.5.16",
+    "fast-xml-parser": "^4.3.2",
+    "jszip": "^3.10.1",
+    "xmldom": "^0.6.0"
+  }
+}
