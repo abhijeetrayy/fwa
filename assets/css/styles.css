@@ -1616,7 +1616,7 @@ a {
    TESTIMONIAL
    ================================ */
 .testimonial {
-    text-align: center;
+    text-align: center !important;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -1629,13 +1629,14 @@ a {
 }
 
 .testimonial__quote {
-    font-family: var(--font-heading);
+    font-family: var(--font-heading) !important;
     font-size: clamp(1.5rem, 3vw, 2.25rem);
     font-weight: var(--font-regular);
     font-style: italic;
     color: var(--color-black);
     line-height: 1.5;
     margin-bottom: var(--space-8);
+    text-align: center !important;
 }
 
 .testimonial__author {
@@ -2987,11 +2988,11 @@ html[dir="rtl"] ol {
 
 /* Testimonial RTL */
 html[dir="rtl"] .testimonial {
-    text-align: center;
+    text-align: center !important;
 }
 
 html[dir="rtl"] .testimonial__author {
-    text-align: center;
+    text-align: center !important;
 }
 
 /* Scroll Indicator RTL */

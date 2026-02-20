@@ -1725,7 +1725,7 @@ const translations = {
       pillar3Title: "בהירות ושליטה",
       pillar3Text:
         'מורכבות היא האויב של הביצוע. אנו מרכזים את כל הנכסים שלכם – מכל הבנקים ומכל תחומי השיפוט – לדו"ח אחד ברור ומסכם. כך אתם מקבלים את הבהירות הנדרשת לקבלת החלטות, ללא "כאב הראש" האדמיניסטרטיבי.',
-      quote: '"Risk comes from not knowing what you are doing."',
+      quote: '\u200E"Risk comes from not knowing what you are doing."\u200E',
       quoteAuthor: "Warren Buffett",
     },
     // Investment Philosophy Page - investment-philosophy.html (Hebrew - same structure as EN for now)
@@ -1764,7 +1764,7 @@ const translations = {
         'ייעוץ נקי מניגודי עניינים: אנו מחויבים לסטנדרט הנאמנות הגבוה ביותר (Fiduciary). האינטרסים שלנו תואמים באופן מלא ובלעדי את אלו שלכם, ללא מגבלות של "מוצרי בית" או עמלות נסתרות.',
       block4Bullet2:
         "יעילות מבנית: הגישה שלנו משלבת אסטרטגיות תכנון מס ואופטימיזציה של נכסים חוצי גבולות בליבת תהליך ההשקעה.",
-      quote: '"Risk comes from not knowing what you are doing."',
+      quote: '\u200E"Risk comes from not knowing what you are doing."\u200E',
       quoteAuthor: "Warren Buffett",
     },
     // Contact Page
