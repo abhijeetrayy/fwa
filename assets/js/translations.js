@@ -837,7 +837,7 @@ const translations = {
       q10: "Does FWA create holistic financial plans?",
       a10: '<p>Yes, we do. We create holistic financial plans to encompass all areas of your wealth enterprise, including:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">Wealth planning and preservation</li><li style="margin-bottom: var(--space-2);">Investment management</li><li style="margin-bottom: var(--space-2);">Family governance</li><li style="margin-bottom: var(--space-2);">Consolidated oversight</li><li>Tax planning and optimization</li></ul><p>Crucially, this plan is dynamic - it evolves constantly alongside your family\'s changing needs and market conditions.</p>',
       q11: "What is the communication cadence?",
-      a11: '<p>We believe that consistent, transparent communication is vital to a successful partnership. While we tailor the frequency to your preference, we operate on an open-door policy - you have direct access to us whenever questions or opportunities arise.</p>',
+      a11: '<p>We tailor the frequency to your preference, but our standard includes:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>Monthly:</strong> Consolidated asset report and market data.</li><li style="margin-bottom: var(--space-2);"><strong>Quarterly:</strong> Strategy meeting and in-depth review.</li><li style="margin-bottom: var(--space-2);"><strong>Annual:</strong> Holistic examination of the strategic plan, legal structures, and the family’s long-term goals.</li><li><strong>Proactive Updates:</strong> Immediate update whenever market fluctuations or new opportunities require your attention.</li></ul>',
     },
     // Values Page - Full Content
     valuesPageFull: {
@@ -1102,6 +1102,7 @@ const translations = {
         "6 HaMada Street<br>PO Box 12500<br>Herzliya 4673340<br>Israel",
       viewOnMaps: "View on Maps →",
       callTitle: "Call Us",
+      callNumber: "+972-9-963-0350",
       emailTitle: "Email Us",
       responseTime: "We typically respond<br>within 24 hours",
       formEyebrow: "",
@@ -1707,6 +1708,7 @@ const translations = {
       visitAddress4: "ישראל",
       viewOnMaps: "הצג במפות →",
       callTitle: "התקשר אלינו",
+      callNumber: "\u200E+972-9-963-0350",
       emailTitle: "שלח אימייל",
       responseTime: "בדרך כלל אנו מגיבים תוך 24 שעות",
       formEyebrow: "התחל את השיחה",
@@ -2040,7 +2042,7 @@ const translations = {
       q2: "האם FWA היא חברה בעלת רישיון לניהול השקעות?",
       a2: '<p>FWA פועלת כחברת פמילי אופיס המתמקדת באופן בלעדי ב "משקיעים כשירים (Qualified Investors)"</p><p>בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.</p>',
       q3: "מה ההבדל בין Family Office לבין בנקאות פרטית, יועץ עושר או מנהל נכסים?",
-      a3: "<p>ההבדל טמון בהיקף השירות ובאינטרס. בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים.</p><p>FWA לעומת זאת, פועלת כארכיטקט האסטרטגי שלכם. אנו יושבים לצידכם סביב השולחן ומעניקים ניהול הוליסטי של כלל הנכסים שלכם.</p><p>איננו מחליפים את הספקים הקיימים, אלא משפרים ומתאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת.</p>",
+      a3: "<p>ההבדל טמון בהיקף השירות ובאינטרס. בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים.</p><p>FWA לעומת זאת, פועלת כארכיטקט האסטרטגי שלכם. אנו יושבים לצידכם סביב השולחן ומעניקים ניהול הוליסטי של כלל הנכסים שלכם.</p><p>איננו מחליפים את הספקים הקיימים, אלא משפרים ומתאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמנויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת.</p>",
       q4: 'מה ההבדל בין "ניהול תיקים (Discretionary) למודל העבודה של FWA ?',
       a4: "<p>בניהול תיקים סטנדרטי, מנהל ההשקעות מקבל החלטות קנייה ומכירה ומבצע אותן באופן עצמאי על דעת עצמו. ב- FWA אנו פועלים אך ורק במודל של ייעוץ וניהול מבוסס אישור (- Non Discretionary).</p><p>אנו מאמינים שאתם צריכים להישאר מקבלי ההחלטות הסופיים על ההון שלכם. במסגרת האסטרטגיה הכוללת שהגדרנו למשפחה, התפקיד שלנו הוא לנתח, להנגיש את המידע ולהמליץ – אך לעולם לא נבצע פעולה ללא אישורכם המפורט והמלא. כך אתם נהנים מניהול מקצועי מבלי לאבד שליטה על הנכסים.</p>",
       q5: "האם תהיה לי יותר עבודה אם אשכור יועץ שאינו פועל בייפוי כוח?",
@@ -2056,7 +2058,7 @@ const translations = {
       q10: "האם FWA יוצרים תכניות פיננסיות הוליסטיות?",
       a10: '<p>כן, אנו יוצרים תכניות פיננסיות המקיפות את כל תחומי מפעל העושר: השקעות, ממשל משפחתי, איחוד נתונים ותכנון מס.</p><p>חשוב לציין כי תוכנית זו היא דינמית – היא מתפתחת כל העת לצד הצרכים המשתנים של המשפחה ותנאי השוק.</p>',
       q11: "מהי תדירות התקשורת מולכם?",
-      a11: '<p>אנו מתאימים את התדירות להעדפתכם. מעבר ללוח הזמנים, אנו פועלים במדיניות של דלת פתוחה - יש לכם גישה ישירה אלינו בכל פעם שעולות שאלות או הזדמויות.</p>',
+      a11: '<p>אנו מתאימים את התדירות להעדפתכם, אך הסטנדרט שלנו כולל:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>חודשי:</strong> דוח נכסים מאוחד ונתוני שוק.</li><li style="margin-bottom: var(--space-2);"><strong>רבעוני:</strong> פגישת אסטרטגיה וסקירה מעמיקה</li><li style="margin-bottom: var(--space-2);"><strong>שנתי:</strong> בחינה הוליסטית של התוכנית האסטרטגית, המבנים המשפטיים והיעדים ארוכי הטווח של המשפחה.</li><li><strong>עדכונים יזומים:</strong> עדכון מיידי בכל פעם שתנודות השוק או הזדמנויות חדשות ידרשו את תשומת ליבכם.</li></ul>',
     },
     // Values Page - Full Content (Hebrew)
     valuesPageFull: {
@@ -2245,6 +2247,7 @@ const translations = {
       visitAddress: "רחוב המדע 6<br>ת.ד. 12500<br>הרצליה 4673340<br>ישראל",
       viewOnMaps: "צפה במפות ←",
       callTitle: "התקשר אלינו",
+      callNumber: "\u200E+972-9-963-0350",
       emailTitle: "שלח אימייל",
       responseTime: "אנו בדרך כלל עונים<br>תוך 24 שעות",
       formEyebrow: "התחל שיחה",
@@ -2270,6 +2273,7 @@ const translations = {
       visitAddress: "רחוב המדע 6<br>ת.ד. 12500<br>הרצליה 4673340<br>ישראל",
       viewOnMaps: "צפה במפות ←",
       callTitle: "התקשר אלינו",
+      callNumber: "\u200E+972-9-963-0350",
       emailTitle: "שלח אימייל",
       responseTime: "אנו בדרך כלל עונים<br>תוך 24 שעות",
       formEyebrow: "התחל שיחה",
