@@ -4,15 +4,50 @@
    ========================================= */
 
 /* -----------------------------------------
+   LAYOUT: NO IMAGES – CONTENT FULL WIDTH & CENTERED
+   ----------------------------------------- */
+.family-office-page .intro--no-image {
+    display: block;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.family-office-page .intro--no-image .intro__content {
+    max-width: 100%;
+}
+
+/* Hero section – centered, adequate padding */
+.family-office-page .family-office-hero {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.family-office-page .family-office-hero .intro__content {
+    text-align: center;
+}
+
+.family-office-page .family-office-hero .intro__eyebrow,
+.family-office-page .family-office-hero .intro__title,
+.family-office-page .family-office-hero .intro__text {
+    text-align: center;
+}
+
+/* Section 1 – left-aligned (LTR) / right-aligned (RTL) */
+.family-office-page .section--lg .intro--no-image .intro__content {
+    text-align: left;
+}
+
+/* -----------------------------------------
    LTR (DEFAULT) FIXES
    ----------------------------------------- */
-   .family-office-page .intro {
+.family-office-page .intro:not(.intro--no-image) {
     display: flex;
     align-items: center;
     gap: var(--space-8);
 }
 
-.family-office-page .intro__content {
+.family-office-page .intro:not(.intro--no-image) .intro__content {
     flex: 1;
     text-align: left;
 }
@@ -166,10 +201,19 @@
 }
 
 /* Hero Section Specifics – Family Office hero uses intro, keep centered in RTL */
-[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__content,
-[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__title,
-[dir="rtl"] .family-office-page .section.section--dark:first-of-type .intro__text {
+[dir="rtl"] .family-office-page .family-office-hero .intro__content,
+[dir="rtl"] .family-office-page .family-office-hero .intro__eyebrow,
+[dir="rtl"] .family-office-page .family-office-hero .intro__title,
+[dir="rtl"] .family-office-page .family-office-hero .intro__text {
     text-align: center !important;
+}
+
+/* Section 1 no-image – RTL align right */
+[dir="rtl"] .family-office-page .section--lg .intro--no-image .intro__content,
+[dir="rtl"] .family-office-page .section--lg .intro--no-image .intro__eyebrow,
+[dir="rtl"] .family-office-page .section--lg .intro--no-image .intro__title,
+[dir="rtl"] .family-office-page .section--lg .intro--no-image .intro__text {
+    text-align: right !important;
 }
 
 /* Legacy hero__content (not used on family-office but kept for consistency) */
@@ -193,11 +237,11 @@
 }
 
 @media (max-width: 768px) {
-    .family-office-page .intro {
+    .family-office-page .intro:not(.intro--no-image) {
         flex-direction: column;
         gap: var(--space-8);
     }
-    .family-office-page .intro__content {
+    .family-office-page .intro:not(.intro--no-image) .intro__content {
         order: 1;
         width: 100%;
     }
@@ -208,6 +252,10 @@
     .family-office-page .intro__image img {
         max-height: 260px;
         object-fit: cover;
+    }
+    .family-office-page .family-office-hero {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
     }
     .family-office-page .intro__features {
         grid-template-columns: 1fr !important;

@@ -73,7 +73,7 @@ Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il)
 | 3 | On Goldenberg – "Head of Operation" #4 | ✅ Done | Order and title. |
 | 4 | Dan Levy – "Investment & Operations Associate" #5 | ✅ Done | Present with correct title. |
 | 5 | Alex Kromkin – "Head of Data & Reporting" | ✅ Done | teamPageFull.team3Role. |
-| 6 | Doron Yanir – "Controller" | ✅ Done | teamPageFull.team2Role. |
+| 6 | Doron Yanir – "Controller" | ✅ Done | teamPageFull.team2Role (fixed in verification pass). |
 | 7 | Edna Peretz – "Head of Administration" | ✅ Done | teamPageFull.team5Role. |
 | 8 | Bottom CTA/form | ✅ Done | "Let's start a conversation" + new form intro. |
 
@@ -137,7 +137,7 @@ Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il)
 |---|----------------|--------|--------|
 | 1 | Delete all 3 pages (what is family office, do i need, choosing the right one) | ✅ Done | Only one page exists: family-office.html. Nav has single item "Family Office Essential". |
 | 2 | One page: "Family Office Essential" | ✅ Done | family-office.html. |
-| 3 | Hero: "The Private Office Standard" / "Move beyond traditional banking. Experience the precision of a Personal CFO." | ✅ Done | familyOfficePage.heroTitle, heroSubtitle. |
+| 3 | Hero: "The Private Office Standard" / "Move beyond traditional banking. Experience the precision of a Personal CFO." | ✅ Done | familyOfficePage.heroTitle, heroSubtitle (fixed in verification pass). |
 | 4 | Section 1: What is a Family Office – "Your Financial Ecosystem, Unified." + copy | ✅ Done | section1Title, section1Text. |
 | 5 | Section 2: The Checklist – "Is a Family Office Right for You?" + bullets | ✅ Done | section2Title, section2Subtitle, check1–5. |
 | 6 | Section 3: How to Choose – "The Golden Rules of Selection" + bullets | ✅ Done | section3Title, section3Subtitle, rule1–3 Q/A. |
@@ -173,3 +173,23 @@ Verification against **FWA WEBSITE ENG Remarks.docx** (client: dannyp@fwa.co.il)
 - **Benjamin bio:** → "חבר מרכזי" + "מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות".
 
 If you want to double-check a specific page or string, say which one and we can re-verify.
+
+---
+
+## Re-Verification Pass (Feb 2025)
+
+Cross-checked **CLIENT-REMARKS-VERIFICATION.md** and **doc/HEB-REPLACEMENT-INSTRUCTIONS.md** against `assets/js/translations.js`.
+
+### Fixes applied
+| Item | Client request | Was | Fixed to |
+|------|----------------|-----|----------|
+| Family Office (ENG) hero | "The Private Office Standard" / "Move beyond traditional banking. Experience the precision of a Personal CFO." | "Elevate Your Wealth Management Strategy" / "Move beyond Private Banking. Experience the strategic oversight and precision..." | Updated in both EN `familyOfficePage` blocks. |
+| Family Office (HEB) hero | Translation of above | "אסטרטגיה מתקדמת לניהול הון" / "מעבר לבנקאות פרטית..." | "סטנדרט המשרד הפרטי" / "מעבר לבנקאות מסורתית. חוו את הדיוק של CFO אישי." |
+| Doron Yanir (ENG) | "Controller" | "Back-Office Manager" | "Controller" (team2Role). HEB stays "מנהל בק־אופיס". |
+
+### Verified as correct (no change)
+- **Home/Contact (HEB):** `contact.ctaTitle` = "בואו נדבר", `contact.text` = "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל ?"
+- **About (HEB):** `aboutPage.heroSubtitle` = full paragraph with "הון מביא איתו חופש... Family Wealth Advisors... התכנון המבני והשקט הנפשי"
+- **Nav/CTA (HEB):** `scheduleConsultation`, `formTitle` = "בואו נתחיל בשיחה"; form subtitles per doc
+- **Team (HEB):** Benjamin bio, Alex role "מנהל מערכות מידע ודיווח (Head of Data & Reporting)", FAQ a2 with "משווק השקעות"
+- **All ENG checklist items** (Home, FAQ, Contact, About, Team, Values, Approach, Investment Philosophy, Services, Family Office, Global)

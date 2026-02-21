@@ -1,0 +1,6348 @@
+[
+  {
+    "paragraphIndex": 0,
+    "runs": [
+      {
+        "text": "WWW",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "CO",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "IL",
+        "format": {}
+      },
+      {
+        "text": "--",
+        "format": {
+          "underline": "single"
+        }
+      },
+      {
+        "text": "HEB",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 1,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 2,
+    "runs": [
+      {
+        "text": "תפריט ניווט",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 3,
+    "runs": [
+      {
+        "text": "מי אנחנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 4,
+    "runs": [
+      {
+        "text": "אודותינו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 5,
+    "runs": [
+      {
+        "text": "הצוות שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 6,
+    "runs": [
+      {
+        "text": "השירותים שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 7,
+    "runs": [
+      {
+        "text": "הערכים שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 8,
+    "runs": [
+      {
+        "text": "הגישה שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 9,
+    "runs": [
+      {
+        "text": "סל השירותים",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 10,
+    "runs": [
+      {
+        "text": "פילוסופיית ההשקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 11,
+    "runs": [
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס",
+        "format": {}
+      },
+      {
+        "text": "(Family Office)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 12,
+    "runs": [
+      {
+        "text": "יסודות",
+        "format": {}
+      },
+      {
+        "text": "הפמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 13,
+    "runs": [
+      {
+        "text": "שאלות נפוצות",
+        "format": {}
+      },
+      {
+        "text": "(FAQ)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 14,
+    "runs": [
+      {
+        "text": "צור קשר",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 15,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 16,
+    "runs": [
+      {
+        "text": "HOME PAGE",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 17,
+    "runs": [
+      {
+        "text": "כותרת ראשית",
+        "format": {}
+      },
+      {
+        "text": "(Hero Section)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 18,
+    "runs": [
+      {
+        "text": "ה",
+        "format": {}
+      },
+      {
+        "text": "-CFO",
+        "format": {}
+      },
+      {
+        "text": "האישי שלכם לניהול הון בין-דורי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 19,
+    "runs": [
+      {
+        "text": "אנו מעניקים בהירות, פרספקטיבה אסטרטגית וביטחון ארוך טווח בניהול ההון המשפחתי – כדי להבטיח שהעושר שלכם ישגשג לאורך דורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 20,
+    "runs": [
+      {
+        "text": "[כפתור: צור קשר] [כפתור: השירותים שלנו]",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 21,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 22,
+    "runs": [
+      {
+        "text": "מי אנחנו",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 23,
+    "runs": [
+      {
+        "text": "שותף נאמן לשימור והגנה על ההון",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 24,
+    "runs": [
+      {
+        "text": "חברת",
+        "format": {}
+      },
+      {
+        "text": "Family Wealth Advisors",
+        "format": {}
+      },
+      {
+        "text": "הוקמה בשנת 2009 עם מטרה אחת מרכזית: להעניק למשפחות בעלות הון את אותה רמה של מומחיות פיננסית הזמינה למשקיעים מוסדיים – אך בגישה אישית מאוד ומבוססת מערכת יחסים קרובה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 25,
+    "runs": [
+      {
+        "text": "אנו משמשים כ",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      },
+      {
+        "text": "\"",
+        "format": {}
+      },
+      {
+        "text": "\"CFO",
+        "format": {}
+      },
+      {
+        "text": "האישי שלכם, ומהווים מרכז ניהולי אחיד לעסקים המשפחתיים, לתיקי ההשקעות, לאסטרטגיות המס ולהעברת העושר בין הדורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 26,
+    "runs": [
+      {
+        "text": "כפתור:",
+        "format": {}
+      },
+      {
+        "text": "[",
+        "format": {}
+      },
+      {
+        "text": "לסיפור המלא שלנו",
+        "format": {}
+      },
+      {
+        "text": "]",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 27,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 28,
+    "runs": [
+      {
+        "text": "מה אנחנו עושים",
+        "format": {
+          "underline": "single"
+        }
+      },
+      {
+        "text": "[6 קוביות]",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 29,
+    "runs": [
+      {
+        "text": "שירותי",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס מקיפים מערך שירותים מותאם אישית שנבנה לפי הצרכים הספציפיים, היעדים והנסיבות המשפחתיות שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 30,
+    "runs": [
+      {
+        "text": "תכנון הון אסטרטגי",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אסטרטגיות מקיפות להגנה, צמיחה והעברת ההון המשפחתי על פני מספר דורות, עם אבני דרך ברורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 31,
+    "runs": [
+      {
+        "text": "ניהול השקעות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "ניהול",
+        "format": {}
+      },
+      {
+        "text": "השקעות",
+        "format": {}
+      },
+      {
+        "text": "מבוסס ראיות",
+        "format": {}
+      },
+      {
+        "text": "(Evidence-based)",
+        "format": {}
+      },
+      {
+        "text": "עם גישה להשקעות באיכות מוסדית, פיזור גלובלי ואיזון מחדש קפדני",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 32,
+    "runs": [
+      {
+        "text": "אופטימיזציית",
+        "format": {}
+      },
+      {
+        "text": "מס",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תכנון מס אסטרטגי בין",
+        "format": {}
+      },
+      {
+        "text": "ישויות ומשטרי מס",
+        "format": {}
+      },
+      {
+        "text": "שונים במטרה למזער חבויות מס, למקסם תשואות נטו ולהבטיח עמידה מלאה בדרישות הרגולציה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 33,
+    "runs": [
+      {
+        "text": "תכנון עיזבון ומורשת",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "שימור מורשת מקיף הכולל נאמנויות, תכנון ירושה, פילנתרופיה והעברת הון חלקה ליורשים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 34,
+    "runs": [
+      {
+        "text": "ממשל משפחתי",
+        "format": {}
+      },
+      {
+        "text": "(Family Governance):",
+        "format": {}
+      },
+      {
+        "text": "גיבוש \"אמנה משפחתית\", מבני ממשל ותוכניות חינוך לדור ההמשך, כדי למנוע קונפליקטים ולהבטיח המשכיות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 35,
+    "runs": [
+      {
+        "text": "ניהול סיכונים",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "יצירת מעטפת הגנה לתיק ההשקעות במטרה לצמצם את השפעת התנודתיות בשווקים. אנו פועלים לאיזון נכון בין הגנה על ההון הקיים לבין ניצול הזדמנויות צמיחה, תוך שמירה על יציבות התיק גם בתנאי שוק משתנים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 36,
+    "runs": [
+      {
+        "text": "הגישה שלנו",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 37,
+    "runs": [
+      {
+        "text": "פילוסופיית השקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 38,
+    "runs": [
+      {
+        "text": "שלושה עקרונות מבוססי",
+        "format": {}
+      },
+      {
+        "text": "שעמדו במבחן הזמן ומנחים כל החלטה שאנו מקבלים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 39,
+    "runs": [
+      {
+        "text": "על פני ספקולציות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו בונים תיקי השקעות המבוססים על עשורים של מחקר פיננסי אמפירי – ולא על כותרות עיתונים או תחזיות שוק. האסטרטגיות שלנו נועדו לתפוס צמיחה גלובלית ארוכת טווח באמצעות השקעה שיטתית וממושמעת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 40,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 41,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 42,
+    "runs": [
+      {
+        "text": "משמעת התנהגותית",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האיום הגדול ביותר על הון לטווח ארוך הוא תגובה רגשית לתנודתיות קצרת טווח. אנו משמשים כעוגן התנהגותי עבורכם – ומספקים את המשמעת והפרספקטיבה הנחוצות כדי להתמיד בדרך גם בתקופות סוערות בשווקים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 43,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 44,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 45,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 46,
+    "runs": [
+      {
+        "text": "הצוות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 47,
+    "runs": [
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 48,
+    "runs": [
+      {
+        "text": "דניאל פרץ",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "מייסד ומנכ\"ל",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 49,
+    "runs": [
+      {
+        "text": "גיל בן צדוק, עו\"ד",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "מנהל השקעות בכיר",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 50,
+    "runs": [
+      {
+        "text": "בנימין",
+        "format": {}
+      },
+      {
+        "text": "סרקיסוב",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "מנהל השקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 51,
+    "runs": [
+      {
+        "text": "און גולדנברג",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "מנהל תפעול",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 52,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 53,
+    "runs": [
+      {
+        "text": "הנעה לפעולה",
+        "format": {}
+      },
+      {
+        "text": "(Footer/Contact)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 54,
+    "runs": [
+      {
+        "text": "בואו נדבר",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 55,
+    "runs": [
+      {
+        "text": "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "?",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 56,
+    "runs": [
+      {
+        "text": "שם | אימייל | הודעה | כפתור: שליחה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 57,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 58,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 59,
+    "runs": [
+      {
+        "text": "הוא משרד בוטיק מוביל",
+        "format": {}
+      },
+      {
+        "text": "לפמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס, המעניק שירותי ניהול הון מקיפים למשפחות בעלות הון בישראל מאז שנת 2009",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 60,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 61,
+    "runs": [
+      {
+        "text": "© 2026 Family Wealth Advisors Ltd.",
+        "format": {}
+      },
+      {
+        "text": "כל הזכויות שמורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "נגישות | פרטיות ותנאי שימוש | גילוי נאות",
+        "format": {
+          "fontSizePt": 10,
+          "fontSizeCsPt": 10
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 62,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 63,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 64,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 65,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 66,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 67,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 68,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 69,
+    "runs": [
+      {
+        "text": "מי אנחנו",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 70,
+    "runs": [
+      {
+        "text": "אודותינו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 71,
+    "runs": [
+      {
+        "text": "הון",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "מביא",
+        "format": {}
+      },
+      {
+        "text": "איתו",
+        "format": {}
+      },
+      {
+        "text": "חופש, אך גם מורכבות. מאז שנת 2009",
+        "format": {}
+      },
+      {
+        "text": ", Family Wealth Advisors (FWA)",
+        "format": {}
+      },
+      {
+        "text": "מספקת את הבהירות האסטרטגית, התכנון המבני והשקט הנפשי המאפשרים למשפחות לשגשג לאורך דורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 72,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 73,
+    "runs": [
+      {
+        "text": "הסיפור שלנו",
+        "format": {}
+      },
+      {
+        "text": "(Our Story)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 74,
+    "runs": [
+      {
+        "text": "ניהול מקצועי להון האישי שלכם",
+        "format": {}
+      },
+      {
+        "text": "Family Wealth Advisors",
+        "format": {}
+      },
+      {
+        "text": "הוקמה בשנת 2009 על ידי דניאל פרץ, מומחה בשוקי ההון בעל ניסיון גלובלי של למעלה משלושה עשורים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 75,
+    "runs": [
+      {
+        "text": "נוסדנו",
+        "format": {}
+      },
+      {
+        "text": "על בסיס הנחה פשוטה: מיזם משפחתי זקוק ל",
+        "format": {}
+      },
+      {
+        "text": "-CFO",
+        "format": {}
+      },
+      {
+        "text": "(סמנכ\"ל כספים), בדיוק כמו עסק מסחרי. הקמנו פירמה שיושבת באותו צד של השולחן עם המשפחה – ללא מכירת מוצרים, ללא עמלות נסתרות, ותוך מתן ניצוח אובייקטיבי לחלוטין על חייה הפיננסיים של המשפחה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 76,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 77,
+    "runs": [
+      {
+        "text": "מה אנחנו עושים",
+        "format": {}
+      },
+      {
+        "text": "(What We Do)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 78,
+    "runs": [
+      {
+        "text": "ממורכבות לבהירות אנחנו לא רק מנהלים תיקי השקעות; אנחנו מנהלים את המכלול המשפחתי כולו",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 79,
+    "runs": [
+      {
+        "text": "תפקידנו הוא לשמש כארכיטקט המרכזי של עושרכם. אנו מתאמים כל חלק במערכת הפיננסית שלכם – השקעות, מיסוי, מבנים משפטיים וממשל משפחתי – לכדי אסטרטגיה אחת מאוחדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 80,
+    "runs": [
+      {
+        "text": "המשימה שלנו פשוטה: להסיר את נטל הניהול הפיננסי מכתפיכם, ולאפשר לכם להתמקד בעסקים, בתשוקות שלכם ובמשפחה, מתוך ביטחון מלא שה",
+        "format": {}
+      },
+      {
+        "text": "מערך",
+        "format": {}
+      },
+      {
+        "text": "הפיננסי שלכם מנוהל באופן",
+        "format": {}
+      },
+      {
+        "text": "מיטבי.",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 81,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 82,
+    "runs": [
+      {
+        "text": "הסטנדרט שלנו",
+        "format": {}
+      },
+      {
+        "text": "(Our Standard)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 83,
+    "runs": [
+      {
+        "text": "אובייקטיביות ללא פשרות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 84,
+    "runs": [
+      {
+        "text": "מודל",
+        "format": {}
+      },
+      {
+        "text": "עמלה ישירה מהלקוח",
+        "format": {}
+      },
+      {
+        "text": "(",
+        "format": {}
+      },
+      {
+        "text": "Fee-Only",
+        "format": {}
+      },
+      {
+        "text": "):",
+        "format": {}
+      },
+      {
+        "text": "התגמול היחיד שלנו מגיע מכם. לעולם איננו מקבלים עמלות מצדדים שלישיים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 85,
+    "runs": [
+      {
+        "text": "הלימה מל",
+        "format": {}
+      },
+      {
+        "text": "אה",
+        "format": {}
+      },
+      {
+        "text": "(Total Alignment)",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "במידה ומתקבלת עמל",
+        "format": {}
+      },
+      {
+        "text": "ה",
+        "format": {}
+      },
+      {
+        "text": "מ",
+        "format": {}
+      },
+      {
+        "text": "צד",
+        "format": {}
+      },
+      {
+        "text": "שלישי",
+        "format": {}
+      },
+      {
+        "text": "כלשהו",
+        "format": {}
+      },
+      {
+        "text": "אנו מזכים את חשבונכם ב-100% מהסכום",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 86,
+    "runs": [
+      {
+        "text": "תפיסת נאמנות",
+        "format": {}
+      },
+      {
+        "text": "(Fiduciary)",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "איננו אנשי מכירות. אנו מחויבים בנאמנות",
+        "format": {}
+      },
+      {
+        "text": "(Fiduciary),",
+        "format": {}
+      },
+      {
+        "text": "הן אתית והן מקצועית, לפעול אך ורק לטובתכם העליונה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 87,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 88,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 89,
+    "runs": [
+      {
+        "text": "המנהיגות שלנו",
+        "format": {}
+      },
+      {
+        "text": "(Leadership)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 90,
+    "runs": [
+      {
+        "text": "הכירו את הצוות הפירמה שלנו מונהגת על ידי צוות מומחים מנוסה המשלב מומחיות בשוקי ההון הגלובליים, מיסוי וניהול אופרטיבי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 91,
+    "runs": [
+      {
+        "text": "דניאל פרץ",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מייסד ומנכ\"ל",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 92,
+    "runs": [
+      {
+        "text": "גיל בן צדוק",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מנהל השקעות בכיר",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 93,
+    "runs": [
+      {
+        "text": "בנימין",
+        "format": {}
+      },
+      {
+        "text": "סרקיסוב",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מנהל השקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 94,
+    "runs": [
+      {
+        "text": "און גולדנברג",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מנהל תפעול",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 95,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 96,
+    "runs": [
+      {
+        "text": "קריאה לפעולה",
+        "format": {}
+      },
+      {
+        "text": "(Footer/Contact)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 97,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 98,
+    "runs": [
+      {
+        "text": "בואו",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "נתחיל",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 99,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לשיחת היכרות אישית לבחינת התאמת השירותים שלנו לצרכי משפחתכם. השאירו פרטים למטה, ונחזור אליכם בהקדם לתיאום מועד נוח",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 100,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 101,
+    "runs": [
+      {
+        "text": "[",
+        "format": {}
+      },
+      {
+        "text": "כפתור",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "צרו",
+        "format": {}
+      },
+      {
+        "text": "קשר",
+        "format": {}
+      },
+      {
+        "text": "->]",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 102,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 103,
+    "runs": [
+      {
+        "text": "שם | אימייל | הודעה | כפתור: שליחה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 104,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 105,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 106,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 107,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 108,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 109,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 110,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 111,
+    "runs": [
+      {
+        "text": "האנשים שמאחורי ההצלחה שלכם",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 112,
+    "runs": [
+      {
+        "text": "ה",
+        "format": {}
+      },
+      {
+        "text": "צוות",
+        "format": {}
+      },
+      {
+        "text": "שלנו",
+        "format": {}
+      },
+      {
+        "text": "מביא",
+        "format": {}
+      },
+      {
+        "text": "עמו",
+        "format": {}
+      },
+      {
+        "text": "עשורים",
+        "format": {}
+      },
+      {
+        "text": "של",
+        "format": {}
+      },
+      {
+        "text": "ניסיון",
+        "format": {}
+      },
+      {
+        "text": "בשווקים",
+        "format": {}
+      },
+      {
+        "text": "פיננסיים",
+        "format": {}
+      },
+      {
+        "text": "גלובליים",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "ניהול",
+        "format": {}
+      },
+      {
+        "text": "סיכונים",
+        "format": {}
+      },
+      {
+        "text": "ואופרציה",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "כולם",
+        "format": {}
+      },
+      {
+        "text": "מגויסים",
+        "format": {}
+      },
+      {
+        "text": "למען",
+        "format": {}
+      },
+      {
+        "text": "של",
+        "format": {}
+      },
+      {
+        "text": "המשפחה",
+        "format": {}
+      },
+      {
+        "text": "שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 113,
+    "runs": [
+      {
+        "text": "צוות ההנהלה והשקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 114,
+    "runs": [
+      {
+        "text": "דניאל פרץ",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 115,
+    "runs": [
+      {
+        "text": "מייסד ומנכ\"ל",
+        "format": {}
+      },
+      {
+        "text": "דניאל פרץ הוא המייסד והמנכ\"ל של",
+        "format": {}
+      },
+      {
+        "text": "Family Wealth Advisors (FWA).",
+        "format": {}
+      },
+      {
+        "text": "עם למעלה מ-30 שנות ניסיון בשווקים הפיננסיים הגלובליים, הקים דניאל את",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "בשנת 2009 במטרה להעניק למשפחות גישה מתוחכמת, מבוקרת סיכונים ומקצועית לניהול הון",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 116,
+    "runs": [
+      {
+        "text": "בעברו כיהן דניאל כמנהל סיכונים ראשי ב\"כלל פיננסים\", שם מילא תפקידי מפתח כמנהל קרנות וכמנהל דסק ה",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      },
+      {
+        "text": "OTC",
+        "format": {}
+      },
+      {
+        "text": ". הרקע",
+        "format": {}
+      },
+      {
+        "text": "המעמיק שלו בניהול סיכונים מוסדיים ובניהול נכסים מאפשר לו להעניק ללקוחותיו פרספקטיבה ייחודית על שימור הון וצמיחתו",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 117,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון",
+        "format": {}
+      },
+      {
+        "text": "(B.A)",
+        "format": {}
+      },
+      {
+        "text": "בכלכלה בהצטיינות, אוניברסיטת חיפה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 118,
+    "runs": [
+      {
+        "text": "הסמכה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "בעל רישיון לניהול השקעות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 119,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 120,
+    "runs": [
+      {
+        "text": "גיל בן צדוק, עו\"ד",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 121,
+    "runs": [
+      {
+        "text": "מנהל השקעות בכיר",
+        "format": {}
+      },
+      {
+        "text": "גיל",
+        "format": {}
+      },
+      {
+        "text": "בן",
+        "format": {}
+      },
+      {
+        "text": "צדוק",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 122,
+    "runs": [
+      {
+        "text": "במחלק",
+        "format": {}
+      },
+      {
+        "text": "ת חברות ו",
+        "format": {}
+      },
+      {
+        "text": "ניירות",
+        "format": {}
+      },
+      {
+        "text": "ערך",
+        "format": {}
+      },
+      {
+        "text": "במשרד",
+        "format": {}
+      },
+      {
+        "text": "הרצוג",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "פוקס",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "נאמן",
+        "format": {}
+      },
+      {
+        "text": "(",
+        "format": {}
+      },
+      {
+        "text": "HFN",
+        "format": {}
+      },
+      {
+        "text": "),",
+        "format": {}
+      },
+      {
+        "text": "ממשרדי",
+        "format": {}
+      },
+      {
+        "text": "עורכי",
+        "format": {}
+      },
+      {
+        "text": "הדין",
+        "format": {}
+      },
+      {
+        "text": "המובילים",
+        "format": {}
+      },
+      {
+        "text": "בישראל",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 123,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון בחשבונאות ותואר ראשון במשפטים",
+        "format": {}
+      },
+      {
+        "text": "(LL.B),",
+        "format": {}
+      },
+      {
+        "text": "אוניברסיטת תל אביב",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 124,
+    "runs": [
+      {
+        "text": "הסמכה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "עו\"ד מוסמך",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 125,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 126,
+    "runs": [
+      {
+        "text": "בנימין",
+        "format": {}
+      },
+      {
+        "text": "סרקיסוב",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 127,
+    "runs": [
+      {
+        "text": "מנהל השקעות",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "בנימין",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "סרקיסוב",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "FWA",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 128,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון",
+        "format": {}
+      },
+      {
+        "text": "(",
+        "format": {}
+      },
+      {
+        "text": "B.Sc",
+        "format": {}
+      },
+      {
+        "text": ")",
+        "format": {}
+      },
+      {
+        "text": "במתמטיקה, כלכלה ופסיכולוגיה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 129,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר שני במנהל עסקים",
+        "format": {}
+      },
+      {
+        "text": "(MBA)",
+        "format": {}
+      },
+      {
+        "text": "בהצטיינות יתרה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 130,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 131,
+    "runs": [
+      {
+        "text": "צוות אופרציה ודיווח",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 132,
+    "runs": [
+      {
+        "text": "און גולדנברג",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 133,
+    "runs": [
+      {
+        "text": "מנהל תפעול",
+        "format": {}
+      },
+      {
+        "text": "(Head of Operations)",
+        "format": {}
+      },
+      {
+        "text": "און הצטרף ל",
+        "format": {}
+      },
+      {
+        "text": "-Family Wealth Advisors",
+        "format": {}
+      },
+      {
+        "text": "בשנת 2025. הוא אחראי על מחלקת ה",
+        "format": {}
+      },
+      {
+        "text": "-Back Office",
+        "format": {}
+      },
+      {
+        "text": "ומפקח על התשתית התפעולית הפנימית של",
+        "format": {}
+      },
+      {
+        "text": ". און מביא עמו מעל לעשור של ניסיון מקצועי בשוק ההון",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 134,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון",
+        "format": {}
+      },
+      {
+        "text": "(B.A)",
+        "format": {}
+      },
+      {
+        "text": "במנהל עסקים בינלאומי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 135,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 136,
+    "runs": [
+      {
+        "text": "אל",
+        "format": {}
+      },
+      {
+        "text": "כ",
+        "format": {}
+      },
+      {
+        "text": "ס",
+        "format": {}
+      },
+      {
+        "text": "קרומקין",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 137,
+    "runs": [
+      {
+        "text": "מנהל נתונים ודיווח",
+        "format": {}
+      },
+      {
+        "text": "(Head of Data & Reporting)",
+        "format": {}
+      },
+      {
+        "text": "אל",
+        "format": {}
+      },
+      {
+        "text": "כ",
+        "format": {}
+      },
+      {
+        "text": "ס מוביל את מחלקת מערכות המידע ודיווח הלקוחות ב",
+        "format": {}
+      },
+      {
+        "text": "-FWA.",
+        "format": {}
+      },
+      {
+        "text": "מאז שנת 2022, אל",
+        "format": {}
+      },
+      {
+        "text": "כ",
+        "format": {}
+      },
+      {
+        "text": "ס אחראי על הדיוק והשקיפות של הדיווח המאוחד",
+        "format": {}
+      },
+      {
+        "text": "(Consolidated reporting)",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "תוך פיקוח על תהליכי ההתאמה החודשיים של תיקי נכסים מורכבים הכוללים מגוון אפיקי השקעה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 138,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר שני",
+        "format": {}
+      },
+      {
+        "text": "(M.A)",
+        "format": {}
+      },
+      {
+        "text": "בכלכלה פיננסית בהצטיינות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 139,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון",
+        "format": {}
+      },
+      {
+        "text": "(B.A)",
+        "format": {}
+      },
+      {
+        "text": "בכלכלה, אוניברסיטת רייכמן (המרכז הבינתחומי)",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 140,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 141,
+    "runs": [
+      {
+        "text": "דורון יניר",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 142,
+    "runs": [
+      {
+        "text": "בקר",
+        "format": {}
+      },
+      {
+        "text": "(Controller)",
+        "format": {}
+      },
+      {
+        "text": "דורון הצטרף ל",
+        "format": {}
+      },
+      {
+        "text": "-FWA",
+        "format": {}
+      },
+      {
+        "text": "בשנת 2010, והוא מביא עמו מומחיות ייחודית בניהול מיסוי ותפעול",
+        "format": {}
+      },
+      {
+        "text": "Back-office.",
+        "format": {}
+      },
+      {
+        "text": "בעברו עבד דורון בבנק יהב ובמספר משרדי רואי חשבון מובילים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 143,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר שני",
+        "format": {}
+      },
+      {
+        "text": "(MBA)",
+        "format": {}
+      },
+      {
+        "text": "מהאוניברסיטה הפתוחה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 144,
+    "runs": [
+      {
+        "text": "הסמכה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "יועץ מס מוסמך",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 145,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 146,
+    "runs": [
+      {
+        "text": "דן לוי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 147,
+    "runs": [
+      {
+        "text": "אנליסט השקעות ותפעול",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 148,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 149,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 150,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 151,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מימון ושוק ההון, הקריה האקדמית אונו",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 152,
+    "runs": [
+      {
+        "text": "עדנה פרץ",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 153,
+    "runs": [
+      {
+        "text": "ניהול חוזים ותפעול",
+        "format": {}
+      },
+      {
+        "text": "עדנה הצטרפה ל",
+        "format": {}
+      },
+      {
+        "text": "-FWA",
+        "format": {}
+      },
+      {
+        "text": "בשנת 2015, לאחר קריירה ענפה של 15 שנים כמנהלת התקשרויות בחברת",
+        "format": {}
+      },
+      {
+        "text": "GBG",
+        "format": {}
+      },
+      {
+        "text": "הבינלאומית. היא אמונה על התשתית האופרטיבית של המשרד ומרכזת את כלל היבטי ההתקשרות והבקרה הארגונית",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 154,
+    "runs": [
+      {
+        "text": "הניסיון הרב שעדנה מביאה עמה בניהול מערכים מורכבים מהווה נדבך מרכזי ביעילות התפעולית של הפירמה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 155,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר שני",
+        "format": {}
+      },
+      {
+        "text": "(MBA)",
+        "format": {}
+      },
+      {
+        "text": "מאוניברסיטת דרבי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 156,
+    "runs": [
+      {
+        "text": "השכלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תואר ראשון",
+        "format": {}
+      },
+      {
+        "text": "(B.A)",
+        "format": {}
+      },
+      {
+        "text": "בסטטיסטיקה, אוניברסיטת חיפה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 157,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 158,
+    "runs": [
+      {
+        "text": "בואו",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "נתחיל",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 159,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לשיחת היכרות אישית לבחינת התאמת השירותים שלנו לצרכי משפחתכם. השאירו פרטים למטה, ונחזור אליכם בהקדם לתיאום מועד נוח",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 160,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 161,
+    "runs": [
+      {
+        "text": "היסודות שלנו",
+        "format": {
+          "underline": "single"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 162,
+    "runs": [
+      {
+        "text": "ערכי הליבה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 163,
+    "runs": [
+      {
+        "text": "הערכים שלנו אינם רק עקרונות – הם אלו שמנחים את המחויבות העמוקה שלנו להצלחה הפיננסית שלכם ומעצבים כל החלטה שאנו מקבלים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 164,
+    "runs": [
+      {
+        "text": "ב",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      },
+      {
+        "text": "Family Wealth Advisors",
+        "format": {}
+      },
+      {
+        "text": "אנו מאמינים כי",
+        "format": {}
+      },
+      {
+        "text": "הדרך",
+        "format": {}
+      },
+      {
+        "text": "שבה אנו משרתים את לקוחותינו חשובה לא פחות",
+        "format": {}
+      },
+      {
+        "text": "ממה",
+        "format": {}
+      },
+      {
+        "text": "שאנו עושים עבורם. חמשת ערכי הליבה הללו מגדירים מי אנחנו וכיצד אנו פועלים – הם התשתית עליה אנו בונים מערכות יחסים ארוכות טווח ובין-דוריות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 165,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 166,
+    "runs": [
+      {
+        "text": "אובייקטיביות ללא פשרות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 167,
+    "runs": [
+      {
+        "text": "המחויבות שלנו לאובייקטיביות מציבה את הצרכים והיעדים שלכם בראש סדר העדיפויות של קבלת ההחלטות והפעולות שלנו",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 168,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 169,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 170,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 171,
+    "runs": [
+      {
+        "text": "שקיפות רדיקלית",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 172,
+    "runs": [
+      {
+        "text": "אמון נבנה באור השמש",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 173,
+    "runs": [
+      {
+        "text": "אנו מאמינים בבהירות מוחלטת בכל הנוגע לעמלות, סיכונים וניגודי עניינים. אנו אומרים לכם את מה שאתם צריכים לשמוע – גם כשזה לא נוח – כי הגנה על ההון שלכם דורשת אמת, לא אנשי מכירות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 174,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 175,
+    "runs": [
+      {
+        "text": "קפדנות מחשבתית",
+        "format": {}
+      },
+      {
+        "text": "(Intellectual Rigor)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 176,
+    "runs": [
+      {
+        "text": "בשוק גלובלי מורכב, \"מספיק",
+        "format": {}
+      },
+      {
+        "text": "טוב",
+        "format": {}
+      },
+      {
+        "text": "\" הוא סיכון",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 177,
+    "runs": [
+      {
+        "text": "אנו מביאים עמנו עשרות שנות ניסיון רב-תחומי – שילוב של ידע מעמיק בהשקעות יחד עם מומחיות משפטית",
+        "format": {}
+      },
+      {
+        "text": "ומיסויית",
+        "format": {}
+      },
+      {
+        "text": "– כדי לפתור בעיות שיועצים סטנדרטיים נוטים להחמיץ",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 178,
+    "runs": [
+      {
+        "text": "אנו ניגשים לכל אתגר בדייקנות אנליטית ולמידה מתמדת. על ידי התעדכנות שוטפת בשינויי רגולציה ובהתפתחויות בשוק, אנו מבטיחים שאסטרטגיית ההון שלכם תמיד תהיה מבוססת על הסטנדרטים המקצועיים הגבוהים ביותר",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 179,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 180,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 181,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 182,
+    "runs": [
+      {
+        "text": "חשיבה",
+        "format": {}
+      },
+      {
+        "text": "בין-",
+        "format": {}
+      },
+      {
+        "text": "דורית",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 183,
+    "runs": [
+      {
+        "text": "אנחנו לא חושבים במונחים של רבעונים",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "אנו חושבים במונחים של דורות. כל החלטה שאנו מקבלים נשקלת אל מול השפעתה לטווח הארוך",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 184,
+    "runs": [
+      {
+        "text": "אנו בונים אסטרטגיות עמידות שנועדו להחזיק מעמד. המיקוד שלנו הוא ביצירת מורשת ששורדת מחזורי שוק, תמורות רגולטוריות ומעברים בין-דוריים במשפחה, תוך הבטחה שההון שלכם יישאר מקור של עוצמה למשך עשורים קדימה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 185,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 186,
+    "runs": [
+      {
+        "text": "הלימה מלאה",
+        "format": {}
+      },
+      {
+        "text": "(Total Alignment)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 187,
+    "runs": [
+      {
+        "text": "התגמול שלנו נובע אך ורק מהמשפחות שאנו משרתים באמצעות מבנה עמלות מוגדר, השומר על שקיפות ופשטות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 188,
+    "runs": [
+      {
+        "text": "אנו שומרים על מדיניות החזר עמלות",
+        "format": {}
+      },
+      {
+        "text": "(Rebate)",
+        "format": {}
+      },
+      {
+        "text": "קפדנית של 100%: כל עמלה",
+        "format": {}
+      },
+      {
+        "text": "שמתקבלת מצד שלישי כלשהו",
+        "format": {}
+      },
+      {
+        "text": "מוחזרת אליכם במלואה",
+        "format": {}
+      },
+      {
+        "text": ". זה מבטיח שהאינטרסים הכלכליים שלנו תואמים לחלוטין את שלכם, שכן לעולם לא נפיק רווח מה",
+        "format": {}
+      },
+      {
+        "text": "חלטותיכם שלא בידיעתכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 189,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 190,
+    "runs": [
+      {
+        "text": "ההבטחה שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 191,
+    "runs": [
+      {
+        "text": "ערכים בפעולה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 192,
+    "runs": [
+      {
+        "text": "✓",
+        "format": {}
+      },
+      {
+        "text": "תמיד נציב את האינטרסים שלכם בראש – לא את שלנו, ולא את של יצרני המוצרים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 193,
+    "runs": [
+      {
+        "text": "✓",
+        "format": {}
+      },
+      {
+        "text": "נגיד לכם את מה שאתם צריכים לשמוע, גם כשזה לא נוח",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 194,
+    "runs": [
+      {
+        "text": "✓",
+        "format": {}
+      },
+      {
+        "text": "לעולם לא נמליץ על משהו שלא היינו ממליצים למשפחה שלנו",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 195,
+    "runs": [
+      {
+        "text": "✓",
+        "format": {}
+      },
+      {
+        "text": "נשמור על סודיות מוחלטת בכל הנוגע לעניינכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 196,
+    "runs": [
+      {
+        "text": "✓",
+        "format": {}
+      },
+      {
+        "text": "נהיה כאן עבור המשפחה שלכם – היום ולדורות הבאים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 197,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 198,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 199,
+    "runs": [
+      {
+        "text": "בואו נתחיל בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 200,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לפגישת היכרות פרטית",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אנא השאירו את פרטיכם למטה, ואנו ניצור קשר אישי לתיאום פגישה",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 201,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 202,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 203,
+    "runs": [
+      {
+        "text": "הגישה שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 204,
+    "runs": [
+      {
+        "text": "ארכיטקטורה של הון",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 205,
+    "runs": [
+      {
+        "text": "הון אינו מסתכם רק בתשואות על השקעות; הוא תלוי באינטגרציה של כל החלטה פיננסית שאתם מקבלים. אנו פועלים כ",
+        "format": {}
+      },
+      {
+        "text": "-CFO",
+        "format": {}
+      },
+      {
+        "text": "האישי שלכם (מנהל כספים ראשי), ומחברים בין המבנים המשפטיים, אסטרטגיות המס והיעדים המשפחתיים שלכם כדי ליצור מערכת פיננסית אחת ומלוכדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 206,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 207,
+    "runs": [
+      {
+        "text": "הגישה שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 208,
+    "runs": [
+      {
+        "text": "שלושת עמודי התווך של פעילותנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 209,
+    "runs": [
+      {
+        "text": "סנכרון מלא",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 210,
+    "runs": [
+      {
+        "text": "לרוב המשפחות יש צוות יועצים מפוצל: בנקאי, רואה חשבון ועורך דין שלעיתים רחוקות משוחחים זה עם זה. אנו ניצבים במרכז הצומת, מתאמים בין כל היועצים שלכם ומבטיחים שכולם פועלים יחד למימוש",
+        "format": {}
+      },
+      {
+        "text": "חזון",
+        "format": {}
+      },
+      {
+        "text": "אסטרטגי אחיד",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 211,
+    "runs": [
+      {
+        "text": "ניהול סיכונים",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 212,
+    "runs": [
+      {
+        "text": "אנו מגדירים סיכון מחדש. לא מדובר רק בתנודתיות של השוק; אנו מגנים על הונכם מפני אינפלציה, מיסוי יתר, התדיינויות משפטיות וטעויות התנהגותיות – ומבטיחים שההון שלכם יישמר לדורות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 213,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 214,
+    "runs": [
+      {
+        "text": "בהירות ושליטה",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 215,
+    "runs": [
+      {
+        "text": "מורכבות היא האויב של הביצוע. אנו מרכזים את כל הנכסים שלכם – מכל הבנקים ומכל תחומי השיפוט – לדו\"ח אחד ברור ומסכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "כך אתם מקבלים את הבהירות הנדרשת לקבלת החלטות, ללא \"כאב הראש\" האדמיניסטרטיבי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 216,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 217,
+    "runs": [
+      {
+        "text": "\"",
+        "format": {}
+      },
+      {
+        "text": "Risk comes from not knowing what you are doing.\"",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 218,
+    "runs": [
+      {
+        "text": "Warren Buffett",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 219,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 220,
+    "runs": [
+      {
+        "text": "בואו נתחיל בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 221,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לפגישת היכרות פרטית.",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אנא השאירו את פרטיכם למטה, ואנו ניצור קשר אישי לתיאום פגישה",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 222,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 223,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 224,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 225,
+    "runs": [
+      {
+        "text": "השירותים שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 226,
+    "runs": [
+      {
+        "text": "ניהול הוליסטי של ההון המשפחתי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 227,
+    "runs": [
+      {
+        "text": "אנו יוצרים את המעטפת הניהולית עבור ההון המשפחתי שלכם",
+        "format": {}
+      },
+      {
+        "text": "–",
+        "format": {}
+      },
+      {
+        "text": "ומאחדים את תחומי ההשקעות, המיסוי וההמשכיות הבין-דורית לכדי תוכנית אחת מלוכדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 228,
+    "runs": [
+      {
+        "text": "ה",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      },
+      {
+        "text": "CFO",
+        "format": {}
+      },
+      {
+        "text": "האישי שלכם",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 229,
+    "runs": [
+      {
+        "text": "התשתית להון בין-דורי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 230,
+    "runs": [
+      {
+        "text": "אנו מחליפים את חוסר הסדר הכרוך בעבודה מול ספקים מרובים באסטרטגיה אחת אינטגרטיבית",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 231,
+    "runs": [
+      {
+        "text": "במקום למכור מוצרים, אנו מציעים ני",
+        "format": {}
+      },
+      {
+        "text": "הול הוליסטי.",
+        "format": {}
+      },
+      {
+        "text": "אנו מתאמים כל היבט בחייכם הפיננסיים – השקעות, מיסוי, היבטים משפטיים וממשל משפחתי – לכדי מערכת אחת מאוחדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 232,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 233,
+    "runs": [
+      {
+        "text": "שלושת עמודי התווך של השירות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 234,
+    "runs": [
+      {
+        "text": "מבנה עושר",
+        "format": {}
+      },
+      {
+        "text": "(Wealth Structuring)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 235,
+    "runs": [
+      {
+        "text": "הבסיס לניהול הון נכון מתחיל בהבנת התמונה המלאה ויצירת אסטרטגיה מלוכדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 236,
+    "runs": [
+      {
+        "text": "אסטרטגיית הון הוליסטית",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "ניתוח המאזן המלא שלכם במטרה להגדיר יעדים ארוכי טווח ברורים ובני-ביצוע",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 237,
+    "runs": [
+      {
+        "text": "אופטימיזציה של מס וירושה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "תכנון פרואקטיבי לצמצום חבויות מס והבטחת העברה חלקה של ההון לדור הבא",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 238,
+    "runs": [
+      {
+        "text": "ממשל משפחתי",
+        "format": {}
+      },
+      {
+        "text": "(Family Governance):",
+        "format": {}
+      },
+      {
+        "text": "יצירת מסגרת לקבלת החלטות המונעת קונפליקטים ומכשירה את הדור הבא לאחריות ניהולית",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 239,
+    "runs": [
+      {
+        "text": "ניהול השקעות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 240,
+    "runs": [
+      {
+        "text": "השקעות מבוססות מחקר",
+        "format": {}
+      },
+      {
+        "text": "(Evidence-based)",
+        "format": {}
+      },
+      {
+        "text": "שנועדו לשמר את ההון לאורך מחזורי שוק משתנים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 241,
+    "runs": [
+      {
+        "text": "הקצאת נכסים אופטימלי",
+        "format": {}
+      },
+      {
+        "text": "ת:",
+        "format": {}
+      },
+      {
+        "text": "בניית תיקי השקעות המותאמים אישית לפרופיל הסיכון שלכם ולצרכי הנזילות המשפחתיים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 242,
+    "runs": [
+      {
+        "text": "חשיפה",
+        "format": {}
+      },
+      {
+        "text": "להשקעות",
+        "format": {}
+      },
+      {
+        "text": "אלטרנטיבי",
+        "format": {}
+      },
+      {
+        "text": "ות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מתן גישה לאפיקי השקעה ייחודיים",
+        "format": {}
+      },
+      {
+        "text": "השמורים לרוב לגופים מוסדיים,",
+        "format": {}
+      },
+      {
+        "text": "בתחומי ה",
+        "format": {}
+      },
+      {
+        "text": "Private Equity",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "נדל\"ן",
+        "format": {}
+      },
+      {
+        "text": ", קרנות גידור",
+        "format": {}
+      },
+      {
+        "text": "ואשראי הפרטי, המאפשרים פיזור תיק מעבר לשוקי ההון המסורתיים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 243,
+    "runs": [
+      {
+        "text": "ארכיטקטורה פתוחה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "איננו \"נשואים\" לאף בנק או קרן. אנו בוחרים עבורכם את",
+        "format": {}
+      },
+      {
+        "text": "גופי השקעות ומנהלים",
+        "format": {}
+      },
+      {
+        "text": "בעלי הביצועים הטובים ביותר",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 244,
+    "runs": [
+      {
+        "text": "יישום ופיקוח",
+        "format": {}
+      },
+      {
+        "text": "(Oversight)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 245,
+    "runs": [
+      {
+        "text": "אנחנו מנהלים את המורכבות, כדי להעניק לכם שקט נפשי וביטחון מלא",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 246,
+    "runs": [
+      {
+        "text": "דיווח הוליסטי ומאוחד",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "ריכוז נתונים מכלל המוסדות הבנקאיים והפיננסיים לכדי תמונת מצב אחת, ברורה ומדויקת. אנו מספקים לכם את ה'שורה התחתונה' הנדרשת לקבלת החלטות מושכלות, ללא מורכבות אדמיניסטרטיבית",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 247,
+    "runs": [
+      {
+        "text": "סנכרון",
+        "format": {}
+      },
+      {
+        "text": "וניהול",
+        "format": {}
+      },
+      {
+        "text": "ממשקים",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו",
+        "format": {}
+      },
+      {
+        "text": "מרכזים",
+        "format": {}
+      },
+      {
+        "text": "את",
+        "format": {}
+      },
+      {
+        "text": "העבודה",
+        "format": {}
+      },
+      {
+        "text": "מול",
+        "format": {}
+      },
+      {
+        "text": "רואי החשבון, עורכי",
+        "format": {}
+      },
+      {
+        "text": "הדין",
+        "format": {}
+      },
+      {
+        "text": "והבנקאים",
+        "format": {}
+      },
+      {
+        "text": "שלכם",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "ומוודאים",
+        "format": {}
+      },
+      {
+        "text": "שכלל",
+        "format": {}
+      },
+      {
+        "text": "אנשי",
+        "format": {}
+      },
+      {
+        "text": "המקצוע",
+        "format": {}
+      },
+      {
+        "text": "פועלים",
+        "format": {}
+      },
+      {
+        "text": "בסנכרון",
+        "format": {}
+      },
+      {
+        "text": "מלא",
+        "format": {}
+      },
+      {
+        "text": "לקידום",
+        "format": {}
+      },
+      {
+        "text": "האינטרסים",
+        "format": {}
+      },
+      {
+        "text": "שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 248,
+    "runs": [
+      {
+        "text": "תפעול ובקרה אדמיניסטרטיבית",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו מרכזים את הניהול השוטף של הנכסים – החל מתיאום מול רואי החשבון לטובת דיווחי המס, דרך ריכוז ותיוק כלל המסמכים הפיננסיים, ועד וידוא עמידה מלאה בדרישות הרגולציה של כלל החברות והישויות המשפטיות שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 249,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 250,
+    "runs": [
+      {
+        "text": "איך אנחנו עובדים",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 251,
+    "runs": [
+      {
+        "text": "תהליך ברור בשלושה שלבים",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 252,
+    "runs": [
+      {
+        "text": "אבחון:",
+        "format": {}
+      },
+      {
+        "text": "אנחנו מקשיבים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "אנו מעמיקים בצרכים המשפחתיים, בהעדפות ההשקעה, בפרופיל הסיכון ובערכים שלכם, כדי לגבש תמונה פיננסית מלאה, ברורה ומדויקת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 253,
+    "runs": [
+      {
+        "text": "אסטרטגיה",
+        "format": {}
+      },
+      {
+        "text": "אנחנו בונים. אתם מקבלים \"תכנית עבודה פיננסית",
+        "format": {}
+      },
+      {
+        "text": "\"",
+        "format": {}
+      },
+      {
+        "text": "מקיפה המכסה את כל הנכסים וההתחייבויות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 254,
+    "runs": [
+      {
+        "text": "שלב הביצוע:",
+        "format": {}
+      },
+      {
+        "text": "הובלה ובקרה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "אנו מוציאים את התוכנית האסטרטגית אל הפועל,",
+        "format": {}
+      },
+      {
+        "text": "מתכללים",
+        "format": {}
+      },
+      {
+        "text": "את פעילותם של כלל המומחים ומנהלים בקרה שוטפת וקפדנית על כל היבט במערך הפיננסי שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 255,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 256,
+    "runs": [
+      {
+        "text": "בואו נתחיל בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 257,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לפגישת היכרות פרטית",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 258,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 259,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 260,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 261,
+    "runs": [
+      {
+        "text": "פילוסופיית ההשקעות שלנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 262,
+    "runs": [
+      {
+        "text": "תשתית המבוססת על מקצוענות ללא פשרות, שקיפות וסטנדרט מוסדי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 263,
+    "runs": [
+      {
+        "text": "ב",
+        "format": {}
+      },
+      {
+        "text": "-FWA",
+        "format": {}
+      },
+      {
+        "text": "אנחנו רואים בניהול ההון שלכם מערכת אינטגרטיבית אחת, ולא אוסף של השקעות מנותקות. הגישה שלנו מבוססת על תהליך עבודה מובנה ומונחה נתונים, המנטרל את רעשי הרקע של השוק ומתמקד ביצירת ערך יציב ומתמשך בהתאם למפת הדרכים הפיננסית שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 264,
+    "runs": [
+      {
+        "text": "המודל האסטרטגי של",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 265,
+    "runs": [
+      {
+        "text": "מתודולוגיה מבוססת מחקר",
+        "format": {}
+      },
+      {
+        "text": "(Evidence-Led)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 266,
+    "runs": [
+      {
+        "text": "אנו מאמינים כי השווקים הם המעבדים היעילים ביותר של מידע. תפקידנו אינו לנסות \"להערים\" על החוכמה הקולקטיבית של השווקים הגלובליים, אלא לרתום את הצמיחה שלהם בצורה מושכלת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 267,
+    "runs": [
+      {
+        "text": "אסטרטגיית הקצאה מבוססת נתונים",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו מיישמים מודלים אנליטיים לזיהוי מנועי הצמיחה והתשואה בשווקים הגלובליים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 268,
+    "runs": [
+      {
+        "text": "פיזור גורמי סיכון",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנחנו לא מסתפקים בפיזור נכסים סטנדרטי, אלא מנתחים את גורמי העומק המשפיעים על יצירת ערך לאורך מחזורי שוק שונים, כדי לבנות תיק חסין ודינמי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 269,
+    "runs": [
+      {
+        "text": "ניהול",
+        "format": {}
+      },
+      {
+        "text": "סיכונים ושימור הון",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 270,
+    "runs": [
+      {
+        "text": "בעולם ה",
+        "format": {}
+      },
+      {
+        "text": "-Family Office,",
+        "format": {}
+      },
+      {
+        "text": "סיכון הוא לא רק תנודתיות בשווקים; הסיכון האמיתי הוא אובדן ריאלי של ערך ההון לאורך זמן. אנו ניגשים לניהול סיכונים כאל אתגר תכנוני",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      },
+      {
+        "text": "בניית תשתית עמידה שתדע לשמר את כוחו של ההון בכל תרחיש",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 271,
+    "runs": [
+      {
+        "text": "ניהול חשיפה מושכל",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו מקצים הון רק כאשר קיים 'סיכון מניב' – כלומר, כאשר",
+        "format": {}
+      },
+      {
+        "text": "פוטנציאל התשואה של",
+        "format": {}
+      },
+      {
+        "text": "ההשקעה מצדיק באופן מובהק את פוטנציאל התנודתיות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 272,
+    "runs": [
+      {
+        "text": "נזילות אסטרטגית",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו",
+        "format": {}
+      },
+      {
+        "text": "מכוונים לכך",
+        "format": {}
+      },
+      {
+        "text": "שכל תיק",
+        "format": {}
+      },
+      {
+        "text": "נכסים",
+        "format": {}
+      },
+      {
+        "text": "ייבנה",
+        "format": {}
+      },
+      {
+        "text": "באופן",
+        "format": {}
+      },
+      {
+        "text": "שיענה על צרכי נזילות מיידיים, מבלי להתפשר על יעדי הצמיחה לטווח הארוך",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 273,
+    "runs": [
+      {
+        "text": "אחריות מקצועית ויתרון התנהגותי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 274,
+    "runs": [
+      {
+        "text": "המשתנה המשמעותי ביותר בכל תוכנית השקעה הוא המשמעת הדרושה להתמדה בה.",
+        "format": {}
+      },
+      {
+        "text": "כ",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס",
+        "format": {}
+      },
+      {
+        "text": "של המשפחה, אנו משמשים כמסננת מקצועית בין הכותרות בתקשורת לבין ההון שלכם",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 275,
+    "runs": [
+      {
+        "text": "ניהול החלטות בתנאי אי-ודאות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו פועלים כפילטר מקצועי המפריד בין הכותרות בתקשורת לבין ניהול ההון שלכם. הפרספקטיבה האובייקטיבית שלנו מבטיחה שכל פעולה בתיק תנבע משיקולים אסטרטגיים ולא מתגובה רגעית לתנאי השוק",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 276,
+    "runs": [
+      {
+        "text": "תהליך מול דחף",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "ההחלטות שלנו כפופות למסגרת עבודה שהוגדרה מראש, מה שמבטיח שהאסטרטגיה תמיד תנצח את הרגש",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 277,
+    "runs": [
+      {
+        "text": "נאמנות",
+        "format": {}
+      },
+      {
+        "text": "(Fiduciary)",
+        "format": {}
+      },
+      {
+        "text": "ואופטימיזציה של מס",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 278,
+    "runs": [
+      {
+        "text": "הפילוסופיה שלנו נשענת על יסודות של הלימה מלאה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      },
+      {
+        "text": "כ",
+        "format": {}
+      },
+      {
+        "text": "Family Office",
+        "format": {}
+      },
+      {
+        "text": "שלכם",
+        "format": {}
+      },
+      {
+        "text": "אנו פועלים בשקיפות שמוסדות מסורתיים אינם מציעים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 279,
+    "runs": [
+      {
+        "text": "ייעוץ נקי מניגודי עניינים",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו מחויבים לסטנדרט הנאמנות הגבוה ביותר",
+        "format": {}
+      },
+      {
+        "text": "(Fiduciary).",
+        "format": {}
+      },
+      {
+        "text": "האינטרסים שלנו תואמים באופן מלא ובלעדי את אלו שלכם, ללא מגבלות של \"מוצרי בית\" או עמלות נסתרות",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 280,
+    "runs": [
+      {
+        "text": "יעילות מבנית",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "הגישה שלנו משלבת אסטרטגיות תכנון מס ואופטימיזציה של נכסים חוצי גבולות בליבת תהליך ההשקעה",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 281,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 282,
+    "runs": [
+      {
+        "text": "\"",
+        "format": {}
+      },
+      {
+        "text": "Risk comes from not knowing what you are doing.\"",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 283,
+    "runs": [
+      {
+        "text": "Warren Buffett",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 284,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 285,
+    "runs": [
+      {
+        "text": "בואו נתחיל בשיחה",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 286,
+    "runs": [
+      {
+        "text": "אנו מזמינים אתכם לפגישת היכרות פרטית",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה",
+        "format": {
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 287,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 288,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 289,
+    "runs": [
+      {
+        "text": "יסודות ה",
+        "format": {}
+      },
+      {
+        "text": "Family Office",
+        "format": {}
+      },
+      {
+        "text": "-",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 290,
+    "runs": [
+      {
+        "text": "אסטרטגיה מתקדמת לניהול הון",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 291,
+    "runs": [
+      {
+        "text": "מעבר לבנקאות פרטית: הכירו את הראייה האסטרטגית והבקרה המדויקת של",
+        "format": {}
+      },
+      {
+        "text": "CFO",
+        "format": {}
+      },
+      {
+        "text": "אישי",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 292,
+    "runs": [
+      {
+        "text": "מה זה",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 293,
+    "runs": [
+      {
+        "text": "האקו-",
+        "format": {}
+      },
+      {
+        "text": "סיסטם",
+        "format": {}
+      },
+      {
+        "text": "הפיננסי שלכם, מאוחד",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 294,
+    "runs": [
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס אינו רק ניהול הון; זוהי ארכיטקטורה של עושר. בעוד שבנקים וסוכנים מסורתיים מתמקדים במכירת מוצרים,",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס מתמקד בשילוב אסטרטגיה עם ביצוע ישיר. אנו פועלים כ",
+        "format": {}
+      },
+      {
+        "text": "CFO",
+        "format": {}
+      },
+      {
+        "text": "”",
+        "format": {}
+      },
+      {
+        "text": "האישי\" שלכם, ומתאמים את כל חייכם הפיננסיים – השקעות, מיסוי, משפט והעברת עושר – לכדי אסטרטגיה אחת מלוכדת",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 295,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 296,
+    "runs": [
+      {
+        "text": "הצ'ק-ליסט",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 297,
+    "runs": [
+      {
+        "text": "האם",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס מתאים לכם",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 298,
+    "runs": [
+      {
+        "text": "אם עניתם \"כן\" על אחת מהשאלות הבאות, ייתכן שבנקאות מסורתית או מנהל נכסים רגיל כבר אינם מספיקים עבורכם",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 299,
+    "runs": [
+      {
+        "text": "מורכבות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם אתם מנהלים נכסים במספר בנקים,",
+        "format": {}
+      },
+      {
+        "text": "מדינות",
+        "format": {}
+      },
+      {
+        "text": "או מטבעות שונים",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 300,
+    "runs": [
+      {
+        "text": "זמן",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם ניהול ההון גוזל מכם זמן יקר על חשבון העסק או המשפחה",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 301,
+    "runs": [
+      {
+        "text": "סנכרון",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם רואה החשבון, עורך הדין והבנקאי שלכם מדברים זה עם זה? (או שאתם אלו שצריכים לתווך ביניהם?)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 302,
+    "runs": [
+      {
+        "text": "המשכיות",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם אתם מוטרדים מהאופן שבו הדור הבא ינהל את ההון שיקבל",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 303,
+    "runs": [
+      {
+        "text": "פיקוח ובקרה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "מי בודק עבורכם את העמלות והביצועים של הבנקים שלכם",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 304,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 305,
+    "runs": [
+      {
+        "text": "איך בוחרים",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 306,
+    "runs": [
+      {
+        "text": "\"",
+        "format": {}
+      },
+      {
+        "text": "כללי הזהב\" לבחירת",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 307,
+    "runs": [
+      {
+        "text": "בעת בחירת",
+        "format": {}
+      },
+      {
+        "text": "פמילי",
+        "format": {}
+      },
+      {
+        "text": "אופיס, אל תתפשרו על שלושה סטנדרטים בסיסיים",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 308,
+    "runs": [
+      {
+        "text": "עצמאות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 309,
+    "runs": [
+      {
+        "text": "השאלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם הם בבעלות בנק או חברת ביטוח",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      },
+      {
+        "text": "הסטנדרט של",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו בבעלות פרטית מלאה (100%). איננו מוכרים מוצרים ואין לנו אינטרסים זרים",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 310,
+    "runs": [
+      {
+        "text": "הלימה מלאה",
+        "format": {}
+      },
+      {
+        "text": "(Total Alignment)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 311,
+    "runs": [
+      {
+        "text": "השאלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם הם שומרים אצלם את העמלות",
+        "format": {}
+      },
+      {
+        "text": "(Rebates)",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      },
+      {
+        "text": "הסטנדרט של",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנו מזכים את חשבונכם ב-100% מכל עמלה המשולמת על ידי צד שלישי. האינטרס שלנו הוא שלכם בלבד",
+        "format": {}
+      },
+      {
+        "text": ".",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 312,
+    "runs": [
+      {
+        "text": "ראייה הוליסטית",
+        "format": {}
+      },
+      {
+        "text": "(Holistic Oversight)",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 313,
+    "runs": [
+      {
+        "text": "השאלה",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "האם הם רואים את התמונה המלאה",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 314,
+    "runs": [
+      {
+        "text": "הסטנדרט של",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": ":",
+        "format": {}
+      },
+      {
+        "text": "אנחנו לא רק מנהלים את הנכסים שלכם; אנו מבצעים אופטימיזציה של מיסוי, מבנים משפטיים וממשל משפחתי",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 315,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 316,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 317,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 318,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 319,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 320,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 321,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 322,
+    "runs": [
+      {
+        "text": "שאלות נפוצות",
+        "format": {}
+      },
+      {
+        "text": "(",
+        "format": {}
+      },
+      {
+        "text": "FAQ",
+        "format": {}
+      },
+      {
+        "text": ")",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 323,
+    "runs": [
+      {
+        "text": "תשובות לשאלות נפוצות על",
+        "format": {}
+      },
+      {
+        "text": "Family Offices",
+        "format": {}
+      },
+      {
+        "text": ",",
+        "format": {}
+      },
+      {
+        "text": "השירותים שלנו והעבודה המשותפת",
+        "format": {}
+      },
+      {
+        "text": "איתנו",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 324,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 325,
+    "runs": [
+      {
+        "text": "חלק 1: שאלות כלליות",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 326,
+    "runs": [
+      {
+        "text": "כיצד",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "מנהלת ניגודי עניינים פוטנציאליים",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 327,
+    "runs": [
+      {
+        "text": "ב",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      },
+      {
+        "text": "-FWA",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      },
+      {
+        "text": "אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים. בהתאם לחוק הסדרת העיסוק בייעוץ השקעות (1995),",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      },
+      {
+        "text": "אנו חושפים באופן יזום את כל הזיקות שלנו",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "– קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו להעניק ערך מוסף ללקוחותינו",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 328,
+    "runs": [
+      {
+        "text": "אנו שומרים על אובייקטיביות מקצועית ומנטרלים ניגודי עניינים באמצעות שלושה עקרונות ליבה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 329,
+    "runs": [
+      {
+        "text": "מדיניות החזר עמלות",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "(Rebate)",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "של 100%",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אנו נזכה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "את חשבונכם בכל עמלת המתקבלת מגופים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "כלשהם",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ". זה מבטיח שהאינטרסים הכלכליים שלנו זהים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "לשלכם",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ", שכן לעולם לא נפיק רווח מבחירה במנהל השקעות אחד על פני אחר",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 330,
+    "runs": [
+      {
+        "text": "מינוף כוח קנייה מוסדי",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אנו רותמים את הקשרים האסטרטגיים שלנו כדי להשיג עבורכם תנאים השמורים לגופים מוסדיים בלבד, לרבות דמי ניהול מופחתים וגישה ל",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "קרנות",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "השקעה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "סגורות, שאינן נגישות למשקיעים פרטיים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 331,
+    "runs": [
+      {
+        "text": "ארכיטקטורה פתוחה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "ללא קשר לזיקות שלנו, כל השקעה עוברת סינון קפדני. נמליץ על מוצר מסוים אך ורק אם הוא המענה המיטבי ליעדים ארוכי הטווח של משפחתכם",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 332,
+    "runs": [
+      {
+        "text": "האם",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "היא חברה בעלת רישיון לניהול השקעות",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "פועלת כחברת",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "פמילי",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אופיס",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "המתמקדת באופן בלעדי ב",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "\"משקיעים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "כשירים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "(",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "Qualified Investors)",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "\"",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 333,
+    "runs": [
+      {
+        "text": "בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, ה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "מנכ\"ל",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "המ",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "כהן",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "Family Office",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ",",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת \"משווק השקעות\", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 334,
+    "runs": [
+      {
+        "text": "מה ההבדל בין",
+        "format": {}
+      },
+      {
+        "text": "Family Office",
+        "format": {}
+      },
+      {
+        "text": "לבין בנקאות פרטית, יועץ עושר או מנהל נכסים",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      },
+      {
+        "text": "ההבדל טמון בהיקף השירות ובאינטרס",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "FWA",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "לעומת זאת, פועלת כ",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "ארכיטקט האסטרטגי",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "שלכם. אנו יושבים לצ",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "י",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "דכם סביב השולחן ומעניקים ניהול הוליסטי של כלל ה",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "נכסים",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "שלכם",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 335,
+    "runs": [
+      {
+        "text": "איננו מחליפים את הספקים הקיימים, אלא מ",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "שפרים ומ",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "תאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמנויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "fontSizePt": 11,
+          "fontSizeCsPt": 11,
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 336,
+    "runs": [
+      {
+        "text": "מה ההבדל בין \"ניהול תיקים",
+        "format": {}
+      },
+      {
+        "text": "(Discretionary)",
+        "format": {}
+      },
+      {
+        "text": "למודל העבודה של",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 337,
+    "runs": [
+      {
+        "text": "בניהול תיקים סטנדרטי, מנהל ההשקעות מקבל החלטות קנייה ומכירה ומבצע אותן באופן עצמאי על דעת עצמו. ב",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "- FWA",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אנו פועלים אך ורק במודל של ייעוץ וניהול מבוסס אישור",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "(-",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "Non",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "Discretionary",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ").",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 338,
+    "runs": [
+      {
+        "text": "אנו מאמינים שאתם צריכים להישאר מקבלי ההחלטות הסופיים על ההון שלכם. במסגרת האסטרטגיה הכוללת שהגדרנו למשפחה, התפקיד שלנו הוא לנתח,",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "להנגיש",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "את המידע ולהמליץ – אך לעולם לא נבצע פעולה ללא אישורכם המפורט והמלא",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "כך אתם נהנים מניהול מקצועי מבלי לאבד שליטה על הנכסים",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 339,
+    "runs": [
+      {
+        "text": "האם תהיה לי יותר עבודה אם אשכור יועץ שאינו פועל בייפוי כוח",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 340,
+    "runs": [
+      {
+        "text": "בכלל לא. חשבו על זה כעל \"יותר שליטה, פחות אדמיניסטרציה\". אנו מבחינים בין \"עבודה\" לבין \"קבלת החלטות\". אנחנו מטפלים ב-100% מהעבודה",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "– מחקר,",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "ניהול ומעקב",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ", תיאום מול בנקים וביצוע. תפקידכם עולה לרמת ההנהלה",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "-",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "אתם בוחנים המלצות ברורות ומעניקים את ה\"אור הירוק",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "\"",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 341,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 342,
+    "runs": [
+      {
+        "text": "חלק 2: עבודה מול",
+        "format": {}
+      },
+      {
+        "text": "Family Wealth Advisors",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 343,
+    "runs": [
+      {
+        "text": "האם",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "מסייעת בממשל משפחתי וחינוך דור ההמשך",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 344,
+    "runs": [
+      {
+        "text": "בהחלט. אנו מאמינים שהכשרת המשפחה לקראת ההון חשובה לא פחות",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "מניהול ושימור",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "ההון עבור המשפחה. אנו בונים חוויות למידה מותאמות ומנחים מפגשים משפחתיים המתמקדים בניהול קבלת החלטות, תכנון ירושה וחינוך פיננסי לדור הצעיר",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 345,
+    "runs": [
+      {
+        "text": "איך בנוי מבנה העמלות שלכם",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 346,
+    "runs": [
+      {
+        "text": "אנו פועלים במודל שקוף של",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "עמלה בלבד",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "(Fee-Only)",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "שלא כמו מודלים מסורתיים הנשענים על עמלות נסתרות, שכר הטרחה שלנו מסוכם מראש ומבוסס על",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "היקף ו",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "מורכבות המערך הפיננסי שלכם. איננו גובים דמי הצלחה",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "(Performance Fees)",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ",",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": "כדי להימנע מהפיתוי לקחת סיכונים מיותרים עם ההון שלכם לצורך השגת תשואות קצרות טווח",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 347,
+    "runs": [
+      {
+        "text": "האם",
+        "format": {}
+      },
+      {
+        "text": "FWA",
+        "format": {}
+      },
+      {
+        "text": "יכולה לסייע בצמצום קונפליקטים משפחתיים",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 348,
+    "runs": [
+      {
+        "text": "אנו פועלים כצד שלישי ניטרלי המגשר על פערים בין דורות. על ידי יצירת פרוטוקולים ברורים לקבלת החלטות ותקשורת פתוחה, אנו עוזרים לבני המשפחה להרגיש שותפים ולא \"מנוטרלים\", מה שמפחית משמעותית את החיכוך",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 349,
+    "runs": [
+      {
+        "text": "האם עלי להחליף את הספקים הפיננסיים הנוכחיים שלי",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 350,
+    "runs": [
+      {
+        "text": "ממש לא. אנו אפילו מעודדים פיזור נכסים בין מספר בנקים. איננו מחליפים את הבנקים שלכם; אנו מנהלים אותם עבורכם. אנו פועלים כנציגים שלכם ומפקחים על כל הספקים כדי לוודא שהם נשארים תחרותיים ומסונכרנים עם האסטרטגיה הרחבה שלכם",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 351,
+    "runs": [
+      {
+        "text": "מהי תדירות התקשורת מולכם",
+        "format": {}
+      },
+      {
+        "text": "?",
+        "format": {}
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 352,
+    "runs": [
+      {
+        "text": "אנו מתאימים את התדירות להעדפתכם, אך הסטנדרט שלנו כולל",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000",
+          "highlight": "yellow"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 353,
+    "runs": [
+      {
+        "text": "חודש",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "י",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "דוח",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 354,
+    "runs": [
+      {
+        "text": "רבעו",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "ני",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "פגיש",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "ת אסטרטגיה",
+        "format": {
+          "color": "#EE0000"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 355,
+    "runs": [
+      {
+        "text": "שנ",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "תי",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "הוליסטית של התוכנית",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 356,
+    "runs": [
+      {
+        "text": "עדכונים יזומים",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ":",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "פעם שתנ",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "השוק או",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "את תשומת ל",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "י",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": "בכם",
+        "format": {
+          "color": "#EE0000"
+        }
+      },
+      {
+        "text": ".",
+        "format": {
+          "color": "#EE0000"
+        }
+      }
+    ]
+  },
+  {
+    "paragraphIndex": 357,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 358,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 359,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 360,
+    "runs": []
+  },
+  {
+    "paragraphIndex": 361,
+    "runs": []
+  }
+]

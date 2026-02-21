@@ -1,3 +1,9 @@
 node_modules/
 .DS_Store
 .env
+
+# Windows reserved names (e.g. nul, con) - cannot be added to git
+nul
+con
+prn
+aux

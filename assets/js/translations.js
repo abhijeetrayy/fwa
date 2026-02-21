@@ -488,9 +488,9 @@ const translations = {
       emailTitle: "Email Us",
       responseTime: "We typically respond within 24 hours",
       formEyebrow: "",
-      formTitle: "Let's start a conversation",
+      formTitle: "Let's Start a Conversation",
       formSubtitle:
-        "We invite you to a private introductory meeting to explore if FWA is the right partner for your family. Please leave your details below, and we will be in touch personally to schedule a time.",
+        "We invite you to an initial consultation to discuss your family's goals and ensure a mutual fit.\nPlease provide your details below, and we will contact you personally to coordinate a time.",
       connectEyebrow: "Stay Connected",
       connectTitle: "Connect With Us",
       linkedin: "LinkedIn",
@@ -566,9 +566,9 @@ const translations = {
     // Family Office Page (Family Office Essential)
     familyOfficePage: {
       heroEyebrow: "Family Office Essential",
-      heroTitle: "Elevate Your Wealth Management Strategy",
+      heroTitle: "The Private Office Standard",
       heroSubtitle:
-        "Move beyond Private Banking. Experience the strategic oversight and precision of a Personal CFO.",
+        "Move beyond traditional banking. Experience the precision of a Personal CFO.",
       section1Eyebrow: "What is a Family Office?",
       section1Title: "Your Financial Ecosystem, Unified.",
       section1Text:
@@ -601,7 +601,7 @@ const translations = {
       rule3Q:
         "<strong>Holistic Oversight:</strong> Do they see the whole picture?",
       rule3A:
-        "<strong>FWA Standard:</strong> We don't just manage your assets; we optimize tax, legal structures, and family governance.",
+        "<strong>FWA Standard:</strong> We don't just manage your assets; we optimize tax, legal structures, and family governance alongside full operational management.",
       formName: "Name *",
       formEmail: "Email *",
       formMessage: "Message",
@@ -1019,7 +1019,7 @@ const translations = {
       team5Name: "Edna Peretz",
       team5Role: "Head of Administration",
       team5Bio:
-        "Edna Peretz joined FWA in 2015, following a 15-year career as a Contracts Manager at GBG, a leading international global brands company. Edna brings extensive experience in contract management and operational coordination to the firm.",
+        "Edna joined FWA in 2015, following an extensive 15-year career as an Engagement Manager at GBG, a leading international firm. She manages the firm's operational infrastructure and oversees all aspects of client engagements and organizational control. Her depth of experience in managing complex environments is central to the firm's ongoing operational efficiency.",
       team5Edu1: "MBA from Derby University",
       team5Edu2: "B.A. in Statistics from Haifa University",
       team4Bio:
@@ -1041,9 +1041,9 @@ const translations = {
     // Family Office Page - Full Content (Family Office Essential)
     familyOfficePage: {
       heroEyebrow: "Family Office Essential",
-      heroTitle: "Elevate Your Wealth Management Strategy",
+      heroTitle: "The Private Office Standard",
       heroSubtitle:
-        "Move beyond Private Banking. Experience the strategic oversight and precision of a Personal CFO.",
+        "Move beyond traditional banking. Experience the precision of a Personal CFO.",
       section1Eyebrow: "What is a Family Office?",
       section1Title: "Your Financial Ecosystem, Unified.",
       section1Text:
@@ -1076,7 +1076,7 @@ const translations = {
       rule3Q:
         "<strong>Holistic Oversight:</strong> Do they see the whole picture?",
       rule3A:
-        "<strong>FWA Standard:</strong> We don't just manage your assets; we optimize tax, legal structures, and family governance.",
+        "<strong>FWA Standard:</strong> We don't just manage your assets; we optimize tax, legal structures, and family governance alongside full operational management.",
       formName: "Name *",
       formEmail: "Email *",
       formMessage: "Message",
@@ -1128,9 +1128,9 @@ const translations = {
         "The greatest threat to long-term wealth is often emotional reaction to short-term market volatility. We act as a behavioral bridge, providing the discipline necessary to stay the course during turbulent times. We believe that a consistent process, rather than a reaction to current events, is the true driver of superior investment outcomes.",
       fact3Tagline: "Behavior Determines Performance.",
       formEyebrow: "Contact Us",
-      formTitle: "Let's start a conversation",
+      formTitle: "Let's Start a Conversation",
       formSubtitle:
-        "We invite you to a private introductory meeting to explore if FWA is the right partner for your family. Please leave your details below, and we will be in touch personally to schedule a time.",
+        "We invite you to an initial consultation to discuss your family's goals and ensure a mutual fit.\nPlease provide your details below, and we will contact you personally to coordinate a time.",
     },
     // Contact Page - Full Content
     contactPageFull: {
@@ -1149,9 +1149,9 @@ const translations = {
       emailAddress: "office@fwa.co.il",
       responseTime: "We typically respond<br>within 24 hours",
       formEyebrow: "",
-      formTitle: "Let's start a conversation",
+      formTitle: "Let's Start a Conversation",
       formSubtitle:
-        "We invite you to a private introductory meeting to explore if FWA is the right partner for your family. Please leave your details below, and we will be in touch personally to schedule a time.",
+        "We invite you to an initial consultation to discuss your family's goals and ensure a mutual fit.\nPlease provide your details below, and we will contact you personally to coordinate a time.",
       nameLabel: "Name *",
       emailLabel: "Email *",
       messageLabel: "Message",
@@ -1176,9 +1176,9 @@ const translations = {
       emailTitle: "Email Us",
       responseTime: "We typically respond<br>within 24 hours",
       formEyebrow: "",
-      formTitle: "Let's start a conversation",
+      formTitle: "Let's Start a Conversation",
       formSubtitle:
-        "We invite you to a private introductory meeting to explore if FWA is the right partner for your family. Please leave your details below, and we will be in touch personally to schedule a time.",
+        "We invite you to an initial consultation to discuss your family's goals and ensure a mutual fit.\nPlease provide your details below, and we will contact you personally to coordinate a time.",
       nameLabel: "Name *",
       emailLabel: "Email *",
       messageLabel: "Message",
@@ -1213,13 +1213,13 @@ const translations = {
       ourValues: "הערכים שלנו",
       ourPhilosophy: "הגישה שלנו",
       investmentPhilosophy: "פילוסופיית ההשקעות",
-      familyOffice: "פמילי אופיס (Family Office)",
+      familyOffice: "פמילי אופיס (Family<span style=\"font-style:normal;vertical-align:middle\">-</span>Office)",
       whatIsFamilyOffice: "יסודות הפמילי אופיס",
       doINeedOne: "האם אני צריך משרד משפחתי?",
       choosingRightOne: "בחירת המשרד המשפחתי הנכון",
       faq: "שאלות נפוצות",
       contactUs: "צור קשר",
-      scheduleConsultation: "התחילו את השיחה",
+      scheduleConsultation: "בואו נתחיל בשיחה",
     },
     // Language Modal
     langModal: {
@@ -1237,7 +1237,7 @@ const translations = {
     // Hero Section
     hero: {
       badge: "משרד משפחתי בוטיק מוביל מאז 2009",
-      titleLine1: "ה<span style=\"font-style:normal;vertical-align:middle\">-</span>CFO האישי שלכם",
+      titleLine1: "ה<span class=\"he-dash\" style=\"font-style:normal;vertical-align:0.2em;display:inline-block;line-height:1\">−</span>CFO האישי שלכם",
       titleLine2: "לניהול הון בין<span style=\"font-style:normal;vertical-align:middle\">־</span>דורי",
       subtitle:
         "אנו מעניקים בהירות, פרספקטיבה אסטרטגית וביטחון ארוך טווח בניהול ההון המשפחתי – כדי להבטיח שהעושר שלכם ישגשג לאורך דורות.",
@@ -1335,7 +1335,7 @@ const translations = {
       eyebrow: "התחל כאן",
       title: "התחל שיחה חסויה",
       ctaTitle: "בואו נדבר",
-      text: "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל?",
+      text: "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל ?",
       officeLabel: "משרד",
       officeAddress: "רחוב המדע 6, הרצליה 4673340, ישראל",
       phoneLabel: "טלפון",
@@ -1386,10 +1386,10 @@ const translations = {
     // Family Office Page (Hebrew)
     familyOfficePage: {
       heroEyebrow: "יסודות ה<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Office",
-      heroTitle: "אסטרטגיה מתקדמת לניהול הון",
-      heroSubtitle: "מעבר לבנקאות פרטית: הכירו את הראייה האסטרטגית והבקרה המדויקת של CFO אישי.",
+      heroTitle: "סטנדרט המשרד הפרטי",
+      heroSubtitle: "מעבר לבנקאות מסורתית. חוו את הדיוק של CFO אישי.",
       section1Eyebrow: "מה זה פמילי אופיס?",
-      section1Title: "האקו<span style=\"font-style:normal;vertical-align:middle\">-</span>סיסטם הפיננסי שלכם, מאוחד.",
+      section1Title: "האקו<span class=\"he-dash\" style=\"font-style:normal;vertical-align:0.2em;display:inline-block;line-height:1\">−</span>סיסטם הפיננסי שלכם, מאוחד.",
       section1Text: 'פמילי אופיס אינו רק ניהול הון; זוהי ארכיטקטורה של עושר. בעוד שבנקים וסוכנים מסורתיים מתמקדים במכירת מוצרים, פמילי אופיס מתמקד בשילוב אסטרטגיה עם ביצוע ישיר. אנו פועלים כ"CFO האישי" שלכם, ומתאמים את כל חייכם הפיננסיים – השקעות, מיסוי, משפט והעברת עושר – לכדי אסטרטגיה אחת מלוכדת.',
       section2Eyebrow: "הצ'ק<span style=\"font-style:normal;vertical-align:middle\">-</span>ליסט",
       section2Title: "האם פמילי אופיס מתאים לכם?",
@@ -1402,12 +1402,12 @@ const translations = {
       section3Eyebrow: "איך בוחרים?",
       section3Title: '"כללי הזהב" לבחירת פמילי אופיס',
       section3Subtitle: "בעת בחירת פמילי אופיס, אל תתפשרו על שלושה סטנדרטים בסיסיים:",
-      rule1Q: "<strong>עצמאות רדיקלית</strong> השאלה: האם הם בבעלות בנק או חברת ביטוח?",
+      rule1Q: "<strong>עצמאות מוחלטת</strong> השאלה: האם הם בבעלות בנק או חברת ביטוח?",
       rule1A: "<strong>הסטנדרט של FWA:</strong> אנו בבעלות פרטית מלאה (100%). איננו מוכרים מוצרים ואין לנו אינטרסים זרים.",
       rule2Q: "<strong>הלימה מלאה (Total Alignment)</strong> השאלה: האם הם שומרים אצלם את העמלות (Rebates)?",
-      rule2A: "<strong>הסטנדרט של FWA:</strong> אנו מזכים את חשבונכם ב-100% מכל עמלה המשולמת על ידי צד שלישי. האינטרס שלנו הוא שלכם בלבד.",
+      rule2A: "<strong>הסטנדרט של FWA:</strong> אנו מזכים את חשבונכם ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מכל עמלה המשולמת על ידי צד שלישי. האינטרס שלנו הוא שלכם בלבד.",
       rule3Q: "<strong>ראייה הוליסטית (Holistic Oversight)</strong> השאלה: האם הם רואים את התמונה המלאה?",
-      rule3A: "<strong>הסטנדרט של FWA:</strong> אנחנו לא רק מנהלים את הנכסים שלכם; אנו מבצעים אופטימיזציה של מיסוי, מבנים משפטיים וממשל משפחתי.",
+      rule3A: "<strong>הסטנדרט של FWA:</strong> אנחנו לא רק מנהלים את הנכסים שלכם; אנו מבצעים אופטימיזציה של מיסוי, מבנים משפטיים וממשל משפחתי לצד ניהול אופרטיבי מלא.",
       formName: "שם *",
       formEmail: "אימייל *",
       formMessage: "הודעה",
@@ -1428,8 +1428,6 @@ const translations = {
         'נוסדנו על בסיס הנחה פשוטה: מיזם משפחתי זקוק ל<span style=\"font-style:normal;vertical-align:middle\">-</span>CFO (סמנכ"ל כספים), בדיוק כמו עסק מסחרי. הקמנו פירמה שיושבת באותו צד של השולחן עם המשפחה – ללא מכירת מוצרים, ללא עמלות נסתרות, ותוך מתן ניצוח אובייקטיבי לחלוטין על חייה הפיננסיים של המשפחה.',
       storyP3: "",
       storyP4: "",
-      heroSubtitle:
-        "עושר מביא חופש, אך גם מורכבות. מאז 2009, פמילי ווילת' אדוויזורס (FWA) מספקת את הבהירות האסטרטגית, התכנון הארכיטקטוני ושקט הנפש המאפשרים למשפחות לשגשג לאורך דורות.",
       whatWeDoEyebrow: "מה אנחנו עושים (What We Do)",
       whatWeDoTitle: "ממורכבות לבהירות",
       whatWeDoP1:
@@ -1445,7 +1443,7 @@ const translations = {
         "התגמול היחיד שלנו מגיע מכם. לעולם איננו מקבלים עמלות מצדדים שלישיים.",
       standardItem2Title: "הלימה מלאה (Total Alignment)",
       standardItem2Text:
-        "במידה ומתקבלת עמלה מצד שלישי כלשהו אנו מזכים את חשבונכם ב-100% מהסכום.",
+        "במידה ומתקבלת עמלה מצד שלישי כלשהו אנו מזכים את חשבונכם ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מהסכום.",
       standardItem3Title: "תפיסת נאמנות (Fiduciary)",
       standardItem3Text:
         "איננו אנשי מכירות. אנו מחויבים בנאמנות (Fiduciary), הן אתית והן מקצועית, לפעול אך ורק לטובתכם העליונה.",
@@ -1523,15 +1521,15 @@ const translations = {
       why4Text:
         'הצוות שלנו מביא ניסיון ממרכזים פיננסיים גלובליים בשילוב עם ידע עמוק בחוקי המס הישראליים, שוקי הנדל"ן והתרבות העסקית.',
       contactEyebrow: "צור קשר",
-      contactTitle: "צור קשר",
-      contactSubtitle: "אנו מזמינים אתכם לפגישת היכרות פרטית. השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה.",
+      contactTitle: "בואו נתחיל בשיחה",
+      contactSubtitle: "אנו מזמינים אתכם לפגישת היכרות פרטית. אנא השאירו את פרטיכם למטה, ואנו ניצור קשר אישי לתיאום פגישה.",
       leadershipRole1: 'מייסד ומנכ"ל',
       leadershipRole2: "מנהל השקעות",
       leadershipRole3: "ראש תפעול",
       leadershipRole4: "מנהל השקעות",
       viewFullTeam: "צפה בצוות המלא ->",
       getInTouchEyebrow: "צור קשר",
-      getInTouchTitle: "התחילו את השיחה",
+      getInTouchTitle: "בואו נתחיל בשיחה",
       getInTouchText: "מוכן לחוות רמה אחרת של ניהול עושר?",
       getInTouchCta: "צור קשר ->",
     },
@@ -1601,9 +1599,9 @@ const translations = {
       value1Lead:
         "המחויבות שלנו לאובייקטיביות מציבה את הצרכים והיעדים שלכם בראש סדר העדיפויות של קבלת ההחלטות והפעולות שלנו.",
       value1P1:
-        "איננו בבעלות בנק, חברת ביטוח או מנהל נכסים. אין לנו מוצרים למכור ואין לנו מכסות (יעדי מכירות) לעמוד בהן. עצמאות מבנית זו מאפשרת לנו להעריך כל אפשרות באופן אובייקטיבי ולהמליץ אך ורק על מה שטוב באמת למשפחתכם.",
+        "איננו בבעלות בנק או גוף מוסדי, אין לנו מוצרי מדף למכור ואין לנו יעדי מכירות לעמוד בהם. העצמאות הזו מאפשרת לנו לבחון כל אפשרות בצורה נקייה ולהמליץ אך ורק על מה שנכון וראוי למשפחה שלכם – ללא תמריצים נסתרים וללא הנחיות תאגידיות.",
       value1P2:
-        "כשאתם עובדים עם FWA אתם יכולים להיות בטוחים שהייעוץ שלנו מונע אך ורק מהאינטרסים שלכם – ולא מתמריצים נסתרים או הנחיות תאגידיות.",
+        "",
       value2Eyebrow: "ערך 02",
       value2Title: "שקיפות רדיקלית",
       value2Lead: "אמון נבנה באור השמש.",
@@ -1759,7 +1757,7 @@ const translations = {
         "תהליך מול דחף: ההחלטות שלנו כפופות למסגרת עבודה שהוגדרה מראש, מה שמבטיח שהאסטרטגיה תמיד תנצח את הרגש.",
       block4Title: "נאמנות (Fiduciary) ואופטימיזציה של מס",
       block4Text:
-        "הפילוסופיה שלנו נשענת על יסודות של הלימה מלאה. כFamily Office שלכם אנו פועלים בשקיפות שמוסדות מסורתיים אינם מציעים.",
+        "הפילוסופיה שלנו נשענת על יסודות של הלימה מלאה. כ<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Office שלכם אנו פועלים בשקיפות שמוסדות מסורתיים אינם מציעים.",
       block4Bullet1:
         'ייעוץ נקי מניגודי עניינים: אנו מחויבים לסטנדרט הנאמנות הגבוה ביותר (Fiduciary). האינטרסים שלנו תואמים באופן מלא ובלעדי את אלו שלכם, ללא מגבלות של "מוצרי בית" או עמלות נסתרות.',
       block4Bullet2:
@@ -1809,13 +1807,13 @@ const translations = {
       q1: "כיצד FWA מנהלת ניגודי עניינים פוטנציאליים?",
       a1: 'ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים. בהתאם לחוק הסדרת העיסוק בייעוץ השקעות (1995), אנו חושפים באופן יזום את כל הזיקות שלנו – קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו להעניק ערך מוסף ללקוחותינו.\nאנו שומרים על אובייקטיביות מקצועית ומנטרלים ניגודי עניינים באמצעות שלושה עקרונות ליבה:\n• מדיניות החזר עמלות (Rebate) של 100%: אנו נזכה את חשבונכם בכל עמלת המתקבלת מגופים כלשהם.\n• מינוף כוח קנייה מוסדי: אנו רותמים את הקשרים האסטרטגיים שלנו כדי להשיג עבורכם תנאים השמורים לגופים מוסדיים בלבד.\n• ארכיטקטורה פתוחה: כל השקעה עוברת סינון קפדני. נמליץ על מוצר מסוים אך ורק אם הוא המענה המיטבי ליעדים ארוכי הטווח של משפחתכם.',
       q2: "האם FWA היא חברה בעלת רישיון לניהול השקעות?",
-      a2: 'FWA פועלת כחברת פמילי אופיס המתמקדת באופן בלעדי ב"משקיעים כשירים (Qualified Investors)". בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי.',
+      a2: 'בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.',
       q3: "מה ההבדל בין Family Office לבין בנקאות פרטית, יועץ עושר או מנהל נכסים?",
       a3: "ההבדל טמון בהיקף השירות ובאינטרס. בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים. FWA לעומת זאת, פועלת כארכיטקט האסטרטגי שלכם. אנו יושבים לצידכם סביב השולחן ומעניקים ניהול הוליסטי של כלל הנכסים שלכם.\nאיננו מחליפים את הספקים הקיימים, אלא משפרים ומתאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמנויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת.",
       q4: 'מה ההבדל בין "ניהול תיקים (Discretionary)" למודל העבודה של FWA?',
       a4: 'בניהול תיקים סטנדרטי, מנהל ההשקעות מקבל החלטות קנייה ומכירה ומבצע אותן באופן עצמאי על דעת עצמו. ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA אנו פועלים אך ורק במודל של ייעוץ וניהול מבוסס אישור (Non-Discretionary).\nאנו מאמינים שאתם צריכים להישאר מקבלי ההחלטות הסופיים על ההון שלכם. במסגרת האסטרטגיה הכוללת שהגדרנו למשפחה, התפקיד שלנו הוא לנתח, להנגיש את המידע ולהמליץ – אך לעולם לא נבצע פעולה ללא אישורכם המפורט והמלא.',
       q5: "האם תהיה לי יותר עבודה אם אשכור יועץ שאינו פועל בייפוי כוח?",
-      a5: 'בכלל לא. חשבו על זה כעל "יותר שליטה, פחות אדמיניסטרציה". אנו מבחינים בין "עבודה" לבין "קבלת החלטות". אנחנו מטפלים ב-100% מהעבודה – מחקר, ניהול ומעקב, תיאום מול בנקים וביצוע. תפקידכם עולה לרמת ההנהלה - אתם בוחנים המלצות ברורות ומעניקים את ה"אור הירוק".',
+      a5: 'בכלל לא. חשבו על זה כעל "יותר שליטה, פחות אדמיניסטרציה". אנו מבחינים בין "עבודה" לבין "קבלת החלטות". אנחנו מטפלים ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מהעבודה – מחקר, ניהול ומעקב, תיאום מול בנקים וביצוע. תפקידכם עולה לרמת ההנהלה - אתם בוחנים המלצות ברורות ומעניקים את ה"אור הירוק".',
       section2Title: "חלק 2: עבודה מול Family Wealth Advisors",
       q6: "האם FWA מסייעת בממשל משפחתי וחינוך דור ההמשך?",
       a6: "בהחלט. אנו מאמינים שהכשרת המשפחה לקראת ההון חשובה לא פחות מניהול ושימור ההון עבור המשפחה. אנו בונים חוויות למידה מותאמות ומנחים מפגשים משפחתיים המתמקדים בניהול קבלת החלטות, תכנון ירושה וחינוך פיננסי לדור הצעיר.",
@@ -1873,12 +1871,12 @@ const translations = {
     },
     // Family Office Page (Family Office Essential)
     familyOfficePage: {
-      heroEyebrow: "יסודות הFamily Office-",
+      heroEyebrow: "יסודות ה<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Office",
       heroTitle: "אסטרטגיה מתקדמת לניהול הון",
       heroSubtitle:
         "מעבר לבנקאות פרטית: הכירו את הראייה האסטרטגית והבקרה המדויקת של CFO אישי.",
       section1Eyebrow: "מה זה פמילי אופיס?",
-      section1Title: "האקו<span style=\"font-style:normal;vertical-align:middle\">-</span>סיסטם הפיננסי שלכם, מאוחד.",
+      section1Title: "האקו<span class=\"he-dash\" style=\"font-style:normal;vertical-align:0.2em;display:inline-block;line-height:1\">−</span>סיסטם הפיננסי שלכם, מאוחד.",
       section1Text:
         'פמילי אופיס אינו רק ניהול הון; זוהי ארכיטקטורה של עושר. בעוד שבנקים וסוכנים מסורתיים מתמקדים במכירת מוצרים, פמילי אופיס מתמקד בשילוב אסטרטגיה עם ביצוע ישיר. אנו פועלים כ"CFO האישי" שלכם, ומתאמים את כל חייכם הפיננסיים – השקעות, מיסוי, משפט והעברת עושר – לכדי אסטרטגיה אחת מלוכדת.',
       section2Eyebrow: "הצ'ק<span style=\"font-style:normal;vertical-align:middle\">-</span>ליסט",
@@ -1900,17 +1898,17 @@ const translations = {
       section3Subtitle:
         "בעת בחירת פמילי אופיס, אל תתפשרו על שלושה סטנדרטים בסיסיים:",
       rule1Q:
-        "<strong>עצמאות רדיקלית:</strong> האם הם בבעלות בנק או חברת ביטוח?",
+        "<strong>עצמאות מוחלטת:</strong> האם הם בבעלות בנק או חברת ביטוח?",
       rule1A:
         "<strong>הסטנדרט של FWA :</strong> אנו בבעלות פרטית מלאה (100%). איננו מוכרים מוצרים ואין לנו אינטרסים זרים.",
       rule2Q:
         "<strong>הלימה מלאה (Total Alignment)</strong><br>השאלה: האם הם שומרים אצלם את העמלות (Rebates)?",
       rule2A:
-        "<strong>הסטנדרט של FWA:</strong> אנו מזכים את חשבונכם ב-100% מכל עמלה המשולמת על ידי צד שלישי. האינטרס שלנו הוא שלכם בלבד.",
+        "<strong>הסטנדרט של FWA:</strong> אנו מזכים את חשבונכם ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מכל עמלה המשולמת על ידי צד שלישי. האינטרס שלנו הוא שלכם בלבד.",
       rule3Q:
         "<strong>ראייה הוליסטית (Holistic Oversight)</strong><br>השאלה: האם הם רואים את התמונה המלאה?",
       rule3A:
-        "<strong>הסטנדרט של FWA:</strong> אנחנו לא רק מנהלים את הנכסים שלכם; אנו מבצעים אופטימיזציה של מיסוי, מבנים משפטיים וממשל משפחתי.",
+        "<strong>הסטנדרט של FWA:</strong> אנחנו לא רק מנהלים את הנכסים שלכם; אנו מבצעים אופטימיזציה של מיסוי, מבנים משפטיים וממשל משפחתי לצד ניהול אופרטיבי מלא.",
       formName: "שם *",
       formEmail: "אימייל *",
       formMessage: "הודעה",
@@ -2006,9 +2004,9 @@ const translations = {
         "מוכן לחקור? למד אילו שאלות לשאול בעת בחירת שותף משרד משפחתי.",
       // Contact Form
       contactEyebrow: "צור קשר",
-      contactTitle: "יצירת קשר",
+      contactTitle: "בואו נתחיל בשיחה",
       contactSubtitle:
-        "אנו מזמינים אתכם לשיחת היכרות אישית לבחינת התאמת השירותים שלנו לצרכי משפחתכם. השאירו פרטים למטה, ונחזור אליכם בהקדם לתיאום מועד נוח.",
+        "אנו מזמינים אתכם לפגישת היכרות פרטית. אנא השאירו את פרטיכם למטה, ואנו ניצור קשר אישי לתיאום פגישה.",
       nameLabel: "שם *",
       emailLabel: "אימייל *",
       messageLabel: "הודעה",
@@ -2088,7 +2086,7 @@ const translations = {
       fwa1: "<strong>100% עצמאיים</strong> — אנחנו בבעלות פרטית ללא שיוך לבנקים או מוסדות",
       fwa2: "<strong>מודל עמלות בלבד</strong> — הפיצוי היחיד שלנו מגיע ישירות מלקוחות",
       fwa3: "<strong>מדיניות החזר 100%</strong> — כל העמלות מוחזרות ללקוחות",
-      fwa4: "<strong>הוקם ב-2009</strong> — משרתים משפחות בישראל למעלה מעשור",
+      fwa4: "<strong>הוקם ב<span style=\"font-style:normal;vertical-align:middle\">-</span>2009</strong> — משרתים משפחות בישראל למעלה מעשור",
       fwa5: "<strong>שירותים הוליסטיים</strong> — השקעות, מס, עיזבון, ממשל תחת קורת גג אחת",
       fwa6: "<strong>תשומת לב בוטיק</strong> — חברה קטנה, שירות אישי, גישה ישירה",
       // Related Pages
@@ -2100,9 +2098,9 @@ const translations = {
       related2Text: "למד עוד על ההיסטוריה, המשימה והצוות שישרת את משפחתך.",
       // Contact Form
       contactEyebrow: "צור קשר",
-      contactTitle: "יצירת קשר",
+      contactTitle: "בואו נתחיל בשיחה",
       contactSubtitle:
-        "אנו מזמינים אתכם לשיחת היכרות אישית לבחינת התאמת השירותים שלנו לצרכי משפחתכם. השאירו פרטים למטה, ונחזור אליכם בהקדם לתיאום מועד נוח.",
+        "אנו מזמינים אתכם לפגישת היכרות פרטית. אנא השאירו את פרטיכם למטה, ואנו ניצור קשר אישי לתיאום פגישה.",
       nameLabel: "שם *",
       emailLabel: "אימייל *",
       messageLabel: "הודעה",
@@ -2141,10 +2139,10 @@ const translations = {
       q10: "האם FWA יוצרים תוכניות פיננסיות הוליסטיות?",
       q11: "מה תדירות התקשורת?",
       a1: '<p>ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA, אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים פוטנציאליים. בהתאם לחוק הסדרת ייעוץ השקעות (1995), אנו מגלים באופן יזום את כל ה\'בריתות המסונפות\' שלנו—קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו לספק ערך מוסף ללקוחותינו.</p><p>אנו שומרים על האובייקטיביות המקצועית שלנו וממתנים קונפליקטים באמצעות שלושה עמודי תווך:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>מדיניות החזר 100%:</strong> ללקוחותינו, FWA מחזירה את כל דמי ההפצה (רטרוצ\'סיות) או עמלות המתקבלות מבריתות מסונפות אלה ישירות לחשבונך. זה מבטיח שהאינטרסים הפיננסיים שלנו מיושרים לחלוטין עם שלך.</li><li style="margin-bottom: var(--space-2);"><strong>תמיכה לוגיסטית:</strong> אנו שומרים על זיקות אלה ספציפית כדי להשיג תנאים ברמת מוסדית ומחלקות מניות מוזלות שמשקיעים פרטיים בדרך כלל לא יכולים לגשת אליהן.</li><li><strong>ארכיטקטורה פתוחה:</strong> ללא קשר לזיקות שלנו, כל השקעה עוברת תהליך סינון קפדני. אנו ממליצים על מוצר—מסונף או לא—רק אם הוא ההתאמה המוחלטת הטובה ביותר ליעדים ארוכי הטווח של משפחתך.</li></ul>',
-      a2: '<p>FWA פועלת כניהול עושר פרטי המתמקד אך ורק ב"משקיעים כשירים".</p><p>בעוד ש-FWA אינה דורשת רישיון תאגידי לפעילות ספציפית זו, העיקרי שלנו, דניאל פרץ, הוא משווק השקעות מורשה במלואו בפיקוח רשות ניירות ערך (רש"ע).</p><p>מבנה זה מאפשר לנו להציע את הגמישות והתחכום של משרד משפחתי, תוך הבטחה שכל פעילויות שיווק ההשקעות המפוקחות מתבצעות על ידי מקצוען מורשה.</p>',
+      a2: '<p>FWA פועלת כניהול עושר פרטי המתמקד אך ורק ב"משקיעים כשירים".</p><p>בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.</p>',
       a3: "<p>ההבדל נעוץ ביישור ובהיקף.</p><p>בעוד שבנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או מנדטים ספציפיים, FWA פועלת כארכיטקט האסטרטגי שלך. אנו יושבים בצד שלך של השולחן כדי לספק ניהול הוליסטי על פני כל המאזן שלך.</p><p>במקום להחליף ספקים אלה, אנו מתאמים ביניהם. על ידי מינוף הבריתות האסטרטגיות שלנו, אנו פועלים כגשר מיודע להזדמנויות ותנאים ברמת מוסדית.</p>",
       a4: "<p>בניהול שיקולי, אתה מסמיך יועץ לקבל החלטות קנייה ומכירה בשמך ללא אישורך המוקדם. בעוד שזה יעיל, מודל זה הופך לעתים קרובות לקוחות למשתתפים פסיביים שעלולים לאבד קשר עם הלוגיקה מאחורי התיק שלהם.</p><p>ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA, אנו פועלים אך ורק על בסיס לא<span style=\"font-style:normal;vertical-align:middle\">-</span>שיקולי. אנו מאמינים שאתה צריך להישאר מקבל ההחלטות הסופי. תפקידנו לספק את האסטרטגיה, החינוך וההמלצות, אך אנו לעולם לא מבצעים עסקה ללא ההבנה וההסכמה שלך.</p>",
-      a5: '<p>בכלל לא. חשוב על זה כשליטה רבה יותר, פחות מנהלה.</p><p>אנו מבדילים בין "עבודה" ל"קבלת החלטות". אנו מטפלים ב-100% מהעבודה הכבדה—מחקר, ניירת, תיאום בנקים וביצוע. תפקידך מורם לרמת ההנהלה: אתה בודק המלצות ברורות ומפושטות ונותן את ה"אור הירוק" הסופי.</p><p>בעוד שאנו מתעקשים עליך להיות הסמכות העליונה על עושך, אנו מוודאים שהתהליך יעיל.</p>',
+      a5: '<p>בכלל לא. חשוב על זה כשליטה רבה יותר, פחות מנהלה.</p><p>אנו מבדילים בין "עבודה" ל"קבלת החלטות". אנו מטפלים ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מהעבודה הכבדה—מחקר, ניירת, תיאום בנקים וביצוע. תפקידך מורם לרמת ההנהלה: אתה בודק המלצות ברורות ומפושטות ונותן את ה"אור הירוק" הסופי.</p><p>בעוד שאנו מתעקשים עליך להיות הסמכות העליונה על עושך, אנו מוודאים שהתהליך יעיל.</p>',
       a6: '<p>בהחלט. אנו מאמינים שהכנת המשפחה לעושר חשובה בדיוק כמו הכנת העושר למשפחה.</p><p>אנו עובדים איתך בצמוד כדי לעצב חוויות למידה מותאמות ולאפשר פגישות משפחתיות מובנות. מפגשים אלה נועדו לטפח תקשורת ולהתמקד ברכיבים "אנושיים" קריטיים של ניהול עושר, כולל:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">פרוטוקולי קבלת החלטות משפחתיות</li><li style="margin-bottom: var(--space-2);">תכנון ירושה והעברת עושר</li><li style="margin-bottom: var(--space-2);">מבני ממשל משפחתי</li><li>חינוך דור הבא ותפקידי מנהיגות</li></ul>',
       a7: "<p>אנו פועלים על בסיס שקוף, Fee-Only.</p><p>בניגוד למודלים מסורתיים המסתמכים על עמלות נסתרות או תמריצי ביצועים, העמלות שלנו מוסכמות מראש ומבוססות על מורכבות מפעל העושר שלך (או אחוז מנכסים בניהול).</p><p><strong>ללא עמלות ביצועים:</strong> אנו לא גובים עמלות ביצועים. אנו מאמינים שזה מבטל את הפיתוי לקחת סיכונים מיותרים בהון שלך.</p><p><strong>אובייקטיבי:</strong> כפי שצוין, כל עמלות צד שלישי מוחזרות במלואן אליך.</p>",
       a8: "<p>קונפליקט נובע לעתים קרובות מעמימות או מתחושת חוסר השמעה. בעוד שאיננו יכולים להבטיח הרמוניה מושלמת, אנו מבטיחים ליצור סביבה בטוחה ומבנית שבה לכל קול יש משקל.</p><p>אנו פועלים כצד שלישי ניטרלי לגישור על פערים בין דורות. על ידי קיום תקשורת פתוחה ופרוטוקולי קבלת החלטות ברורים, בני משפחה מרגישים כלולים ולא מודרים.</p><p>כשנדרשת התערבות עמוקה יותר, אנו משלבים מומחי ממשל משפחתי ומנחי אוריינות פיננסית.</p>",
@@ -2202,7 +2200,7 @@ const translations = {
         "לשיחה הראשונית שלנו, אין צורך להכין דבר ספציפי. אנחנו נשאל שאלות על המצב הנוכחי שלך, המטרות שלך והחששות שלך.",
       started_q3: "כמה זמן לוקח תהליך ההצטרפות?",
       started_a3:
-        "ציר הזמן של ההצטרפות משתנה בהתאם למורכבות המצב שלך, אך לרוב לוקח 4-8 שבועות מהפגישה הראשונית ועד ליישום מלא.",
+        "ציר הזמן של ההצטרפות משתנה בהתאם למורכבות המצב שלך, אך לרוב לוקח 4<span style=\"font-style:normal;vertical-align:middle\">-</span>8 שבועות מהפגישה הראשונית ועד ליישום מלא.",
     },
     // Values Page - Full Content (Hebrew)
     valuesPageFull: {
@@ -2213,9 +2211,9 @@ const translations = {
       value1Lead:
         "המחויבות שלנו לעצמאות מציבה את הצרכים והמטרות שלך בחזית קבלת ההחלטות והפעולות שלנו.",
       value1P1:
-        "אנחנו לא בבעלות של בנק, חברת ביטוח או מנהל נכסים. אין לנו מוצרים למכור ואין לנו מכסות לעמוד בהן. עצמאות מבנית זו מאפשרת לנו להעריך באובייקטיביות כל אפשרות ולהמליץ רק על מה שבאמת הטוב ביותר למשפחתך.",
+        "איננו בבעלות בנק או גוף מוסדי, אין לנו מוצרי מדף למכור ואין לנו יעדי מכירות לעמוד בהם. העצמאות הזו מאפשרת לנו לבחון כל אפשרות בצורה נקייה ולהמליץ אך ורק על מה שנכון וראוי למשפחה שלכם – ללא תמריצים נסתרים וללא הנחיות תאגידיות.",
       value1P2:
-        "כשאתה עובד עם FWA, אתה יכול להיות בטוח שהייעוץ שלנו מונע אך ורק מהאינטרסים שלך - לא מתמריצים נסתרים או מנדטים תאגידיים.",
+        "",
       value2Eyebrow: "ערך 02",
       value2Title: "יושרה",
       value2Lead:
@@ -2268,10 +2266,10 @@ const translations = {
       founderRole: 'מייסד ומנכ"ל',
       founderName: "דניאל פרץ",
       founderBio1:
-        'דניאל פרץ הוא המייסד והמנכ"ל של Family Wealth Advisors (FWA). עם למעלה מ-30 שנות ניסיון בשווקים הפיננסיים הגלובליים, הקים דניאל את FWA בשנת 2009 במטרה להעניק למשפחות גישה מתוחכמת, מבוקרת סיכונים ומקצועית לניהול הון.',
+        'דניאל פרץ הוא המייסד והמנכ"ל של Family Wealth Advisors (FWA). עם למעלה מ<span style=\"font-style:normal;vertical-align:middle\">-</span>30 שנות ניסיון בשווקים הפיננסיים הגלובליים, הקים דניאל את FWA בשנת 2009 במטרה להעניק למשפחות גישה מתוחכמת, מבוקרת סיכונים ומקצועית לניהול הון.',
       founderBio2:
         "בעבר, דניאל שימש כמנהל הסיכונים הבכיר בכלל פיננסים, שם מילא גם תפקידי מפתח כמנהל קרנות וראש דסק ה<span style=\"font-style:normal;vertical-align:middle\">-</span>OTC. רקע עמוק זה בניהול סיכונים ונכסים מוסדיים מאפשר לו לספק ללקוחות פרספקטיבה ייחודית על שימור צמיחת הון.",
-      founderCred1: "יותר מ-30 שנות ניסיון בשווקים פיננסיים גלובליים",
+      founderCred1: "יותר מ<span style=\"font-style:normal;vertical-align:middle\">-</span>30 שנות ניסיון בשווקים פיננסיים גלובליים",
       founderCred2: "מנהל סיכונים בכיר לשעבר, כלל פיננסים",
       founderCred3: "תואר ראשון בכלכלה (בהצטיינות), אוניברסיטת חיפה",
       founderCred4: "בעל רישיון השקעות",
@@ -2287,7 +2285,7 @@ const translations = {
       exec2Role: "מנהל תפעול (Head of Operations)",
       exec2Name: "און גולדנברג",
       exec2Bio1:
-        "און הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Wealth Advisors בשנת 2025. הוא אחראי על מחלקת ה-Back Office ומפקח על התשתית התפעולית הפנימית של החברה.",
+        "און הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Wealth Advisors בשנת 2025. הוא אחראי על מחלקת ה<span style=\"font-style:normal;vertical-align:middle\">-</span>Back Office ומפקח על התשתית התפעולית הפנימית של החברה.",
       exec2Bio2:
         'און גולדנברג מביא עמו מעל לעשור של ניסיון מקצועי בשוק ההון ובניהול אופרטיבי של תיקי השקעות מורכבים עבור לקוחות בעלי הון (HNW). בעברו שימש כאנליסט אופרציה בקרן הגידור "ספירה" ובחברות ניהול עושר מובילות, והוא מתמחה בבניית תשתיות תפעוליות וייעול תהליכי עבודה התומכים במטרותיהן האסטרטגיות של המשפחות.',
       exec2Cred1:
@@ -2295,7 +2293,7 @@ const translations = {
       exec3Role: "מנהל השקעות",
       exec3Name: "בנימין סרקיסוב",
       exec3Bio1:
-        "בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA. מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות בחברה.",
+        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
       exec3Cred1: "מיקוד מחקר",
       exec3Cred2: "תואר ראשון במתמטיקה, כלכלה ופסיכולוגיה",
       exec3Cred3: "תואר שני במנהל עסקים (בהצטיינות יתרה)",
@@ -2304,15 +2302,15 @@ const translations = {
       team1Name: "בנימין סרקיסוב",
       team1Role: "מנהל השקעות",
       team2Name: "דורון יניר",
-      team2Role: "בקר",
+      team2Role: "מנהל בק<span style=\"font-style:normal;vertical-align:middle\">-</span>אופיס",
       team3Name: "אלכס קרומקין",
-      team3Role: "ראש נתונים ודיווח",
+      team3Role: "מנהל מערכות מידע ודיווח (Head of Data & Reporting)",
       team4Name: "דן לוי",
       team4Role: "אנליסט השקעות ותפעול",
       team5Name: "עדנה פרץ",
       team5Role: "מנהלת אדמיניסטרציה",
       team5Bio:
-        "עדנה הצטרפה לצוות FWA בשנת 2015, לאחר קריירה ענפה של 15 שנים כמנהלת התקשרויות בחברת GBG הבינלאומית. היא מביאה עמה לפירמה ניסיון רב<span style=\"font-style:normal;vertical-align:middle\">-</span>שנים בניהול מערכים תפעוליים מורכבים, בקרה חוזית ותיאום אסטרטגי, המהווים נדבך מרכזי ביעילות התפעולית של המשרד.",
+        "עדנה הצטרפה ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA בשנת 2015, לאחר קריירה ענפה של 15 שנים כמנהלת התקשרויות בחברת GBG הבינלאומית. היא אמונה על התשתית האופרטיבית של המשרד ומרכזת את כלל היבטי ההתקשרות והבקרה הארגונית. הניסיון הרב שעדנה מביאה עמה בניהול מערכים מורכבים מהווה נדבך מרכזי ביעילות התפעולית של החברה.",
       team5Edu1: "תואר שני במנהל עסקים מאוניברסיטת דרבי",
       team5Edu2: "תואר ראשון בסטטיסטיקה מאוניברסיטת חיפה",
       team4Bio:
@@ -2323,11 +2321,11 @@ const translations = {
       team3Edu1: "תואר שני בכלכלה פיננסית (בהצטיינות)",
       team3Edu2: "תואר ראשון בכלכלה מאוניברסיטת רייכמן (הבינתחומי)",
       team2Bio:
-        "דורון יניר הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA ב-2010, ומביא עמו מומחיות ייחודית בניהול מס וניהול משרד אחורי. דורון עבד בעבר בבנק יהב ובמספר משרדי רואי חשבון מובילים.",
+        "דורון יניר הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA ב<span style=\"font-style:normal;vertical-align:middle\">-</span>2010, ומביא עמו מומחיות ייחודית בניהול מס וניהול משרד אחורי. דורון עבד בעבר בבנק יהב ובמספר משרדי רואי חשבון מובילים.",
       team2Edu1: "תואר שני במנהל עסקים מהאוניברסיטה הפתוחה",
       team2Edu2: "יועץ מס מוסמך",
       team1Bio:
-        "בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA. מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות בחברה.",
+        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
       team1Edu1: "תואר ראשון במתמטיקה, כלכלה ופסיכולוגיה",
       team1Edu2: "תואר שני במנהל עסקים (בהצטיינות יתרה)",
     },
@@ -2441,7 +2439,7 @@ const translations = {
       viewAll: "צפה בהכל",
       backToTop: "חזרה למעלה",
       established: "הוקם בהרצליה",
-      scheduleConsultation: "התחילו את השיחה",
+      scheduleConsultation: "בואו נתחיל בשיחה",
       contactUs: "צור קשר",
       getStarted: "התחילו",
     },

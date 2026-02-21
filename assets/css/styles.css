@@ -3781,3 +3781,25 @@ html[dir="rtl"] #contact .contact__text {
     text-align: center !important;
     align-items: center !important;
 }
+
+/* Hebrew maqaf/hyphen dash alignment – prevent italicization */
+span[style*="vertical-align:middle"],
+.he-dash,
+span.he-dash {
+    font-style: normal !important;
+    font-synthesis: none;
+}
+/* He-dash: upright + vertically centered across all pages */
+span.he-dash {
+    vertical-align: 0.2em !important;
+    display: inline-block !important;
+    line-height: 1 !important;
+}
+/* Hero dash: upright and vertically centered (raise from baseline) */
+.hero__title .he-dash,
+.hero__title span.he-dash {
+    font-style: normal !important;
+    vertical-align: 0.2em !important;
+    display: inline-block !important;
+    line-height: 1 !important;
+}

@@ -1,260 +1,237 @@
+#!/usr/bin/env node
 /**
- * Extract HEB remarks from "FWA WEBSITE HEB Remarks.docx"
- * - Applies Track Changes: use INSERTED (red) text as the correction; omit DELETED text.
- * - Collects YELLOW highlighted runs: client's text to use instead of AI translation.
- *
- * Run: npm run extract-heb   (from project root)
+ * Extract yellow-highlighted and inserted text from docx-formatting-extract.json
+ * Output: paragraphIndex, fullPhrase, type (yellow|inserted)
+ * Map to translation keys in assets/js/translations.js
  */
 
 const fs = require('fs');
 const path = require('path');
-const JSZip = require('jszip');
-const { XMLParser } = require('fast-xml-parser');
 
-const DOCX_PATH = path.join(__dirname, 'FWA WEBSITE HEB Remarks.docx');
-const OUT_PATH = path.join(__dirname, 'HEB-FINAL-REMARKS.md');
+const JSON_PATH = path.join(__dirname, 'docx-formatting-extract.json');
+const data = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
 
-const parser = new XMLParser({
-  ignoreAttributes: false,
-  attributeNamePrefix: '@_',
-  ignoreDeclaration: true,
-});
+const extracted = [];
 
-function getTextFromNode(obj, acc = []) {
-  if (!obj) return acc;
-  if (typeof obj === 'string') {
-    acc.push(obj);
-    return acc;
-  }
-  if (Array.isArray(obj)) {
-    obj.forEach((item) => getTextFromNode(item, acc));
-    return acc;
-  }
-  if (typeof obj === 'object') {
-    // w:t or w:delText
-    if (obj['w:t']) acc.push(obj['w:t']);
-    if (obj['w:delText']) acc.push(obj['w:delText']); // we'll use only in "deleted" context
-    for (const key of Object.keys(obj)) {
-      if (key.startsWith('@_')) continue;
-      getTextFromNode(obj[key], acc);
+for (const para of data) {
+  const idx = para.paragraphIndex;
+  const runs = para.runs || [];
+  let yellowBuf = [];
+  let insertedBuf = [];
+
+  for (const run of runs) {
+    const text = run.text || '';
+    const fmt = run.format || {};
+    const isYellow = fmt.highlight === 'yellow';
+    const isInserted = run.revision === 'inserted';
+
+    if (isYellow) {
+      yellowBuf.push(text);
+    } else if (yellowBuf.length > 0) {
+      const merged = yellowBuf.join(' ').replace(/\s+/g, ' ').trim();
+      if (merged) extracted.push({ paragraphIndex: idx, fullPhrase: merged, type: 'yellow' });
+      yellowBuf = [];
     }
-    return acc;
-  }
-  return acc;
-}
 
-function getRunText(run) {
-  const parts = getTextFromNode(run);
-  return parts.filter((x) => typeof x === 'string').join('');
-}
-
-function hasYellowHighlight(rPr) {
-  if (!rPr) return false;
-  const highlight = rPr['w:highlight'];
-  if (!highlight) return false;
-  const val = highlight && (highlight['@_w:val'] ?? highlight['@_val']);
-  return (val && String(val).toLowerCase() === 'yellow') || val === 'yellow';
-}
-
-function extractParagraphText(p, options = {}) {
-  const { includeDeleted = false, collectYellow = [] } = options;
-  const parts = [];
-
-  function walk(node, insideIns = false, insideDel = false) {
-    if (!node) return;
-    if (typeof node === 'string') {
-      if (!insideDel || includeDeleted) parts.push(node);
-      return;
-    }
-    if (Array.isArray(node)) {
-      node.forEach((n) => walk(n, insideIns, insideDel));
-      return;
-    }
-    if (typeof node !== 'object') return;
-
-    // Detect runs either as node['w:r'] or as node with w:rPr (parser may use numeric keys for siblings)
-    const runs = node['w:r'];
-    const runList = runs !== undefined
-      ? (Array.isArray(runs) ? runs : [runs])
-      : (node['w:rPr'] && (node['w:t'] !== undefined || node['w:delText'] !== undefined) ? [node] : null);
-    if (runList) {
-      for (const r of runList) {
-        if (!r) continue;
-        const rPr = r['w:rPr'];
-        const text = getRunText(r);
-        if (hasYellowHighlight(rPr) && text.trim()) collectYellow.push(text.trim());
-        if (!insideDel || includeDeleted) parts.push(text);
-      }
-      return;
-    }
-    for (const key of Object.keys(node)) {
-      if (key.startsWith('@_')) continue;
-      if (key === 'w:ins') {
-        walk(node[key], true, false);
-        continue;
-      }
-      if (key === 'w:del') {
-        walk(node[key], false, true);
-        continue;
-      }
-      if (key === 'w:r') continue; // already handled above
-      walk(node[key], insideIns, insideDel);
+    if (isInserted) {
+      insertedBuf.push(text);
+    } else if (insertedBuf.length > 0) {
+      const merged = insertedBuf.join(' ').replace(/\s+/g, ' ').trim();
+      if (merged) extracted.push({ paragraphIndex: idx, fullPhrase: merged, type: 'inserted' });
+      insertedBuf = [];
     }
   }
 
-  walk(p);
-  return { text: parts.join('').replace(/\s+/g, ' ').trim(), yellow: collectYellow };
-}
-
-/** Recursively find all runs that contain yellow highlight. When we're at w:rPr, parent is the run. */
-function collectYellowFromTree(obj, parent, collectYellow) {
-  if (!obj) return;
-  if (Array.isArray(obj)) {
-    obj.forEach((item, i) => collectYellowFromTree(item, obj, collectYellow));
-    return;
+  if (yellowBuf.length > 0) {
+    const merged = yellowBuf.join(' ').replace(/\s+/g, ' ').trim();
+    if (merged) extracted.push({ paragraphIndex: idx, fullPhrase: merged, type: 'yellow' });
   }
-  if (typeof obj !== 'object') return;
-  const keys = Object.keys(obj).filter((k) => !k.startsWith('@_'));
-  if (obj['w:highlight']) {
-    const hl = obj['w:highlight'];
-    const val = hl['@_w:val'] ?? hl['@_val'];
-    if (val && String(val).toLowerCase() === 'yellow' && parent) {
-      const text = getRunText(parent).trim();
-      if (text) collectYellow.push(text);
-    }
-  }
-  for (const key of keys) {
-    if (key === 'w:highlight') continue;
-    collectYellowFromTree(obj[key], obj, collectYellow);
+  if (insertedBuf.length > 0) {
+    const merged = insertedBuf.join(' ').replace(/\s+/g, ' ').trim();
+    if (merged) extracted.push({ paragraphIndex: idx, fullPhrase: merged, type: 'inserted' });
   }
 }
 
-function extractBody(body) {
-  const paragraphs = [];
-  const allYellow = [];
-
-  function processBlock(obj) {
-    if (!obj) return;
-    if (Array.isArray(obj)) {
-      obj.forEach(processBlock);
-      return;
-    }
-    if (typeof obj !== 'object') return;
-
-    if (obj['w:p']) {
-      const ps = Array.isArray(obj['w:p']) ? obj['w:p'] : [obj['w:p']];
-      for (const p of ps) {
-        const { text, yellow } = extractParagraphText(p, { collectYellow: allYellow });
-        if (text) paragraphs.push(text);
-      }
-      return;
-    }
-    // Direct paragraph (body has array of w:p; each item is a paragraph with w:r, w:ins, etc.)
-    if ((obj['w:r'] || obj['w:ins'] || obj['w:del']) && !obj['w:p']) {
-      const { text, yellow } = extractParagraphText(obj, { collectYellow: allYellow });
-      if (text) paragraphs.push(text);
-      return;
-    }
-    if (obj['w:tbl']) {
-      const tables = Array.isArray(obj['w:tbl']) ? obj['w:tbl'] : [obj['w:tbl']];
-      for (const tbl of tables) {
-        const rowTexts = [];
-        const tr = tbl['w:tr'];
-        const rows = tr ? (Array.isArray(tr) ? tr : [tr]) : [];
-        for (const row of rows) {
-          const cells = row['w:tc'];
-          const tcs = cells ? (Array.isArray(cells) ? cells : [cells]) : [];
-          const cellTexts = tcs.map((tc) => {
-            const content = tc['w:p'] ?? tc['w:p']?.[0];
-            const ps = content ? (Array.isArray(content) ? content : [content]) : [];
-            return ps
-              .map((p) => extractParagraphText(p, { collectYellow: allYellow }).text)
-              .filter(Boolean)
-              .join(' | ');
-          });
-          rowTexts.push(cellTexts.join('\t'));
-        }
-        paragraphs.push('[Table]\n' + rowTexts.join('\n'));
-      }
-      return;
-    }
-    for (const key of Object.keys(obj)) {
-      if (key.startsWith('@_')) continue;
-      processBlock(obj[key]);
-    }
-  }
-
-  processBlock(body);
-  // Also scan entire body for yellow (handles parser output with numeric keys)
-  collectYellowFromTree(body, null, allYellow);
-  return { paragraphs, yellow: allYellow };
+// Build paragraph text lookup for context
+const paraText = {};
+for (const para of data) {
+  const full = (para.runs || []).map(r => (r.text || '')).join('');
+  paraText[para.paragraphIndex] = full.trim();
 }
 
-async function main() {
-  if (!fs.existsSync(DOCX_PATH)) {
-    console.error('File not found:', DOCX_PATH);
-    process.exit(1);
+// Doc structure mapping: paragraphIndex -> translation key path
+// Order: HOME PAGE (hero, intro, services), FAQ, ABOUT, TEAM, VALUES, FAMILY OFFICE, SERVICES, etc.
+const paraToKey = {
+  // HOME PAGE - Hero (17-21)
+  18: 'hero.titleLine1',      // ה-CFO האישי שלכם...
+  19: 'hero.subtitle',
+  20: 'hero.ctaPrimary',      // buttons
+  // HOME - Intro (22-27)
+  23: 'intro.title',
+  24: 'intro.text1',
+  25: 'intro.text2',
+  26: 'intro.cta',
+  // HOME - Services (28-40)
+  29: 'services.subtitle',
+  30: 'services.card1Title', 30: 'services.card1Text',
+  31: 'services.card2Title', 31: 'services.card2Text',
+  32: 'services.card3Title', 32: 'services.card3Text',
+  33: 'services.card4Title', 33: 'services.card4Text',
+  34: 'services.card5Title', 34: 'services.card5Text',
+  35: 'services.card6Title', 35: 'services.card6Text',
+  // Philosophy (42-45)
+  42: 'philosophy.subtitle',
+  43: 'philosophy.item1Text',
+  44: 'philosophy.item2Text',
+  45: 'philosophy.item3Text',
+  // Team (46-52)
+  47: 'team.member1Name', 47: 'team.member1Role',
+  48: 'team.member2Name', 48: 'team.member2Role',
+  49: 'team.member3Name', 49: 'team.member3Role',
+  50: 'team.member4Name', 50: 'team.member4Role',
+  // Contact CTA (53-55)
+  54: 'contact.ctaTitle',
+  55: 'contact.text',
+  // Footer (91-98)
+  93: 'footer.description',
+  94: 'contactPage.formTitle',
+  94: 'contactPage.formSubtitle',
+  // ABOUT PAGE (64-90)
+  66: 'aboutPage.heroSubtitle',
+  69: 'aboutPage.storyTitle',
+  69: 'aboutPage.storyP1',
+  70: 'aboutPage.storyP2',
+  72: 'aboutPage.whatWeDoTitle',
+  73: 'aboutPage.whatWeDoP1',
+  74: 'aboutPage.whatWeDoP2',
+  75: 'aboutPage.whatWeDoP3',
+  76: 'aboutPage.standardTitle',
+  77: 'aboutPage.standardItem1Title', 77: 'aboutPage.standardItem1Text',
+  78: 'aboutPage.standardItem2Title', 78: 'aboutPage.standardItem2Text',
+  79: 'aboutPage.standardItem3Title', 79: 'aboutPage.standardItem3Text',
+  80: 'aboutPage.leadershipTitle',
+  80: 'aboutPage.leadershipSubtitle',
+  81: 'aboutPage.leadershipRole1',
+  82: 'aboutPage.leadershipRole2',
+  83: 'aboutPage.leadershipRole3',
+  84: 'aboutPage.leadershipRole4',
+  85: 'aboutPage.getInTouchTitle',
+  85: 'aboutPage.getInTouchText',
+  // TEAM FULL PAGE
+  107: 'teamPageFull.heroSubtitle',
+  108: 'teamPageFull.team1Name', 108: 'teamPageFull.team1Role',
+  109: 'teamPageFull.team2Name', 109: 'teamPageFull.team2Role',
+  110: 'teamPageFull.team3Name', 110: 'teamPageFull.team3Role',
+  111: 'teamPageFull.team4Name', 111: 'teamPageFull.team4Role',
+  // VALUES PAGE
+  115: 'valuesPage.heroSubtitle',
+  116: 'valuesPage.introText',
+  117: 'valuesPage.value1Lead', 117: 'valuesPage.value1P1', 117: 'valuesPage.value1P2',
+  118: 'valuesPage.value2Title', 118: 'valuesPage.value2Lead', 118: 'valuesPage.value2P1',
+  119: 'valuesPage.value3Title', 119: 'valuesPage.value3Lead', 119: 'valuesPage.value3P1', 119: 'valuesPage.value3P2',
+  120: 'valuesPage.value4Title', 120: 'valuesPage.value4Lead', 120: 'valuesPage.value4P1',
+  121: 'valuesPage.value5Title', 121: 'valuesPage.value5Lead', 121: 'valuesPage.value5P1', 121: 'valuesPage.value5P2',
+  122: 'valuesPage.promise1', 122: 'valuesPage.promise2', 122: 'valuesPage.promise3', 122: 'valuesPage.promise4', 122: 'valuesPage.promise5',
+};
+
+// Doc structure: HOME (16-61), ABOUT (64-90), Footer (91-98), TEAM (106-196), VALUES (197-251?), FAMILY OFFICE (252-280?), SERVICES (281-316?), FAQ (317+)
+// Map paragraph index to translation key
+function inferKey(idx, phrase, fullPara) {
+  // HOME PAGE - Contact section (53-55)
+  if (idx === 54) return 'contact.ctaTitle';
+  if (idx === 55) return 'contact.text';
+  // ABOUT PAGE
+  if (idx === 66) return 'aboutPage.heroSubtitle';
+  // Footer / Global contact (91-98)
+  if (idx === 93) return 'nav.scheduleConsultation';  // "Let's start a conversation"
+  if (idx === 94) return 'contactPage.formSubtitle';
+  // TEAM PAGE (106-196): heroSubtitle=107, exec bios 110-116, team bios 117+
+  if (idx === 122) return 'teamPageFull.exec3Bio1';  // Benjamin Sarkisov bio
+  if (idx === 132) return 'teamPageFull.team3Role';  // Alex - Head of Data & Reporting
+  // Contact form blocks on various pages (153-154, 194-195, 215-216, 251-252, 280-281)
+  if (idx === 153) return 'contactPage.formTitle';
+  if (idx === 154) return 'contactPage.formSubtitle';
+  if (idx === 194) return 'doINeedPage.contactTitle';
+  if (idx === 195) return 'doINeedPage.contactSubtitle';
+  if (idx === 215) return 'choosingPage.contactTitle';
+  if (idx === 216) return 'choosingPage.contactSubtitle';
+  if (idx === 251) return 'familyOfficePage.formTitle';
+  if (idx === 252) return 'familyOfficePage.formSubtitle';  // if exists; else form placeholder
+  if (idx === 280) return 'servicesPage.contactTitle';
+  if (idx === 281) return 'servicesPage.contactSubtitle';
+  // FAQ (317+): a1=322-327, a2=328, a3=329-330, a4=332-333, a5=335, a6=339, a7=341, a8=343, a9=345, a10=347, etc.
+  const faqMap = [
+    [322, 327, 1], [328, 328, 2], [329, 331, 3], [332, 334, 4], [335, 338, 5], [339, 340, 6],
+    [341, 342, 7], [343, 344, 8], [345, 346, 9], [347, 348, 10], [349, 350, 11]
+  ];
+  for (const [start, end, a] of faqMap) {
+    if (idx >= start && idx <= end) return 'faqPage.a' + a;
   }
-
-  const buf = fs.readFileSync(DOCX_PATH);
-  const zip = await JSZip.loadAsync(buf);
-  const docFile = zip.file('word/document.xml');
-  if (!docFile) {
-    console.error('word/document.xml not found inside docx');
-    process.exit(1);
-  }
-
-  const xmlText = await docFile.async('string');
-  const parsed = parser.parse(xmlText);
-  let doc = parsed['w:document'] || parsed.document;
-  if (Array.isArray(doc)) doc = doc[0];
-  if (!doc || typeof doc !== 'object') doc = Object.values(parsed)[0];
-  let body = doc && (doc['w:body'] || doc.body);
-  if (!body && doc && doc['0']) {
-    body = doc['0']['w:body'] || doc['0'];
-    if (!body) body = doc['0'];
-  }
-  if (!body) {
-    console.error('Unexpected document structure. Root keys:', parsed ? Object.keys(parsed) : 'no parse');
-    if (doc) console.error('Doc keys:', Object.keys(doc).filter((k) => !String(k).startsWith('@_')));
-    process.exit(1);
-  }
-
-  const { paragraphs, yellow } = extractBody(body);
-
-  const fullText = paragraphs.join('\n\n');
-  const yellowUnique = [...new Set(yellow)].filter(Boolean);
-
-
-  const md = [
-    '# HEB Remarks – Extracted from FWA WEBSITE HEB Remarks.docx',
-    '',
-    '**Instructions from client:**',
-    '- **Track Changes (red):** Corrections are applied below — use the inserted text (final version).',
-    '- **Yellow highlight:** Phrases below are the client’s own text. Replace any AI-translated text on the site with these exact phrases.',
-    '',
-    '---',
-    '',
-    '## Full text (with Track Changes applied)',
-    '',
-    fullText,
-    '',
-    '---',
-    '',
-    '## Yellow-highlighted phrases (use client’s text instead of AI translation)',
-    '',
-    ...yellowUnique.map((t, i) => `${i + 1}. ${t}`),
-    '',
-  ].join('\n');
-
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, md, 'utf8');
-  console.log('Written:', OUT_PATH);
-  console.log('Paragraphs:', paragraphs.length);
-  console.log('Yellow phrases:', yellowUnique.length);
+  if (idx >= 322 && idx <= 355) return 'faqPage.a1';  // fallback: a1 spans multiple
+  return null;
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Group by paragraph for multi-phrase paras
+const byPara = {};
+for (const e of extracted) {
+  if (!byPara[e.paragraphIndex]) byPara[e.paragraphIndex] = [];
+  byPara[e.paragraphIndex].push(e);
+}
+
+console.log('=== EXTRACTED PHRASES (yellow | inserted) ===\n');
+for (const e of extracted) {
+  const ctx = paraText[e.paragraphIndex]?.slice(0, 60) || '';
+  const key = inferKey(e.paragraphIndex, e.fullPhrase, paraText[e.paragraphIndex]);
+  console.log(JSON.stringify({ paragraphIndex: e.paragraphIndex, fullPhrase: e.fullPhrase, type: e.type }));
+  if (key) console.log('  -> ' + key);
+  console.log('  context: ' + ctx + (ctx.length >= 60 ? '...' : ''));
+  console.log('');
+}
+
+console.log('\n=== REPLACEMENT INSTRUCTIONS (en.he / en.<key> -> new value) ===\n');
+
+// Load translations for context
+const transPath = path.join(__dirname, '..', 'assets', 'js', 'translations.js');
+let transContent = '';
+try {
+  transContent = fs.readFileSync(transPath, 'utf8');
+} catch (_) {}
+
+// Hebrew block in translations
+const hebMatch = transContent.match(/he:\s*\{[\s\S]*?\n\s*\},?\s*\/\/\s*\w+/);
+const hebBlock = hebMatch ? hebMatch[0] : '';
+
+const replacements = [];
+for (const e of extracted) {
+  const key = inferKey(e.paragraphIndex, e.fullPhrase, paraText[e.paragraphIndex]);
+  if (!key) continue;
+  replacements.push({
+    path: key,
+    newValue: e.fullPhrase,
+    type: e.type,
+  });
+}
+
+// Dedupe by path (last wins for same key)
+const seen = {};
+for (let i = replacements.length - 1; i >= 0; i--) {
+  const r = replacements[i];
+  if (seen[r.path]) continue;
+  seen[r.path] = r;
+}
+const unique = Object.values(seen).reverse();
+
+for (const r of unique) {
+  console.log('he.' + r.path + ' ->');
+  console.log('  "' + r.newValue.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"');
+  console.log('');
+}
+
+// Write output JSON
+const outPath = path.join(__dirname, 'heb-remarks-extracted.json');
+fs.writeFileSync(outPath, JSON.stringify({
+  extracted,
+  replacements: unique,
+  note: 'Inserted (revision) runs not found in source JSON.',
+}, null, 2));
+console.log('Wrote: ' + outPath);
