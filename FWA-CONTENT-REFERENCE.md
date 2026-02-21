@@ -143,7 +143,6 @@ Address_City: "Herzliya"
 Address_Postal: "4673340"
 Address_Country: "Israel"
 Phone: "+972-9-963-0350"
-Fax: "+972-9-515-9032"
 Email: "office@fwa.co.il"
 LinkedIn_Company: "https://www.linkedin.com/in/family-wealth-advisors-ltd-a52397214"
 LinkedIn_Daniel: "https://www.linkedin.com/in/ddperetz/"
@@ -461,7 +460,7 @@ Team_4_Education: "B.Sc. in Mathematics, Economics, and Psychology from Tel Aviv
 
 ## TEAM MEMBER 5 - BACK OFFICE / TAX
 
-Team_5_Name: "Doron Yanir"
+Team_5_Role: "Back-Office Manager"
 Team_5_Title: "Back Office"
 Team_5_Bio: "Doron Yanir joined FWA in 2010, bringing specialized expertise in tax administration and back-office management."
 Team_5_Background: "Doron previously served at Yahav Bank and several leading accountancy firms, ensuring our clients' administrative affairs are handled with professional precision."

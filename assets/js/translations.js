@@ -138,7 +138,7 @@ const translations = {
       eyebrow: "Get Started",
       title: "Begin a Confidential Conversation",
       ctaTitle: "Let's start a conversation",
-      text: "Ready to move from fragmented advice to a unified strategy?",
+      text: "We invite you to an initial consultation to discuss your family’s goals and ensure a mutual fit. Please provide your details below, and we will contact you personally to coordinate a time.",
       officeLabel: "Office",
       officeAddress: "6 HaMada St., Herzliya 4673340, Israel",
       phoneLabel: "Phone",
@@ -499,27 +499,7 @@ const translations = {
       whatsappText: "Message us directly",
       emailText: "office@fwa.co.il",
     },
-    // FAQ Page
-    faqPage: {
-      heroEyebrow: "Your Questions Answered",
-      heroTitle: "Frequently Asked Questions",
-      heroSubtitle:
-        "Find answers to common questions about our services, approach, and how we work with families.",
-      section1Eyebrow: "Section 1",
-      section1Title: "General Questions",
-      section2Eyebrow: "Section 2",
-      section2Title: "Working with Family Wealth Advisors",
-      section3Eyebrow: "Section 3",
-      section3Title: "Fees & Costs",
-      section4Eyebrow: "Section 4",
-      section4Title: "Getting Started",
-      q6: "What types of families do you typically work with?",
-      a6: "We work with a diverse range of affluent families, including business owners, executives, inheritors, and those who have experienced liquidity events. What unites our clients is a desire for sophisticated, integrated financial guidance delivered with personal attention.",
-      q7: "Do you manage investments directly?",
-      a7: "Yes, we provide discretionary investment management for families who want us to make day-to-day investment decisions within agreed-upon parameters. We also work with families who prefer a more advisory approach, where we make recommendations but they retain decision-making authority.",
-      q8: "How do you handle family dynamics and conflicts?",
-      a8: "Family dynamics are often more complex than financial matters. We facilitate family meetings, help establish governance frameworks, and work with families to create constitutions that align expectations and values. When needed, we bring in specialized family governance consultants.",
-    },
+
     // Legal Pages
     accessibilityPage: {
       heroTitle: "Accessibility Statement",
@@ -537,11 +517,22 @@ const translations = {
     },
     disclosurePage: {
       heroTitle: "Disclosure",
-      p1: 'Family Wealth Advisors ("FWA") provides wealth management and strategic consulting services exclusively to "Qualified Investors" as defined in the First Addendum to the Regulation of Investment Advice, Investment Marketing and Investment Portfolio Management Law, 5755-1995 (the "Law"). FWA itself does not hold a license for Investment Advice, Investment Marketing, or Portfolio Management and is not supervised by the Israel Securities Authority (ISA).',
-      p2: 'In accordance with the principle of transparency, clients are advised that FWA may establish strategic relationships or affiliations with various financial institutions, third-party managers, and product providers ("Affiliated Alliances"). Consequently, FWA may, from time to time, recommend or select financial assets and services from such Affiliated Alliances. It is important to emphasize that any such selection is made strictly on the basis of professional merit and our conviction that the specific product represents the optimal solution for the client\'s unique needs. The list of such alliances comprises of:',
+      p1: 'Family Wealth Advisors (“FWA”) provides wealth management and strategic consulting services exclusively to “Qualified Investors” as defined in the First Addendum to the Regulation of Investment Advice, Investment Marketing and Investment Portfolio Management Law, 5755-1995 (the “Law”). FWA itself does not hold a license for Investment Advice, Investment Marketing, or Portfolio Management and is not supervised by the Israel Securities Authority (ISA).',
+      p2: 'In accordance with the principle of transparency, clients are advised that FWA may establish strategic relationships or affiliations with various financial institutions, third-party managers, and product providers (“Affiliated Alliances”). Consequently, FWA may, from time to time, recommend or select financial assets and services from such Affiliated Alliances. It is important to emphasize that any such selection is made strictly on the basis of professional merit and our conviction that the specific product represents the optimal solution for the client’s unique needs. The list of such alliances comprises of:',
+      l1: "Hazavim",
+      l2: "Vertical Funds",
+      l3: "Agility Funds",
+      l4: "Reading Capital",
+      l5: "Trio Fund",
+      l6: "Var Funds",
+      l7: "Total Capital",
+      l8: "IBI",
+      l9: "Phoenix Capital",
+      l10: "Gelfund",
+      l11: "New Vest",
       h1: "Commitment to Open Architecture and Objectivity",
-      p3: 'Notwithstanding the aforementioned affiliations, FWA remains fundamentally committed to an "Open Architecture" methodology. Our professional ethos is rooted in providing objective, high-tier financial solutions tailored to the specific needs of our clients.',
-      p4: "While we maintain strategic partnerships, we continuously scan the broader market to ensure that the products offered are selected based on rigorous professional criteria and alignment with the client's strategic objectives. Our goal is to harmonize our Affiliated Alliances with a commitment to market-wide objectivity, ensuring our clients receive optimal solutions without compromising on quality or performance.",
+      p3: 'Notwithstanding the aforementioned affiliations, FWA remains fundamentally committed to an “Open Architecture” methodology. Our professional ethos is rooted in providing objective, high-tier financial solutions tailored to the specific needs of our clients.',
+      p4: "While we maintain strategic partnerships, we continuously scan the broader market to ensure that the products offered are selected based on rigorous professional criteria and alignment with the client’s strategic objectives. Our goal is to harmonize our Affiliated Alliances with a commitment to market-wide objectivity, ensuring our clients receive optimal solutions without compromising on quality or performance.",
     },
     privacyPage: {
       heroTitle: "Privacy & Terms of Use",
@@ -816,97 +807,37 @@ const translations = {
     },
     // FAQ Page
     faqPage: {
-      heroEyebrow: "",
+      heroEyebrow: "Your Questions Answered",
       heroTitle: "Frequently Asked Questions",
       heroSubtitle:
-        "Answers to common questions about family offices, our services, and working with FWA.",
-      section1Eyebrow: "Section 1",
+        "Find answers to common questions about family offices, our services, and working with FWA.",
+      section1Eyebrow: "Part 1",
       section1Title: "General Questions",
-      section2Eyebrow: "Section 2",
+      section2Eyebrow: "Part 2",
       section2Title: "Working with Family Wealth Advisors",
-      section3Eyebrow: "Section 3",
-      section3Title: "Fees & Costs",
       // FAQ questions and answers (used by faq.html)
       q1: "How does FWA manage potential conflicts of interest?",
-      q2: "Is FWA a licensed investment firm?",
-      q3: "What's the difference between a family office, my private bank, a wealth advisor, and an asset manager?",
-      q4: "What's the difference between discretionary and non-discretionary asset management?",
-      q5: "Will I have more work to do if I hire a non-discretionary advisor?",
-      q6: "Does FWA assist with Family Governance and Next-Generation education?",
-      q7: "How are your fees structured?",
-      q8: "Can FWA help reduce family conflict?",
-      q9: "Do I need to replace my current financial providers?",
-      q10: "Does FWA create holistic financial plans?",
-      q11: "What is the communication cadence?",
       a1: '<p>At FWA, we believe that transparency is the most effective tool for managing potential conflicts of interest. In accordance with the Regulation of Investment Advice Law (1995), we proactively disclose all our \'Affiliated Alliances\'—strategic relationships with financial institutions and fund managers that allows us to deliver added value to our clients.</p><p>We maintain our professional objectivity and mitigate conflicts through three core pillars:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>A 100% Rebate Policy:</strong> For our clients, FWA credits back all distribution fees (retrocessions) or commissions received from these Affiliated Alliances directly to your account. This ensures our financial interests are perfectly aligned with yours, as we never profit from choosing one manager over another.</li><li style="margin-bottom: var(--space-2);"><strong>Logistical Advocacy:</strong> We maintain these affiliations specifically to capture institutional-grade terms and discounted share classes that individual investors typically cannot access.</li><li><strong>Open Architecture:</strong> Regardless of our affiliations, every investment undergoes a rigorous screening process. We only recommend a product—affiliated or otherwise—if it is the absolute best fit for your family\'s long-term objectives.</li></ul>',
+      q2: "Is FWA a licensed investment firm?",
       a2: '<p>FWA operates as a private wealth management focused exclusively on "Qualified Investors."</p><p>While FWA does not require a corporate license for this specific activity, our principal, Daniel Peretz, is a fully licensed Investment Marketer regulated by the Israel Securities Authority (ISA).</p><p>This structure allows us to offer the flexibility and sophistication of a Family Office, while ensuring that all regulated investment marketing activities are conducted by a licensed professional. Due to our strategic affiliations with leading financial institutions, we operate under an "Investment Marketing" definition, ensuring full transparency regarding our alliances.</p>',
+      q3: "What's the difference between a family office, my private bank, a wealth advisor, and an asset manager?",
       a3: "<p>The difference lies in alignment and scope.</p><p>While banks and asset managers act as vendors focused on specific products or mandates, FWA acts as your Strategic Architect. We sit on your side of the table to provide holistic management across your entire balance sheet.</p><p>Instead of replacing these providers, we coordinate them. By leveraging our strategic alliances, we act as an informed bridge to institutional-grade opportunities and terms that are often unavailable to individual private banking clients - ensuring you get the best of the market, fully integrated into your family's long-term strategy.</p>",
+      q4: "What's the difference between discretionary and non-discretionary asset management?",
       a4: "<p>In Discretionary Management, you authorize an advisor to make buy-and-sell decisions on your behalf without your prior approval. While efficient, this model often turns clients into passive participants who may lose touch with the logic behind their portfolio.</p><p>At FWA, we operate exclusively on a Non-Discretionary basis. We believe you should remain the ultimate decision-maker. Our role is to provide the strategy, the education, and the recommendations, but we never execute a trade without your understanding and consent. This ensures you remain in full control and grow your financial knowledge alongside your wealth.</p>",
+      q5: "Will I have more work to do if I hire a non-discretionary advisor?",
       a5: '<p>Not at all. Think of it as more control, less administration.</p><p>We distinguish between "work" and "decision-making." We handle 100% of the heavy lifting - research, paperwork, bank coordination, and execution. Your role is elevated to the executive level: you review clear, simplified recommendations and give the final "green light."</p><p>While we insist on you being the ultimate authority over your wealth, we ensure the process is efficient. You get the peace of mind of being in the driver\'s seat, without the burden of having to check the engine yourself.</p>',
+      q6: "Does FWA assist with Family Governance and Next-Generation education?",
       a6: '<p>Absolutely. We believe that preparing the family for the wealth is just as important as preparing the wealth for the family.</p><p>We work closely with you to design custom learning experiences and facilitate structured family meetings. These sessions are designed to foster communication and focus on the critical "human" components of wealth management, including:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">Family decision-making protocols</li><li style="margin-bottom: var(--space-2);">Succession planning &amp; Wealth transfer</li><li style="margin-bottom: var(--space-2);">Family governance structures</li><li>Next-Generation education and leadership roles</li></ul>',
+      q7: "How are your fees structured?",
       a7: "<p>We operate on a transparent, Fee-Only basis.</p><p>Unlike traditional models that rely on hidden commissions or performance incentives, our fees are agreed upon in advance and are based on the complexity of your wealth enterprise (or a percentage of Assets Under Management).</p><p><strong>No Performance Fees:</strong> We do not charge performance fees. We believe this eliminates the temptation to take unnecessary risks with your capital just to chase short-term returns.</p><p><strong>Objective:</strong> As mentioned, any third-party commissions are fully credited back to you, ensuring our only revenue comes directly from the families we serve.</p>",
+      q8: "Can FWA help reduce family conflict?",
       a8: "<p>Conflict often stems from ambiguity or the feeling of not being heard. While we cannot promise perfect harmony, we promise to create a safe, structured environment where every voice counts.</p><p>We act as a neutral third party to bridge gaps between generations. By facilitating open communication and clear decision-making protocols, family members feel included rather than sidelined - which significantly reduces friction.</p><p>When deeper intervention is needed, we seamlessly integrate top-tier family governance experts and financial literacy mentors to ensure your family dynamic is as resilient as your portfolio.</p>",
+      q9: "Do I need to replace my current financial providers?",
       a9: "<p>Not at all. In fact, we encourage maintaining multiple banking relationships for diversification.</p><p>We don't replace your banks; we manage them. Acting as your objective advocate, we oversee all your providers to ensure they remain competitive and aligned with your broader strategy.</p><p>Through consolidated reporting, we act as an external auditor: reviewing transactions, verifying fee structures, catching errors, and ensuring that you are paying exactly what was agreed upon - and nothing more.</p>",
+      q10: "Does FWA create holistic financial plans?",
       a10: '<p>Yes, we do. We create holistic financial plans to encompass all areas of your wealth enterprise, including:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">Wealth planning and preservation</li><li style="margin-bottom: var(--space-2);">Investment management</li><li style="margin-bottom: var(--space-2);">Family governance</li><li style="margin-bottom: var(--space-2);">Consolidated oversight</li><li>Tax planning and optimization</li></ul><p>Crucially, this plan is dynamic - it evolves constantly alongside your family\'s changing needs and market conditions.</p>',
-      a11: '<p>We believe that consistent, transparent communication is vital to a successful partnership. While we tailor the frequency to your preference, our standard framework includes:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>Monthly:</strong> Consolidated performance reports &amp; Executive summaries.</li><li style="margin-bottom: var(--space-2);"><strong>Quarterly:</strong> In-depth portfolio review &amp; Strategy meetings.</li><li style="margin-bottom: var(--space-2);"><strong>Annually:</strong> A holistic review of your comprehensive financial plan.</li><li><strong>Proactive Updates:</strong> Real-time communication whenever market conditions or regulatory changes warrant your attention.</li></ul><p>Beyond the schedule, we operate on an open-door policy - you have direct access to us whenever questions or opportunities arise.</p>',
-      // General Questions (legacy keys)
-      general_q1:
-        "How does FWA manage conflicts of interest with affiliated financial institutions?",
-      general_a1:
-        "At FWA, we believe that transparency is the best tool for managing potential conflicts of interest. We maintain three core pillars: A 100% Rebate Policy, Logistical Advocacy, and Open Architecture.",
-      general_q2:
-        "What is the difference between FWA and a bank's private banking unit?",
-      general_a2:
-        "The difference lies in the depth of the relationship and the breadth of the service. While a bank or asset manager focuses on specific products, a Family Office like FWA acts as your strategic architect.",
-      general_q3:
-        "What is discretionary management? Does FWA offer this service?",
-      general_a3:
-        "We operate a non-discretionary model because we believe clients should be active participants, always engaged and constantly learning.",
-      general_q4: "Will I lose control of my assets if I work with FWA?",
-      general_a4:
-        "No, you will not. While we insist on keeping your family involved in critical decision-making, we also handle administrative tasks and support you in implementing your specific wealth management mandate.",
-      general_q5: "Who does FWA serve?",
-      general_a5:
-        "FWA provides strategic wealth consulting exclusively to 'Qualified Investors.' Our corporate services are focused on sophisticated, qualified clients who typically have investable assets of $5 million or more.",
-      // Working with FWA
-      working_q1: "Does FWA provide education and training for families?",
-      working_a1:
-        "Yes. We work with you and your family to create custom learning experiences including family meetings to focus on critical components of wealth management.",
-      working_q2: "Can FWA help reduce family conflict?",
-      working_a2:
-        "Communication strategy is an important part of any wealth enterprise. We work with each family member to make sure they can voice concerns, express interests, discuss challenges, and participate in planning for the future.",
-      working_q3: "Do I need to leave my current banking relationships?",
-      working_a3:
-        "There is no need for you to change banks. As your advocate, we work with each of your service providers to ensure they are working toward your best interests.",
-      working_q4: "Does FWA create holistic financial plans?",
-      working_a4:
-        "Yes, we do. We create holistic financial plans to encompass all areas of your wealth enterprise, including wealth planning, investments, family governance, data aggregation, and tax planning.",
-      working_q5: "How often will I hear from FWA?",
-      working_a5:
-        "We believe ongoing communication is vital. You can expect monthly consolidated reports, quarterly portfolio reviews, and annual comprehensive financial plan reviews.",
-      // Fees & Costs
-      fees_q1: "How is FWA compensated?",
-      fees_a1:
-        "Our compensation is solely derived from the families we serve through an established fee structure, maintaining transparency and simplicity.",
-      fees_q2: "What does family office service typically cost?",
-      fees_a2:
-        "Family office fees vary based on the complexity of your situation and the scope of services required. We provide a customized fee proposal after our initial discovery process.",
-      fees_q3: "Are there performance fees?",
-      fees_a3:
-        "We do not charge performance-based fees. Our fee structure is designed to align our interests with yours without creating incentives for excessive risk-taking.",
-      section4Eyebrow: "Section 4",
-      section4Title: "Getting Started",
-      // Getting Started
-      started_q1: "What is the first step to working with FWA?",
-      started_a1:
-        "The first step is a confidential introductory conversation. This is an opportunity for us to learn about your situation and for you to learn about our approach.",
-      started_q2:
-        "What information do I need to prepare for our first meeting?",
-      started_a2:
-        "For our initial conversation, you don't need to prepare anything specific. We'll ask questions about your current situation, your goals, and your concerns.",
-      started_q3: "How long does the onboarding process take?",
-      started_a3:
-        "The onboarding timeline varies based on the complexity of your situation, but typically takes 4-8 weeks from our initial meeting to full implementation.",
+      q11: "What is the communication cadence?",
+      a11: '<p>We believe that consistent, transparent communication is vital to a successful partnership. While we tailor the frequency to your preference, we operate on an open-door policy - you have direct access to us whenever questions or opportunities arise.</p>',
     },
     // Values Page - Full Content
     valuesPageFull: {
@@ -1011,7 +942,7 @@ const translations = {
       team1Name: "Benjamin Sarkisov",
       team1Role: "Investment Manager",
       team2Name: "Doron Yanir",
-      team2Role: "Controller",
+      team2Role: "Back-Office Manager",
       team3Name: "Alex Kromkin",
       team3Role: "Head of Data & Reporting",
       team4Name: "Dan Levy",
@@ -1144,7 +1075,6 @@ const translations = {
       viewOnMaps: "View on Maps →",
       callTitle: "Call Us",
       callNumber: "+972-9-963-0350",
-      faxLabel: "Fax: +972-9-515-9032",
       emailTitle: "Email Us",
       emailAddress: "office@fwa.co.il",
       responseTime: "We typically respond<br>within 24 hours",
@@ -1172,7 +1102,6 @@ const translations = {
         "6 HaMada Street<br>PO Box 12500<br>Herzliya 4673340<br>Israel",
       viewOnMaps: "View on Maps →",
       callTitle: "Call Us",
-      faxLabel: "Fax: +972-9-515-9032",
       emailTitle: "Email Us",
       responseTime: "We typically respond<br>within 24 hours",
       formEyebrow: "",
@@ -1334,8 +1263,8 @@ const translations = {
     contact: {
       eyebrow: "התחל כאן",
       title: "התחל שיחה חסויה",
-      ctaTitle: "בואו נדבר",
-      text: "מוכנים להתקדם מייעוץ נקודתי לניהול אסטרטגי כולל ?",
+      ctaTitle: "בואו נתחיל בשיחה",
+      text: "אנו מזמינים אתכם לשיחת היכרות אישית לבחינת התאמת השירותים שלנו לצרכי משפחתכם. השאירו פרטים למטה, ונחזור אליכם בהקדם לתיאום מועד נוח.",
       officeLabel: "משרד",
       officeAddress: "רחוב המדע 6, הרצליה 4673340, ישראל",
       phoneLabel: "טלפון",
@@ -1530,7 +1459,7 @@ const translations = {
       viewFullTeam: "צפה בצוות המלא ->",
       getInTouchEyebrow: "צור קשר",
       getInTouchTitle: "בואו נתחיל בשיחה",
-      getInTouchText: "מוכן לחוות רמה אחרת של ניהול עושר?",
+      getInTouchText: "אנו מזמינים אתכם לפגישת היכרות פרטית.<br>השאירו פרטים, ונחזור אליכם אישית לתיאום פגישה.",
       getInTouchCta: "צור קשר ->",
     },
     // Services Page - services.html
@@ -1797,35 +1726,7 @@ const translations = {
       messagePlaceholder: "איך נוכל לעזור?",
       sendButton: "שלח",
     },
-    // FAQ Page
-    faqPage: {
-      heroEyebrow: "שאלות נפוצות",
-      heroTitle: "שאלות נפוצות",
-      heroSubtitle:
-        "תשובות לשאלות נפוצות על Family Offices, השירותים שלנו והעבודה המשותפת איתנו",
-      section1Title: "חלק 1: שאלות כלליות",
-      q1: "כיצד FWA מנהלת ניגודי עניינים פוטנציאליים?",
-      a1: 'ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים. בהתאם לחוק הסדרת העיסוק בייעוץ השקעות (1995), אנו חושפים באופן יזום את כל הזיקות שלנו – קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו להעניק ערך מוסף ללקוחותינו.\nאנו שומרים על אובייקטיביות מקצועית ומנטרלים ניגודי עניינים באמצעות שלושה עקרונות ליבה:\n• מדיניות החזר עמלות (Rebate) של 100%: אנו נזכה את חשבונכם בכל עמלת המתקבלת מגופים כלשהם.\n• מינוף כוח קנייה מוסדי: אנו רותמים את הקשרים האסטרטגיים שלנו כדי להשיג עבורכם תנאים השמורים לגופים מוסדיים בלבד.\n• ארכיטקטורה פתוחה: כל השקעה עוברת סינון קפדני. נמליץ על מוצר מסוים אך ורק אם הוא המענה המיטבי ליעדים ארוכי הטווח של משפחתכם.',
-      q2: "האם FWA היא חברה בעלת רישיון לניהול השקעות?",
-      a2: 'בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.',
-      q3: "מה ההבדל בין Family Office לבין בנקאות פרטית, יועץ עושר או מנהל נכסים?",
-      a3: "ההבדל טמון בהיקף השירות ובאינטרס. בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים. FWA לעומת זאת, פועלת כארכיטקט האסטרטגי שלכם. אנו יושבים לצידכם סביב השולחן ומעניקים ניהול הוליסטי של כלל הנכסים שלכם.\nאיננו מחליפים את הספקים הקיימים, אלא משפרים ומתאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמנויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת.",
-      q4: 'מה ההבדל בין "ניהול תיקים (Discretionary)" למודל העבודה של FWA?',
-      a4: 'בניהול תיקים סטנדרטי, מנהל ההשקעות מקבל החלטות קנייה ומכירה ומבצע אותן באופן עצמאי על דעת עצמו. ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA אנו פועלים אך ורק במודל של ייעוץ וניהול מבוסס אישור (Non-Discretionary).\nאנו מאמינים שאתם צריכים להישאר מקבלי ההחלטות הסופיים על ההון שלכם. במסגרת האסטרטגיה הכוללת שהגדרנו למשפחה, התפקיד שלנו הוא לנתח, להנגיש את המידע ולהמליץ – אך לעולם לא נבצע פעולה ללא אישורכם המפורט והמלא.',
-      q5: "האם תהיה לי יותר עבודה אם אשכור יועץ שאינו פועל בייפוי כוח?",
-      a5: 'בכלל לא. חשבו על זה כעל "יותר שליטה, פחות אדמיניסטרציה". אנו מבחינים בין "עבודה" לבין "קבלת החלטות". אנחנו מטפלים ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מהעבודה – מחקר, ניהול ומעקב, תיאום מול בנקים וביצוע. תפקידכם עולה לרמת ההנהלה - אתם בוחנים המלצות ברורות ומעניקים את ה"אור הירוק".',
-      section2Title: "חלק 2: עבודה מול Family Wealth Advisors",
-      q6: "האם FWA מסייעת בממשל משפחתי וחינוך דור ההמשך?",
-      a6: "בהחלט. אנו מאמינים שהכשרת המשפחה לקראת ההון חשובה לא פחות מניהול ושימור ההון עבור המשפחה. אנו בונים חוויות למידה מותאמות ומנחים מפגשים משפחתיים המתמקדים בניהול קבלת החלטות, תכנון ירושה וחינוך פיננסי לדור הצעיר.",
-      q7: "איך בנוי מבנה העמלות שלכם?",
-      a7: "אנו פועלים במודל שקוף של עמלה בלבד (Fee-Only). שלא כמו מודלים מסורתיים הנשענים על עמלות נסתרות, שכר הטרחה שלנו מסוכם מראש ומבוסס על היקף ומורכבות המערך הפיננסי שלכם. איננו גובים דמי הצלחה (Performance Fees), כדי להימנע מהפיתוי לקחת סיכונים מיותרים עם ההון שלכם לצורך השגת תשואות קצרות טווח.",
-      q8: "האם FWA יכולה לסייע בצמצום קונפליקטים משפחתיים?",
-      a8: 'אנו פועלים כצד שלישי ניטרלי המגשר על פערים בין דורות. על ידי יצירת פרוטוקולים ברורים לקבלת החלטות ותקשורת פתוחה, אנו עוזרים לבני המשפחה להרגיש שותפים ולא "מנוטרלים", מה שמפחית משמעותית את החיכוך.',
-      q9: "האם עלי להחליף את הספקים הפיננסיים הנוכחיים שלי?",
-      a9: "ממש לא. אנו אפילו מעודדים פיזור נכסים בין מספר בנקים. איננו מחליפים את הבנקים שלכם; אנו מנהלים אותם עבורכם. אנו פועלים כנציגים שלכם ומפקחים על כל הספקים כדי לוודא שהם נשארים תחרותיים ומסונכרנים עם האסטרטגיה הרחבה שלכם.",
-      q10: "מהי תדירות התקשורת מולכם?",
-      a10: "אנו מתאימים את התדירות להעדפתכם, אך הסטנדרט שלנו כולל:\n• מדי חודש: דוח נכסים מאוחד ונתוני שוק.\n• מדי רבעון: פגישת אסטרטגיה וסקירה מעמיקה.\n• מדי שנה: בחינה הוליסטית של התוכנית האסטרטגית, המבנים המשפטיים והיעדים ארוכי הטווח של המשפחה.\n• עדכונים יזומים: עדכון מיידי בכל פעם שתנודות השוק או הזדמנויות חדשות ידרשו את תשומת ליבכם.",
-    },
+
     // Legal Pages (Hebrew)
     accessibilityPage: {
       heroTitle: "הצהרת נגישות",
@@ -1842,12 +1743,23 @@ const translations = {
       emailLabel: "אימייל:",
     },
     disclosurePage: {
-      heroTitle: "גילוי",
-      p1: 'פמילי ווילת\' אדוויזורס ("FWA") מספקת שירותי ניהול עושר וייעוץ אסטרטגי אך ורק ל"משקיעים כשירים" כהגדרתם בתוספת הראשונה לתקנות הסדרת העיסוק בייעוץ השקעות, בשיווק השקעות ובניהול תיקי השקעות, התשנ"ה-1995 ("החוק"). FWA עצמה אינה מחזיקה ברישיון לייעוץ השקעות, שיווק השקעות או ניהול תיקים ואינה מפוקחת על ידי רשות ניירות ערך (רש"ע).',
-      p2: 'בהתאם לעיקרון השקיפות, מומלץ ללקוחות ש-FWA עשויה ליצור קשרים אסטרטגיים או זיקות עם מוסדות פיננסיים שונים, מנהלים צד שלישי וספקי מוצרים ("בריתות מסונפות"). לפיכך, FWA עשויה, מעת לעת, להמליץ או לבחור נכסים פיננסיים ושירותים מבריתות מסונפות כאלה. חשוב להדגיש שכל בחירה כזו מתבצעת אך ורק על בסיס merit מקצועי והשכנוע שלנו שהמוצר הספציפי מייצג את הפתרון האופטימלי לצרכים הייחודיים של הלקוח. רשימת בריתות כאלה כוללת:',
-      h1: "מחויבות לארכיטקטורה פתוחה ולאובייקטיביות",
-      p3: 'למרות הזיקות האמורות, FWA נשארת מחויבת ביסודה מתודולוגיית "ארכיטקטורה פתוחה". האתוס המקצועי שלנו מושרש במתן פתרונות פיננסיים אובייקטיביים ואיכותיים המותאמים לצרכים הספציפיים של הלקוחות שלנו.',
-      p4: "בעוד אנו שומרים על שותפויות אסטרטגיות, אנו סורקים באופן מתמשך את השוק הרחב כדי להבטיח שהמוצרים המוצעים נבחרים על בסיס קריטריונים מקצועיים קפדניים והתאמה ליעדים האסטרטגיים של הלקוח. המטרה שלנו היא לאזן את הבריתות המסונפות שלנו עם מחויבות לאובייקטיביות רחבה בשוק, ולהבטיח שללקוחות שלנו מתקבלות פתרונות אופטימליים ללא פשרה על איכות או ביצועים.",
+      heroTitle: "גילוי נאות",
+      p1: 'חברת Family Wealth Advisors להלן ("החברה") מספקת שירותי ניהול הון וייעוץ אסטרטגי באופן בלעדי ל"משקיעים כשירים", כהגדרתם בתוספת הראשונה לחוק הסדרת העיסוק בייעוץ השקעות, בשיווק השקעות ובניהול תיקי השקעות, התשנ"ה-1995 להלן ("החוק"). החברה עצמה אינה מחזיקה ברישיון לייעוץ השקעות, שיווק השקעות או ניהול תיקי השקעות, ואינה מפוקחת על ידי רשות ניירות ערך.',
+      p2: 'בהתאם לעקרון השקיפות, מובא לידיעת הלקוחות כי החברה עשויה לקיים קשרים אסטרטגיים או זיקות עם מוסדות פיננסיים שונים, מנהלי השקעות חיצוניים וספקי מוצרים ("גופים קשורים"). כפועל יוצא מכך, החברה עשויה, מעת לעת, להמליץ או לבחור נכסים ושירותים פיננסיים מתוך אותם גופים קשורים. חשוב להדגיש כי כל בחירה כזו נעשית אך ורק על בסיס שיקולים מקצועיים ענייניים ומתוך הכרתנו כי המוצר הספציפי מייצג את הפתרון האופטימלי לצרכיו הייחודיים של הלקוח. רשימת הגופים הקשורים כוללת את:',
+      l1: "חצבים",
+      l2: "ורטיקל",
+      l3: "אג'יליטי",
+      l4: "רידינג קפיטל",
+      l5: "טריו",
+      l6: "ואר",
+      l7: "טוטאל קפיטל",
+      l8: "אי.בי.אי.",
+      l9: "הפניקס קפיטל",
+      l10: "גלפנד",
+      l11: "New Vest",
+      h1: "מחויבות לארכיטקטורה פתוחה ואובייקטיביות",
+      p3: 'על אף הזיקות המוזכרות לעיל, החברה נותרה מחויבת באופן יסודי למתודולוגיה של "ארכיטקטורה פתוחה". האתוס המקצועי שלנו מושרש במתן פתרונות פיננסיים אובייקטיביים ברמה הגבוהה ביותר, המותאמים אישית לצרכיו הספציפיים של הלקוח.',
+      p4: "בעודנו מתחזקים שותפויות אסטרטגיות, אנו בוחנים באופן רציף את השוק הרחב כדי להבטיח שהמוצרים המוצעים נבחרים על בסיס קריטריונים מקצועיים קפדניים והלימה מלאה ליעדים האסטרטגיים של הלקוח. מטרתנו היא לייצר הרמוניה בין קשרינו עם הגופים הקשורים לבין מחויבות לאובייקטיביות רחבת-שוק, ובכך להבטיח שלקוחותינו יקבלו את הפתרונות המיטביים מבלי להתפשר על איכות או ביצועים.",
     },
     privacyPage: {
       heroTitle: "פרטיות ותנאי שימוש",
@@ -2114,93 +2026,37 @@ const translations = {
     },
     // FAQ Page
     faqPage: {
-      heroEyebrow: "",
-      heroTitle: "שאלות נפוצות",
+      heroEyebrow: "שאלות נפוצות",
+      heroTitle: "שאלות נפוצות (FAQ)",
       heroSubtitle:
-        "תשובות לשאלות נפוצות על Family Offices, השירותים שלנו והעבודה המשותפת איתנו.",
+        "תשובות לשאלות נפוצות על Family Offices, השירותים שלנו והעבודה המשותפת איתנו",
       section1Eyebrow: "חלק 1",
       section1Title: "שאלות כלליות",
       section2Eyebrow: "חלק 2",
       section2Title: "עבודה מול Family Wealth Advisors",
-      section3Eyebrow: "חלק 3",
-      section3Title: "עמלות ועלויות",
-      section4Eyebrow: "חלק 4",
-      section4Title: "איך להתחיל",
       // FAQ questions and answers (used by faq.html)
-      q1: "כיצד FWA מנהלים ניגודי עניינים פוטנציאליים?",
-      q2: "האם FWA חברת השקעות מורשית?",
-      q3: "מה ההבדל בין משרד משפחתי, הבנק הפרטי שלי, יועץ עושר ומנהל נכסים?",
-      q4: "מה ההבדל בין ניהול נכסים שיקולי ללא<span style=\"font-style:normal;vertical-align:middle\">-</span>שיקולי?",
-      q5: "האם יהיה לי יותר עבודה אם אשכיר יועץ לא<span style=\"font-style:normal;vertical-align:middle\">-</span>שיקולי?",
-      q6: "האם FWA מסייעים בממשל משפחתי וחינוך לדור הבא?",
-      q7: "איך מוגדרות העמלות שלכם?",
-      q8: "האם FWA יכולים לעזור להפחית קונפליקט משפחתי?",
-      q9: "האם אני צריך להחליף את ספקי השירותים הפיננסיים הנוכחיים שלי?",
-      q10: "האם FWA יוצרים תוכניות פיננסיות הוליסטיות?",
-      q11: "מה תדירות התקשורת?",
-      a1: '<p>ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA, אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים פוטנציאליים. בהתאם לחוק הסדרת ייעוץ השקעות (1995), אנו מגלים באופן יזום את כל ה\'בריתות המסונפות\' שלנו—קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו לספק ערך מוסף ללקוחותינו.</p><p>אנו שומרים על האובייקטיביות המקצועית שלנו וממתנים קונפליקטים באמצעות שלושה עמודי תווך:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>מדיניות החזר 100%:</strong> ללקוחותינו, FWA מחזירה את כל דמי ההפצה (רטרוצ\'סיות) או עמלות המתקבלות מבריתות מסונפות אלה ישירות לחשבונך. זה מבטיח שהאינטרסים הפיננסיים שלנו מיושרים לחלוטין עם שלך.</li><li style="margin-bottom: var(--space-2);"><strong>תמיכה לוגיסטית:</strong> אנו שומרים על זיקות אלה ספציפית כדי להשיג תנאים ברמת מוסדית ומחלקות מניות מוזלות שמשקיעים פרטיים בדרך כלל לא יכולים לגשת אליהן.</li><li><strong>ארכיטקטורה פתוחה:</strong> ללא קשר לזיקות שלנו, כל השקעה עוברת תהליך סינון קפדני. אנו ממליצים על מוצר—מסונף או לא—רק אם הוא ההתאמה המוחלטת הטובה ביותר ליעדים ארוכי הטווח של משפחתך.</li></ul>',
-      a2: '<p>FWA פועלת כניהול עושר פרטי המתמקד אך ורק ב"משקיעים כשירים".</p><p>בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.</p>',
-      a3: "<p>ההבדל נעוץ ביישור ובהיקף.</p><p>בעוד שבנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או מנדטים ספציפיים, FWA פועלת כארכיטקט האסטרטגי שלך. אנו יושבים בצד שלך של השולחן כדי לספק ניהול הוליסטי על פני כל המאזן שלך.</p><p>במקום להחליף ספקים אלה, אנו מתאמים ביניהם. על ידי מינוף הבריתות האסטרטגיות שלנו, אנו פועלים כגשר מיודע להזדמנויות ותנאים ברמת מוסדית.</p>",
-      a4: "<p>בניהול שיקולי, אתה מסמיך יועץ לקבל החלטות קנייה ומכירה בשמך ללא אישורך המוקדם. בעוד שזה יעיל, מודל זה הופך לעתים קרובות לקוחות למשתתפים פסיביים שעלולים לאבד קשר עם הלוגיקה מאחורי התיק שלהם.</p><p>ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA, אנו פועלים אך ורק על בסיס לא<span style=\"font-style:normal;vertical-align:middle\">-</span>שיקולי. אנו מאמינים שאתה צריך להישאר מקבל ההחלטות הסופי. תפקידנו לספק את האסטרטגיה, החינוך וההמלצות, אך אנו לעולם לא מבצעים עסקה ללא ההבנה וההסכמה שלך.</p>",
-      a5: '<p>בכלל לא. חשוב על זה כשליטה רבה יותר, פחות מנהלה.</p><p>אנו מבדילים בין "עבודה" ל"קבלת החלטות". אנו מטפלים ב<span style=\"font-style:normal;vertical-align:middle\">-</span>100% מהעבודה הכבדה—מחקר, ניירת, תיאום בנקים וביצוע. תפקידך מורם לרמת ההנהלה: אתה בודק המלצות ברורות ומפושטות ונותן את ה"אור הירוק" הסופי.</p><p>בעוד שאנו מתעקשים עליך להיות הסמכות העליונה על עושך, אנו מוודאים שהתהליך יעיל.</p>',
-      a6: '<p>בהחלט. אנו מאמינים שהכנת המשפחה לעושר חשובה בדיוק כמו הכנת העושר למשפחה.</p><p>אנו עובדים איתך בצמוד כדי לעצב חוויות למידה מותאמות ולאפשר פגישות משפחתיות מובנות. מפגשים אלה נועדו לטפח תקשורת ולהתמקד ברכיבים "אנושיים" קריטיים של ניהול עושר, כולל:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">פרוטוקולי קבלת החלטות משפחתיות</li><li style="margin-bottom: var(--space-2);">תכנון ירושה והעברת עושר</li><li style="margin-bottom: var(--space-2);">מבני ממשל משפחתי</li><li>חינוך דור הבא ותפקידי מנהיגות</li></ul>',
-      a7: "<p>אנו פועלים על בסיס שקוף, Fee-Only.</p><p>בניגוד למודלים מסורתיים המסתמכים על עמלות נסתרות או תמריצי ביצועים, העמלות שלנו מוסכמות מראש ומבוססות על מורכבות מפעל העושר שלך (או אחוז מנכסים בניהול).</p><p><strong>ללא עמלות ביצועים:</strong> אנו לא גובים עמלות ביצועים. אנו מאמינים שזה מבטל את הפיתוי לקחת סיכונים מיותרים בהון שלך.</p><p><strong>אובייקטיבי:</strong> כפי שצוין, כל עמלות צד שלישי מוחזרות במלואן אליך.</p>",
-      a8: "<p>קונפליקט נובע לעתים קרובות מעמימות או מתחושת חוסר השמעה. בעוד שאיננו יכולים להבטיח הרמוניה מושלמת, אנו מבטיחים ליצור סביבה בטוחה ומבנית שבה לכל קול יש משקל.</p><p>אנו פועלים כצד שלישי ניטרלי לגישור על פערים בין דורות. על ידי קיום תקשורת פתוחה ופרוטוקולי קבלת החלטות ברורים, בני משפחה מרגישים כלולים ולא מודרים.</p><p>כשנדרשת התערבות עמוקה יותר, אנו משלבים מומחי ממשל משפחתי ומנחי אוריינות פיננסית.</p>",
-      a9: "<p>בכלל לא. למעשה, אנו מעודדים שמירה על קשרי בנקאות מרובים לגיוון.</p><p>אנו לא מחליפים את הבנקים שלך; אנו מנהלים אותם. כנציגך האובייקטיבי, אנו מפקחים על כל הספקים שלך כדי להבטיח שהם נשארים תחרותיים ומיושרים עם האסטרטגיה הרחבה שלך.</p><p>דרך דיווח מאוחד, אנו פועלים כמבקר חיצוני: בודקים עסקאות, מאמתים מבני עמלות ותופסים טעויות.</p>",
-      a10: '<p>כן. אנו יוצרים תוכניות פיננסיות הוליסטיות המקיפות את כל תחומי מפעל העושר שלך, כולל:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);">תכנון עושר ושימור</li><li style="margin-bottom: var(--space-2);">ניהול השקעות</li><li style="margin-bottom: var(--space-2);">ממשל משפחתי</li><li style="margin-bottom: var(--space-2);">פיקוח מאוחד</li><li>תכנון מס ואופטימיזציה</li></ul><p>חשוב, התוכנית דינמית—היא מתפתחת בקביעות יחד עם צרכי המשפחה והשוק.</p>',
-      a11: '<p>אנו מאמינים שתקשורת עקבית ושקופה חיונית לשותפות מוצלחת. בעוד שאנו מתאימים את התדירות להעדפתך, המסגרת הסטנדרטית שלנו כוללת:</p><ul style="margin: var(--space-4) 0; padding-left: var(--space-6);"><li style="margin-bottom: var(--space-2);"><strong>חודשי:</strong> דוח נכסים מאוחד ונתוני שוק.</li><li style="margin-bottom: var(--space-2);"><strong>רבעוני:</strong> פגישת אסטרטגיה וסקירה מעמיקה.</li><li style="margin-bottom: var(--space-2);"><strong>שנתי:</strong> בחינה הוליסטית של התוכנית האסטרטגית, המבנים המשפטיים והיעדים ארוכי הטווח של המשפחה.</li><li><strong>עדכונים יזומים:</strong> עדכון מיידי בכל פעם שתנודות השוק או הזדמנויות חדשות ידרשו את תשומת ליבכם.</li></ul><p>מעבר ללוח הזמנים, אנו פועלים במדיניות דלת פתוחה—יש לך גישה ישירה אלינו כאשר שאלות או הזדמנויות עולות.</p>',
-      // General Questions
-      general_q1: "כיצד FWA מנהלים ניגודי עניינים עם מוסדות פיננסיים מסונפים?",
-      general_a1:
-        "ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA, אנו מאמינים ששקיפות היא הכלי הטוב ביותר לניהול ניגודי עניינים אפשריים. אנו שומרים על שלושה עמודי תווך: מדיניות החזר 100%, תמיכה לוגיסטית וארכיטקטורה פתוחה.",
-      general_q2: "מה ההבדל בין FWA ליחידת בנקאות פרטית של בנק?",
-      general_a2:
-        "ההבדל נעוץ בעומק הקשר וברוחב השירות. בעוד שבנק או מנהל נכסים מתמקד במוצרים ספציפיים, משרד משפחתי כמו FWA פועל כארכיטקט האסטרטגי שלך.",
-      general_q3: "מהו ניהול שיקולי? האם FWA מציעים שירות זה?",
-      general_a3:
-        "אנו פועלים במודל לא<span style=\"font-style:normal;vertical-align:middle\">-</span>שיקולי כי אנו מאמינים שלקוחות צריכים להיות משתתפים פעילים, תמיד מעורבים ולומדים ללא הרף.",
-      general_q4: "האם אאבד שליטה בנכסים שלי אם אעבוד עם FWA?",
-      general_a4:
-        "לא, לא תאבד. בעוד שאנו מתעקשים לשמור על המשפחה שלך מעורבת בקבלת החלטות קריטיות, אנו גם מטפלים במשימות אדמיניסטרטיביות ותומכים בך ביישום מנדט ניהול העושר הספציפי שלך.",
-      general_q5: "את מי FWA משרתים?",
-      general_a5:
-        "FWA מספקת ייעוץ אסטרטגי לעושר אך ורק ל'משקיעים כשירים'. השירותים התאגידיים שלנו מתמקדים בלקוחות מתוחכמים ומוכשרים שבדרך כלל יש להם נכסים להשקעה של 5 מיליון דולר ומעלה.",
-      // Working with FWA
-      working_q1: "האם FWA מספקים חינוך והכשרה למשפחות?",
-      working_a1:
-        "כן. אנו עובדים איתך ועם משפחתך ליצירת חוויות למידה מותאמות אישית כולל פגישות משפחתיות להתמקדות ברכיבים קריטיים של ניהול עושר.",
-      working_q2: "האם FWA יכולים לעזור להפחית סכסוכים משפחתיים?",
-      working_a2:
-        "אסטרטגיית תקשורת היא חלק חשוב מכל מפעל עושר. אנו עובדים עם כל בן משפחה כדי לוודא שיוכל להשמיע דאגות, להביע עניין, לדון באתגרים ולהשתתף בתכנון לעתיד.",
-      working_q3: "האם אני צריך לעזוב את קשרי הבנקאות הנוכחיים שלי?",
-      working_a3:
-        "אין צורך שתחליף בנקים. כנציגך, אנו עובדים עם כל אחד מספקי השירותים שלך להבטחה שהם פועלים לטובתך.",
-      working_q4: "האם FWA יוצרים תוכניות פיננסיות הוליסטיות?",
-      working_a4:
-        "כן, אנו יוצרים. אנו יוצרים תוכניות פיננסיות הוליסטיות המקיפות את כל תחומי מפעל העושר שלך, כולל תכנון עושר, השקעות, ממשל משפחתי, איחוד נתונים ותכנון מס.",
-      working_q5: "כמה פעמים אשמע מ<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA?",
-      working_a5:
-        "אנו מאמינים שתקשורת מתמשכת חיונית. אתה יכול לצפות לדוח נכסים מאוחד ונתוני שוק מדי חודש, פגישת אסטרטגיה וסקירה מעמיקה מדי רבעון, ובחינה הוליסטית של התוכנית האסטרטגית, המבנים המשפטיים והיעדים ארוכי הטווח של המשפחה מדי שנה.",
-      // Fees & Costs
-      fees_q1: "כיצד FWA מקבלים פיצוי?",
-      fees_a1:
-        "הפיצוי שלנו נובע אך ורק מהמשפחות שאנו משרתים באמצעות מבנה עמלות קבוע, תוך שמירה על שקיפות ופשטות.",
-      fees_q2: "כמה עולה שירות משרד משפחתי?",
-      fees_a2:
-        "עמלות משרד משפחתי משתנות על סמך מורכבות המצב שלך והיקף השירותים הנדרשים. אנו מספקים הצעת עמלות מותאמת אישית לאחר תהליך הגילוי הראשוני שלנו.",
-      fees_q3: "האם יש עמלות ביצועים?",
-      fees_a3:
-        "אנו לא גובים עמלות מבוססות ביצועים. מבנה העמלות שלנו נועד להתאים את האינטרסים שלנו לשלך מבלי ליצור תמריצים לנטילת סיכונים מופרזת.",
-      // Getting Started
-      started_q1: "מהו הצעד הראשון לעבודה עם FWA?",
-      started_a1:
-        "הצעד הראשון הוא שיחה היכרות חסויה. זו הזדמנות עבורנו ללמוד על המצב שלך ועבורך ללמוד על הגישה שלנו.",
-      started_q2: "איזה מידע עלי להכין לפגישה הראשונה שלנו?",
-      started_a2:
-        "לשיחה הראשונית שלנו, אין צורך להכין דבר ספציפי. אנחנו נשאל שאלות על המצב הנוכחי שלך, המטרות שלך והחששות שלך.",
-      started_q3: "כמה זמן לוקח תהליך ההצטרפות?",
-      started_a3:
-        "ציר הזמן של ההצטרפות משתנה בהתאם למורכבות המצב שלך, אך לרוב לוקח 4<span style=\"font-style:normal;vertical-align:middle\">-</span>8 שבועות מהפגישה הראשונית ועד ליישום מלא.",
+      q1: "כיצד FWA מנהלת ניגודי עניינים פוטנציאליים?",
+      a1: '<p>ב-FWA אנו מאמינים ששקיפות היא הכלי היעיל ביותר לניהול ניגודי עניינים. בהתאם לחוק הסדרת העיסוק בייעוץ השקעות (1995), אנו חושפים באופן יזום את כל הזיקות שלנו – קשרים אסטרטגיים עם מוסדות פיננסיים ומנהלי קרנות המאפשרים לנו להעניק ערך מוסף ללקוחותינו.</p><p>אנו שומרים על אובייקטיביות מקצועית ומנטרלים ניגודי עניינים באמצעות שלושה עקרונות ליבה:</p><ul style=\"margin: var(--space-4) 0; padding-left: var(--space-6);\"><li style=\"margin-bottom: var(--space-2);\"><strong>מדיניות החזר עמלות (Rebate) של 100%:</strong> אנו נזכה את חשבונכם בכל עמלת המתקבלת מגופים כלשהם. זה מבטיח שהאינטרסים הכלכליים שלנו זהים לשלכם, שכן לעולם לא נפיק רווח מבחירה במנהל השקעות אחד על פני אחר.</li><li style=\"margin-bottom: var(--space-2);\"><strong>מינוף כוח קנייה מוסדי:</strong> אנו רותמים את הקשרים האסטרטגיים שלנו כדי להשיג עבורכם תנאים השמורים לגופים מוסדיים בלבד, לרבות דמי ניהול מופחתים וגישה לקרנות השקעה סגורות, שאינן נגישות למשקיעים פרטיים.</li><li><strong>ארכיטקטורה פתוחה:</strong> ללא קשר לזיקות שלנו, כל השקעה עוברת סינון קפדני. נמליץ על מוצר מסוים אך ורק אם הוא המענה המיטבי ליעדים ארוכי הטווח של משפחתכם.</li></ul>',
+      q2: "האם FWA היא חברה בעלת רישיון לניהול השקעות?",
+      a2: '<p>FWA פועלת כחברת פמילי אופיס המתמקדת באופן בלעדי ב "משקיעים כשירים (Qualified Investors)"</p><p>בעוד שפעילות ספציפית זו אינה מצריכה רישיון תאגידי, המנכ"ל המכהן שלנו, דניאל פרץ, הוא בעל רישיון משווק השקעות מטעם רשות ניירות ערך. מבנה זה מאפשר לנו להציע את הגמישות והתחכום של Family Office, תוך הבטחה שכל פעולות שיווק ההשקעות המוסדרות מבוצעות על ידי בעל רישיון מקצועי. בשל הזיקות האסטרטגיות שלנו למוסדות פיננסיים מובילים, אנו פועלים תחת הגדרת "משווק השקעות", מה שמבטיח שקיפות מלאה לגבי הקשרים שלנו.</p>',
+      q3: "מה ההבדל בין Family Office לבין בנקאות פרטית, יועץ עושר או מנהל נכסים?",
+      a3: "<p>ההבדל טמון בהיקף השירות ובאינטרס. בנקים ומנהלי נכסים פועלים כספקים המתמקדים במוצרים או במנדטים ספציפיים.</p><p>FWA לעומת זאת, פועלת כארכיטקט האסטרטגי שלכם. אנו יושבים לצידכם סביב השולחן ומעניקים ניהול הוליסטי של כלל הנכסים שלכם.</p><p>איננו מחליפים את הספקים הקיימים, אלא משפרים ומתאמים ביניהם. בזכות הזיקות האסטרטגיות שלנו, אנו משמשים כגשר להזדמויות מוסדיות ולתנאים שלרוב אינם נגישים ללקוחות פרטיים בבנק – ומבטיחים שתקבלו את המיטב שהשוק מציע כחלק מתוכנית משפחתית משולבת.</p>",
+      q4: 'מה ההבדל בין "ניהול תיקים (Discretionary) למודל העבודה של FWA ?',
+      a4: "<p>בניהול תיקים סטנדרטי, מנהל ההשקעות מקבל החלטות קנייה ומכירה ומבצע אותן באופן עצמאי על דעת עצמו. ב- FWA אנו פועלים אך ורק במודל של ייעוץ וניהול מבוסס אישור (- Non Discretionary).</p><p>אנו מאמינים שאתם צריכים להישאר מקבלי ההחלטות הסופיים על ההון שלכם. במסגרת האסטרטגיה הכוללת שהגדרנו למשפחה, התפקיד שלנו הוא לנתח, להנגיש את המידע ולהמליץ – אך לעולם לא נבצע פעולה ללא אישורכם המפורט והמלא. כך אתם נהנים מניהול מקצועי מבלי לאבד שליטה על הנכסים.</p>",
+      q5: "האם תהיה לי יותר עבודה אם אשכור יועץ שאינו פועל בייפוי כוח?",
+      a5: '<p>בכלל לא. חשבו על זה כעל "יותר שליטה, פחות אדמיניסטרציה".</p><p>אנו מבחינים בין "עבודה" לבין "קבלת החלטות". אנחנו מטפלים ב-100% מהעבודה – מחקר, ניהול ומעקב, תיאום מול בנקים וביצוע. תפקידכם עולה לרמת ההנהלה - אתם בוחנים המלצות ברורות ומעניקים את ה"אור הירוק".</p>',
+      q6: "האם FWA מסייעת בממשל משפחתי וחינוך דור ההמשך?",
+      a6: '<p>בהחלט. אנו מאמינים שהכשרת המשפחה לקראת ההון חשובה לא פחות מניהול ושימור ההון עבור המשפחה.</p><p>אנו בונים חוויות למידה מותאמות ומנחים מפגשים משפחתיים המתמקדים בניהול קבלת החלטות, תכנון ירושה וחינוך פיננסי לדור הצעיר.</p>',
+      q7: "איך בנוי מבנה העמלות שלכם?",
+      a7: "<p>אנו פועלים במודל שקוף של עמלה בלבד (Fee-Only).</p><p>שלא כמו מודלים מסורתיים הנשענים על עמלות נסתרות, שכר הטרחה שלנו מסוכם מראש ומבוסס על היקף ומורכבות המערך הפיננסי שלכם. איננו גובים דמי הצלחה (Performance Fees), כדי להימנע מהפיתוי לקחת סיכונים מיותרים עם ההון שלכם לצורך השגת תשואות קצרות טווח.</p>",
+      q8: "האם FWA יכולה לסייע בצמצום קונפליקטים משפחתיים?",
+      a8: '<p>אנו פועלים כצד שלישי ניטרלי המגשר על פערים בין דורות. על ידי יצירת פרוטוקולים ברורים לקבלת החלטות ותקשורת פתוחה, אנו עוזרים לבני המשפחה להרגיש שותפים ולא "מנוטרלים", מה שמפחית משמעותית את החיכוך.</p>',
+      q9: "האם עלי להחליף את הספקים הפיננסיים הנוכחיים שלי?",
+      a9: "<p>ממש לא. אנו אפילו מעודדים פיזור נכסים בין מספר בנקים. איננו מחליפים את הבנקים שלכם; אנו מנהלים אותם עבורכם.</p><p>אנו פועלים כנציגים שלכם ומפקחים על כל הספקים כדי לוודא שהם נשארים תחרותיים ומסונכרנים עם האסטרטגיה הרחבה שלכם.</p>",
+      q10: "האם FWA יוצרים תכניות פיננסיות הוליסטיות?",
+      a10: '<p>כן, אנו יוצרים תכניות פיננסיות המקיפות את כל תחומי מפעל העושר: השקעות, ממשל משפחתי, איחוד נתונים ותכנון מס.</p><p>חשוב לציין כי תוכנית זו היא דינמית – היא מתפתחת כל העת לצד הצרכים המשתנים של המשפחה ותנאי השוק.</p>',
+      q11: "מהי תדירות התקשורת מולכם?",
+      a11: '<p>אנו מתאימים את התדירות להעדפתכם. מעבר ללוח הזמנים, אנו פועלים במדיניות של דלת פתוחה - יש לכם גישה ישירה אלינו בכל פעם שעולות שאלות או הזדמויות.</p>',
     },
     // Values Page - Full Content (Hebrew)
     valuesPageFull: {
@@ -2266,9 +2122,9 @@ const translations = {
       founderRole: 'מייסד ומנכ"ל',
       founderName: "דניאל פרץ",
       founderBio1:
-        'דניאל פרץ הוא המייסד והמנכ"ל של Family Wealth Advisors (FWA). עם למעלה מ<span style=\"font-style:normal;vertical-align:middle\">-</span>30 שנות ניסיון בשווקים הפיננסיים הגלובליים, הקים דניאל את FWA בשנת 2009 במטרה להעניק למשפחות גישה מתוחכמת, מבוקרת סיכונים ומקצועית לניהול הון.',
+        'דניאל פרץ הוא המייסד והמנכ"ל של פמילי ווילת\' אדוויזורס. עם למעלה מ<span style=\"font-style:normal;vertical-align:middle\">-</span>30 שנות ניסיון בשווקים הפיננסיים הגלובליים, הקים דניאל את הפירמה בשנת 2009 במטרה להעניק למשפחות גישה מתוחכמת, מבוקרת סיכונים ומקצועית לניהול הון.',
       founderBio2:
-        "בעבר, דניאל שימש כמנהל הסיכונים הבכיר בכלל פיננסים, שם מילא גם תפקידי מפתח כמנהל קרנות וראש דסק ה<span style=\"font-style:normal;vertical-align:middle\">-</span>OTC. רקע עמוק זה בניהול סיכונים ונכסים מוסדיים מאפשר לו לספק ללקוחות פרספקטיבה ייחודית על שימור צמיחת הון.",
+        "בעבר, דניאל שימש כמנהל הסיכונים הבכיר בכלל פיננסים, שם מילא גם תפקידי מפתח כמנהל קרנות וראש דסק הנגזרים. רקע עמוק זה בניהול סיכונים ונכסים מוסדיים מאפשר לו לספק ללקוחות פרספקטיבה ייחודית על שימור צמיחת הון.",
       founderCred1: "יותר מ<span style=\"font-style:normal;vertical-align:middle\">-</span>30 שנות ניסיון בשווקים פיננסיים גלובליים",
       founderCred2: "מנהל סיכונים בכיר לשעבר, כלל פיננסים",
       founderCred3: "תואר ראשון בכלכלה (בהצטיינות), אוניברסיטת חיפה",
@@ -2276,24 +2132,24 @@ const translations = {
       exec1Role: "מנהל השקעות בכיר",
       exec1Name: 'גיל בן צדוק, עו"ד',
       exec1Bio1:
-        'גיל בן צדוק הצטרף ל<span style="font-style:normal;vertical-align:middle">-</span>FWA בשנת 2016 ומתמחה בשילוב שבין אסטרטגיית השקעות, מיסוי ומבנים משפטיים. הוא מוביל את התכנון והניהול של הקצאת הנכסים עבור משפחות המשרד, תוך בניית פתרונות המותאמים אישית לצרכיהן.',
+        'גיל בן צדוק הצטרף לפמילי ווילת\' אדוויזורס בשנת 2016 ומתמחה בשילוב שבין אסטרטגיית השקעות, מיסוי ומבנים משפטיים. הוא מוביל את התכנון והניהול של הקצאת הנכסים עבור משפחות המשרד, תוך בניית פתרונות המותאמים אישית לצרכיהן.',
       exec1Bio2:
-        'בעברו כיהן גיל כעורך דין במחלקת חברות וניירות ערך במשרד הרצוג, פוקס, נאמן (HFN), ממשרדי עורכי הדין המובילים בישראל.',
+        'בעברו כיהן גיל כעורך דין במחלקת חברות וניירות ערך במשרד הרצוג, פוקס, נאמן, ממשרדי עורכי הדין המובילים בישראל.',
       exec1Cred1: "עורך דין בעל רישיון",
       exec1Cred2: "תואר ראשון בחשבונאות ומשפטים, אוניברסיטת תל אביב",
       exec1Cred3: "מאז 2016",
-      exec2Role: "מנהל תפעול (Head of Operations)",
+      exec2Role: "מנהל תפעול",
       exec2Name: "און גולדנברג",
       exec2Bio1:
-        "און הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>Family Wealth Advisors בשנת 2025. הוא אחראי על מחלקת ה<span style=\"font-style:normal;vertical-align:middle\">-</span>Back Office ומפקח על התשתית התפעולית הפנימית של החברה.",
+        "און הצטרף לפמילי ווילת' אדוויזורס בשנת 2025. הוא אחראי על מחלקת הבק-אופיס ומפקח על התשתית התפעולית הפנימית של החברה.",
       exec2Bio2:
-        'און גולדנברג מביא עמו מעל לעשור של ניסיון מקצועי בשוק ההון ובניהול אופרטיבי של תיקי השקעות מורכבים עבור לקוחות בעלי הון (HNW). בעברו שימש כאנליסט אופרציה בקרן הגידור "ספירה" ובחברות ניהול עושר מובילות, והוא מתמחה בבניית תשתיות תפעוליות וייעול תהליכי עבודה התומכים במטרותיהן האסטרטגיות של המשפחות.',
+        'און גולדנברג מביא עמו מעל לעשור של ניסיון מקצועי בשוק ההון ובניהול אופרטיבי של תיקי השקעות מורכבים עבור לקוחות בעלי הון. בעברו שימש כאנליסט אופרציה בקרן הגידור "ספירה" ובחברות ניהול עושר מובילות, והוא מתמחה בבניית תשתיות תפעוליות וייעול תהליכי עבודה התומכים במטרותיהן האסטרטגיות של המשפחות.',
       exec2Cred1:
         "תואר ראשון במנהל עסקים בינלאומי (התמחות במימון) מבית הספר לעסקים לאודר שבווינה",
       exec3Role: "מנהל השקעות",
       exec3Name: "בנימין סרקיסוב",
       exec3Bio1:
-        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
+        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של הפירמה מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
       exec3Cred1: "מיקוד מחקר",
       exec3Cred2: "תואר ראשון במתמטיקה, כלכלה ופסיכולוגיה",
       exec3Cred3: "תואר שני במנהל עסקים (בהצטיינות יתרה)",
@@ -2304,28 +2160,28 @@ const translations = {
       team2Name: "דורון יניר",
       team2Role: "מנהל בק<span style=\"font-style:normal;vertical-align:middle\">-</span>אופיס",
       team3Name: "אלכס קרומקין",
-      team3Role: "מנהל מערכות מידע ודיווח (Head of Data & Reporting)",
+      team3Role: "מנהל מערכות מידע ודיווח",
       team4Name: "דן לוי",
       team4Role: "אנליסט השקעות ותפעול",
       team5Name: "עדנה פרץ",
       team5Role: "מנהלת אדמיניסטרציה",
       team5Bio:
-        "עדנה הצטרפה ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA בשנת 2015, לאחר קריירה ענפה של 15 שנים כמנהלת התקשרויות בחברת GBG הבינלאומית. היא אמונה על התשתית האופרטיבית של המשרד ומרכזת את כלל היבטי ההתקשרות והבקרה הארגונית. הניסיון הרב שעדנה מביאה עמה בניהול מערכים מורכבים מהווה נדבך מרכזי ביעילות התפעולית של החברה.",
+        "עדנה פרץ הצטרפה לפמילי ווילת' אדוויזורס בשנת 2015, לאחר קריירה ענפה של 15 שנים כמנהלת התקשרויות בחברה בינלאומית. היא אמונה על התשתית האופרטיבית של המשרד ומרכזת את כלל היבטי ההתקשרות והבקרה הארגונית. הניסיון הרב שעדנה מביאה עמה בניהול מערכים מורכבים מהווה נדבך מרכזי ביעילות התפעולית של החברה.",
       team5Edu1: "תואר שני במנהל עסקים מאוניברסיטת דרבי",
       team5Edu2: "תואר ראשון בסטטיסטיקה מאוניברסיטת חיפה",
       team4Bio:
-        "דן לוי הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA בשנת 2024, ומביא עמו גישה יסודית וממושמעת לניהול המערך התפעולי של המשרד. כיום הוא משלב בין ניהול התשתית התפעולית לבין תמיכה במערך ההשקעות של המשרד, תוך מעורבות גוברת בניתוח ובקרת תיקי הלקוחות. דן אמון על מהימנות הנתונים ודיוק הדיווחים, תפקיד המבטיח שקיפות מלאה עבור משפחות המשרד. את מיומנותו בניהול מערכות מידע בסביבות עבודה אינטנסיביות רכש כקצין מבצעי נתונים (Data Operations Officer) בצה\"ל.",
+        "דן לוי הצטרף לפמילי ווילת' אדוויזורס בשנת 2024, ומביא עמו גישה יסודית וממושמעת לניהול המערך התפעולי של המשרד. כיום הוא משלב בין ניהול התשתית התפעולית לבין תמיכה במערך ההשקעות של המשרד, תוך מעורבות גוברת בניתוח ובקרת תיקי הלקוחות. דן אמון על מהימנות הנתונים ודיוק הדיווחים, תפקיד המבטיח שקיפות מלאה עבור משפחות המשרד. את מיומנותו בניהול מערכות מידע בסביבות עבודה אינטנסיביות רכש כקצין מבצעי נתונים בצה\"ל.",
       team4Edu: "תואר B.A. במימון ושוק ההון, הקריה האקדמית אונו",
       team3Bio:
-        "אלכס קרומקין מוביל את מחלקת דיווח לקוחות ומערכות מידע ב<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA. מאז 2022, אלכס אחראי על הדיוק והשקיפות של הדיווח המאוחד שלנו, ומפקח על ההתאמה החודשית של תיקים מורכבים.",
+        "אלכס קרומקין מוביל את מחלקת דיווח לקוחות ומערכות מידע בפמילי ווילת' אדוויזורס. מאז 2022, אלכס אחראי על הדיוק והשקיפות של הדיווח המאוחד שלנו, ומפקח על ההתאמה החודשית של תיקים מורכבים.",
       team3Edu1: "תואר שני בכלכלה פיננסית (בהצטיינות)",
       team3Edu2: "תואר ראשון בכלכלה מאוניברסיטת רייכמן (הבינתחומי)",
       team2Bio:
-        "דורון יניר הצטרף ל<span style=\"font-style:normal;vertical-align:middle\">-</span>FWA ב<span style=\"font-style:normal;vertical-align:middle\">-</span>2010, ומביא עמו מומחיות ייחודית בניהול מס וניהול משרד אחורי. דורון עבד בעבר בבנק יהב ובמספר משרדי רואי חשבון מובילים.",
+        "דורון יניר הצטרף לפמילי ווילת' אדוויזורס בשנת 2010, ומביא עמו מומחיות ייחודית בניהול מס וניהול משרד אחורי. דורון עבד בעבר בבנק יהב ובמספר משרדי רואי חשבון מובילים.",
       team2Edu1: "תואר שני במנהל עסקים מהאוניברסיטה הפתוחה",
       team2Edu2: "יועץ מס מוסמך",
       team1Bio:
-        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של FWA מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
+        "מנהל השקעות בנימין סרקיסוב משמש כמנהל השקעות וחבר מרכזי בצוות המחקר של הפירמה מאז הצטרפותו בשנת 2021, בנימין רתם את הרקע המתמטי החזק שלו לטובת תהליכי בחירת ההשקעות וקבלת ההחלטות.",
       team1Edu1: "תואר ראשון במתמטיקה, כלכלה ופסיכולוגיה",
       team1Edu2: "תואר שני במנהל עסקים (בהצטיינות יתרה)",
     },
@@ -2389,7 +2245,6 @@ const translations = {
       visitAddress: "רחוב המדע 6<br>ת.ד. 12500<br>הרצליה 4673340<br>ישראל",
       viewOnMaps: "צפה במפות ←",
       callTitle: "התקשר אלינו",
-      faxLabel: "פקס: +972-9-515-9032",
       emailTitle: "שלח אימייל",
       responseTime: "אנו בדרך כלל עונים<br>תוך 24 שעות",
       formEyebrow: "התחל שיחה",
@@ -2415,7 +2270,6 @@ const translations = {
       visitAddress: "רחוב המדע 6<br>ת.ד. 12500<br>הרצליה 4673340<br>ישראל",
       viewOnMaps: "צפה במפות ←",
       callTitle: "התקשר אלינו",
-      faxLabel: "פקס: +972-9-515-9032",
       emailTitle: "שלח אימייל",
       responseTime: "אנו בדרך כלל עונים<br>תוך 24 שעות",
       formEyebrow: "התחל שיחה",
@@ -2516,8 +2370,13 @@ function applyLanguage(lang) {
       if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
         el.placeholder = translation;
       } else {
-        // Use innerHTML to support HTML tags like <strong>, <br>, etc.
+        el.style.display = "";
         el.innerHTML = translation;
+      }
+    } else {
+      // Empty translation: hide to avoid showing fallback English on Hebrew pages
+      if (el.tagName !== "INPUT" && el.tagName !== "TEXTAREA") {
+        el.style.display = "none";
       }
     }
   });

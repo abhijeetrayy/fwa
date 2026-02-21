@@ -40,9 +40,9 @@
   align-items: center;
 }
 
-[dir="rtl"] .header__menu {
-  /* Restored to natural RTL flow (Item 1 on Right) as per user screenshot */
-}
+/* [dir="rtl"] .header__menu {
+  Restored to natural RTL flow (Item 1 on Right) as per user screenshot
+} */
 
 /* 
    Ensure the Language Toggle is visually to the LEFT of the Menu.
@@ -246,8 +246,9 @@
    ================================ */
 [dir="rtl"] .faq-item__question {
   text-align: right;
-  padding-left: var(--space-8); /* Space for icon */
+  padding-left: var(--space-8);
   padding-right: 0;
+  flex-direction: row; /* natural RTL: text on right, icon on left */
 }
 
 [dir="rtl"] .faq-item__icon {
@@ -263,6 +264,20 @@
 */
 [dir="rtl"] .faq-item__question {
   flex-direction: row; /* Implicit */
+}
+
+/* FAQ Page Specific RTL (faq.html) */
+[dir="rtl"] .faq__question {
+  text-align: right;
+  flex-direction: row; /* Ensure [Question (Right)] ... [Icon (Left)] */
+}
+
+[dir="rtl"] .faq__answer {
+  text-align: right;
+}
+
+[dir="rtl"] .faq__item.active .faq__icon {
+  transform: rotate(180deg);
 }
 
 /* ================================

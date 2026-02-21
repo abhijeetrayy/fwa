@@ -2855,15 +2855,27 @@ html[dir="rtl"] .trust-bar__grid {
     direction: rtl;
 }
 
-/* FAQ RTL */
-html[dir="rtl"] .faq-item__question {
+/* [dir="rtl"] .faq-item__question {
     text-align: right;
     flex-direction: row-reverse;
 }
 
-html[dir="rtl"] .faq-item__answer-content {
+[dir="rtl"] .faq-item__answer-content {
     text-align: right;
 }
+
+[dir="rtl"] .faq__question {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .faq__answer {
+    text-align: right;
+}
+
+[dir="rtl"] .faq__item.active .faq__icon {
+    transform: rotate(180deg);
+} */
 
 /* Footer RTL */
 html[dir="rtl"] .footer__grid {
